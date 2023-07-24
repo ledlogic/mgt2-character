@@ -1,0 +1,17 @@
+{
+	"overview": {
+		"rank": "Scholar",
+		"name": "AUG VAR 1",
+		"species": "Vargr",
+		"gender": "male",
+		"age": "34"
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 9,
+		"end": 5,
+		"int": 9,
+		"edu": 12,
+		"soc": 6
+	}
+}
