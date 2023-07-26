@@ -55,12 +55,47 @@ st.character = {
 		var overview = spec.overview;
 
 		// page
-		var $overview = $("<div class=\"st-section st-overview\"></div>");
+		var $overview = $("<div class=\"st-overview\"></div>");
 		
+		var $img1 = $("<div class=\"st-bevel-tl\"></div>");
+		$overview.append($img1);
+		
+		// rank
+		var h = overview.rank;
+		$elm = $("<span class=\"st-overview-rank\">" + h + "</span>");
+		$overview.append($elm);
+
 		// name
 		var h = overview.name;
-		$elm = $("<span class=\"st-item st-overview-item st-overview-item-name\">" + h + "</span>");
+		$elm = $("<span class=\"st-overview-name\">" + h + "</span>");
 		$overview.append($elm);
+
+		// overview		
+		var keys = ["species", "gender", "age", "traits"];
+		for (var i=0; i<keys.length;i++) {
+			var key = keys[i];
+			var value = overview[key];
+			var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
+			$overview.append($l);
+			var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
+			$overview.append($v);
+		}
+
+		// age
+		var key = "age";
+		var value = overview[key];
+		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
+		$overview.append($l);
+		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
+		$overview.append($v);
+		
+		// traits
+		var key = "traits";
+		var value = overview[key];
+		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
+		$overview.append($l);
+		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
+		$overview.append($v);
 
 		st.character.$pageft.append($overview);
 	},
@@ -71,11 +106,43 @@ st.character = {
 
 		// attr
 		var $attr = $("<div class=\"st-section st-attributes\"></div>");
+	
+		var key = "characteristics";
+		var $l = $("<span class=\"st-attribute-label st-attribute-label-" + key + "\">" + key + "</span>");
+		$attr.append($l);
+
 		_.each(ch, function(value, key) {
-			var h = value;
-			$elm = $("<span class=\"st-item st-attribute st-attribute-" + key + "\">" + h + "</span>");
-			$attr.append($elm);
+			var name = st.characteristics[key].name;
+			var $l = $("<span class=\"st-attribute-label st-attribute-label-" + key + "\">" + name + "</span>");
+			$attr.append($l);
+			
+			value = value + " MOD:" + st.character.modifier(value);
+			
+			var $v = $("<span class=\"st-attribute st-attribute-" + key + "\">" + value + "</span>");
+			$attr.append($v);
 		});
-		st.character.$pageft.append($attr);
-	}	
+		
+		var $img2 = $("<div class=\"st-bevel-br\"></div>");
+		$attr.append($img2);
+		
+		st.character.$pageft.append($attr);		
+	},	
+	modifier: function(c) {
+		switch (true) {
+			case c===0:
+				return -3; 
+			case c>=1 && c<=2:
+				return -2; 
+			case c>=3 && c<=5:
+				return -1; 
+			case c>=6 && c<=8:
+				return 0; 
+			case c>=9 && c<=11:
+				return 1; 
+			case c>=12 && c<=14:
+				return 2; 
+			case c>=15:
+				return 3; 
+		}
+	}
 };

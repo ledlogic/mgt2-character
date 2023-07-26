@@ -4,7 +4,8 @@
 		"name": "AUG VAR 1",
 		"species": "Vargr",
 		"gender": "male",
-		"age": "34"
+		"age": "34",
+		"traits": "-"
 	},
 	"characteristics": {
 		"str": 6,
