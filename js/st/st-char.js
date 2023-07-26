@@ -116,7 +116,11 @@ st.character = {
 			var $l = $("<span class=\"st-attribute-label st-attribute-label-" + key + "\">" + name + "</span>");
 			$attr.append($l);
 			
-			value = value + " MOD:" + st.character.modifier(value);
+			var v1 = st.character.modifier(value);
+			if (v1 > 0) {
+				v1 = "+" + v1;
+			}
+			value = value + " DM(" + v1 + ")";
 			
 			var $v = $("<span class=\"st-attribute st-attribute-" + key + "\">" + value + "</span>");
 			$attr.append($v);
