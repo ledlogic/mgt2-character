@@ -23,7 +23,8 @@ st.character = {
 	loadCharJson: function(uri) {
 		st.log("loading char from json");
 		
-		$.ajax("js/char/" + uri)
+		var t = (new Date()).getTime();
+		$.ajax("js/char/" + uri + "?t=" + t)
 		.done(function(data, status, jqxhr) {
 			st.character.spec = data;
 			setTimeout(st.render.render,10);
