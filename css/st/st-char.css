@@ -446,7 +446,8 @@
 .st-armour th,
 .st-armour td {
 	border: 1px solid #414042;
-	padding: 4px;
+	padding: 2px;
+	font-size: 10px;
 }
 
 .st-armour th {
@@ -456,7 +457,7 @@
 .st-armour th.st-armour-name {
 	width:250px;
 }
-.st-armour th.st-armour-tech-level {
+.st-armour th.st-armour-tl {
 	width:60px;
 }
 .st-armour th.st-armour-mass {
@@ -497,6 +498,8 @@
 .st-equipment td {
 	border: 1px solid #414042;
 	padding: 4px;
+	padding: 2px;
+	font-size: 10px;
 }
 
 .st-equipment th {
@@ -506,7 +509,7 @@
 .st-equipment th.st-equipment-name {
 	width:250px;
 }
-.st-equipment th.st-equipment-tech-level {
+.st-equipment th.st-equipment-tl {
 	width:60px;
 }
 .st-equipment th.st-equipment-mass {
