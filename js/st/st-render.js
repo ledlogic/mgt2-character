@@ -2,11 +2,14 @@ st.render = {
 	render: function() {
 		st.log("rendering char");
 
-		st.render.renderReset();
-		st.render.renderOverview();
-		st.render.renderCharacteristics();	
-		st.render.renderSkills();
-		st.render.renderBackground();
+		var r = st.render;
+		r.renderReset();
+		r.renderOverview();
+		r.renderCharacteristics();	
+		r.renderSkills();
+		r.renderBackground();
+		r.renderEducation();
+		r.renderTerms();
 
 		$(".st-page").removeClass("st-initial-state");
 	},
@@ -116,12 +119,17 @@ st.render = {
 			if (hasParens) {
 				keyClass += " st-skill-subset";
 			}
+			var isNegative = value < 0;
+			if (isNegative) {
+				keyClass += " st-skill-negative";
+			}
 			var l2 = "<span class=\"" + keyClass + "\">" + key + "</span>";
 			var v = "<span class=\"st-skill-value st-skill-value-" + key + "\">" + value + "</span>";
 			var l3 = "</span>";
 			$sk.append(l1 + l2 + v + l3);
 		});
-		st.character.$pageft.append($sk);		
+
+		st.character.$pageft.append($sk);
 	},
 	renderBackground: function() {
 		st.log("rendering background");
@@ -131,6 +139,29 @@ st.render = {
 		var value = st.character.spec.background;
 		var skv = "<div class=\"st-background-value\">" + value + "</div>";
 		$sk.append(skt+skv);
+		st.character.$pageft.append($sk);		
+	},
+	renderEducation: function() {
+		st.log("rendering education");
+		var $sk = $("<div class=\"st-section st-education\"></div>");
+		var skt = "<div class=\"st-education-title\">education</div>";
+		
+		var value = st.character.spec.education;
+		var skv = "<div class=\"st-education-value\">" + value + "</div>";
+		$sk.append(skt+skv);
+		st.character.$pageft.append($sk);		
+	},
+	renderTerms: function() {
+		st.log("rendering terms");
+		var $sk = $("<div class=\"st-section st-terms\"></div>");
+		var skt = "<div class=\"st-terms-title\">terms</div>";
+		$sk.append(skt);
+		
+		var terms = st.character.spec.terms;
+		_.each(terms, function(value, key) {
+			var skv = "<div class=\"st-term-value\">" + (key+1) + ". " + value + "</div>";
+			$sk.append(skv);	
+		});		
 		st.character.$pageft.append($sk);		
 	}
 };

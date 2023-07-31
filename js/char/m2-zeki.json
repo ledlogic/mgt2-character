@@ -30,10 +30,12 @@
 		"language (gveh)": 1,
 		"mechanic": 1,
 		"medic": 1,
+		"persuade": 1,
 		"science": 0,
 		"science (archeologist)": 1,
 		"survival": 0,
-		"vacc suit": 1
+		"vacc suit": 1,
+		"untrained": -3
 	},
 	"background": "Grew up as the cartographer in the Kadrius system.",
 	"education": "Attended university on Kadrius.  Almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",

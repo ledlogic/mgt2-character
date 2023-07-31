@@ -314,6 +314,13 @@
 	width: 20px;
 }
 
+.st-skill-negative {
+	color: red;
+}
+.st-skill-value-negative {
+	color: red;
+}
+
 .st-background {
 	border: 1px solid #414042;
 	margin: 0;
@@ -321,7 +328,7 @@
 	position: absolute;
 	top: 350px;
 	left: 200px;
-	width: 350px;
+	width: 588px;
 }
 
 .st-background-title {
@@ -333,5 +340,49 @@
 }
 
 .st-background-value {
+	padding: 0 10px;
+}
+
+.st-education {
+	border: 1px solid #414042;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 390px;
+	left: 200px;
+	width: 588px;
+}
+
+.st-education-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+	width: 588px;
+}
+
+.st-education-value {
+	padding: 0 10px;
+}
+
+.st-terms {
+	border: 1px solid #414042;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 430px;
+	left: 200px;
+	width: 588px;
+}
+
+.st-terms-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+	width: 588px;
+}
+
+.st-term-value {
 	padding: 0 10px;
 }
