@@ -42,7 +42,7 @@ st.character = {
 		that.renderReset();
 		that.renderOverview();
 		that.renderCharacteristics();	
-		that.renderSkills();	
+		that.renderSkills();
 		
 		$(".st-page").removeClass("st-initial-state");
 	},
@@ -139,7 +139,25 @@ st.character = {
 		st.character.$pageft.append($img3);
 	},
 	renderSkills: function() {
-		
+		st.log("rendering skills");
+
+		var $sk = $("<div class=\"st-section st-skills\"></div>");
+		var $skt = $("<div class=\"st-skills-title\">Skills</div>");
+		$sk.append($skt);
+		var sk = st.character.spec.skills;
+		_.each(sk, function(value, key) {
+			var l1 = "<span class=\"st-skill\">";
+			var keyClass = "st-skill-label st-skill-label-" + key;
+			var hasParens = key.indexOf("(")>-1;
+			if (hasParens) {
+				keyClass += " st-skill-subset";
+			}
+			var l2 = "<span class=\"" + keyClass + "\">" + key + "</span>";
+			var v = "<span class=\"st-skill-value st-skill-value-" + key + "\">" + value + "</span>";
+			var l3 = "</span>";
+			$sk.append(l1 + l2 + v + l3);
+		});
+		st.character.$pageft.append($sk);		
 	},
 	modifier: function(c) {
 		switch (true) {

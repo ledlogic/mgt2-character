@@ -1,15 +1,15 @@
 {
 	"overview": {
-		"rank": "Scholar",
+		"rank": "Researcher 1",
 		"name": "Zeki",
 		"species": "Vargr (Extents)",
 		"gender": "male",
-		"age": "18",
+		"age": "26",
 		"traits": "-",
 		"img": "zeki.jpg"
 	},
 	"characteristics": {
-		"str": 7,
+		"str": 10,
 		"dex": 5,
 		"end": 8,
 		"int": 12,
@@ -23,17 +23,21 @@
 		"drive": 0,
 		"diplomat": 0,
 		"electronics": 0,
-		"investigate": 0,
+		"investigate": 1,
 		"language": 0,
 		"language (gveh)": 1,
 		"medic": 1,
 		"science": 0,
 		"science (archeologist)": 0,
-		"survival": 0
+		"survival": 0,
+		"vacc suit": 1
 	},
 	"background": "Grew up as the cartographer in the Kadrius system.",
-	"education": "Attended university on Kadrius.  Almost died in an accident on campus, left before graduating.",
+	"education": "Attended university on Kadrius.  Almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",
 	"terms": [
-		"Scholar (Field Researcher): Studied as an archeologist on several systems."
+		"Scientist (Researcher): Studied as an archeologist. Worked in a field laboratory.  Gained Vacc Suit 1.",
+		"Scientist (Researcher): Studied as an archeologist. Had to leave pack of researchers and joined another pack to continue your career."
+		
+		
 	]
 }
