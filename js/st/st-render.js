@@ -7,9 +7,7 @@ st.render = {
 		r.renderOverview();
 		r.renderCharacteristics();	
 		r.renderSkills();
-		r.renderBackground();
-		r.renderEducation();
-		r.renderTerms();
+		r.renderBET();
 
 		$(".st-page").removeClass("st-initial-state");
 	},
@@ -131,28 +129,29 @@ st.render = {
 
 		st.character.$pageft.append($sk);
 	},
-	renderBackground: function() {
-		st.log("rendering background");
+	renderBET: function() {
+		st.log("rendering background, education, terms");
+		var $bet = $("<div class=\"st-section st-bet\"></div>");
+		
+		// background
 		var $sk = $("<div class=\"st-section st-background\"></div>");
 		var skt = "<div class=\"st-background-title\">background</div>";
 		
 		var value = st.character.spec.background;
 		var skv = "<div class=\"st-background-value\">" + value + "</div>";
-		$sk.append(skt+skv);
-		st.character.$pageft.append($sk);		
-	},
-	renderEducation: function() {
-		st.log("rendering education");
+		$bet.append(skt+skv);
+		$bet.append($sk);
+
+		// education
 		var $sk = $("<div class=\"st-section st-education\"></div>");
 		var skt = "<div class=\"st-education-title\">education</div>";
 		
 		var value = st.character.spec.education;
 		var skv = "<div class=\"st-education-value\">" + value + "</div>";
-		$sk.append(skt+skv);
-		st.character.$pageft.append($sk);		
-	},
-	renderTerms: function() {
-		st.log("rendering terms");
+		$bet.append(skt+skv);
+		$bet.append($sk);
+
+		// terms
 		var $sk = $("<div class=\"st-section st-terms\"></div>");
 		var skt = "<div class=\"st-terms-title\">terms</div>";
 		$sk.append(skt);
@@ -161,7 +160,9 @@ st.render = {
 		_.each(terms, function(value, key) {
 			var skv = "<div class=\"st-term-value\">" + (key+1) + ". " + value + "</div>";
 			$sk.append(skv);	
-		});		
-		st.character.$pageft.append($sk);		
+		});
+		$bet.append($sk);
+		
+		st.character.$pageft.append($bet);		
 	}
 };

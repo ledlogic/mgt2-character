@@ -4,7 +4,7 @@
 		"name": "Zeki",
 		"species": "Vargr (Extents)",
 		"gender": "male",
-		"age": "26",
+		"age": "34",
 		"traits": "-",
 		"img": "zeki.jpg",
 		"credits": 27500
@@ -20,11 +20,13 @@
 	"skills": {
 		"admin": 0,
 		"athletics": 0,
+		"broker": 1,
 		"carouse": 0,
 		"drive": 0,
 		"diplomat": 0,
 		"electronics": 0,
 		"electronics (computers)": 1,
+		"electronics (sensors)": 1,
 		"investigate": 1,
 		"language": 0,
 		"language (gvegh)": 1,
@@ -32,15 +34,16 @@
 		"medic": 1,
 		"persuade": 1,
 		"science": 0,
-		"science (archeologist)": 1,
+		"science (archeologist)": 2,
 		"survival": 0,
+		"vacc suit": 1,
 		"untrained": -3
 	},
-	"background": "Grew up as the cartographer in the Kadrius system, starting out with Admin-0, Athletics-0, Carouse-0, Drive-0, ",
-	"education": "Attended university on Kadrius.  learning Navigation-0, and Medic-1  Almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",
+	"background": "Grew up as the cartographer in the Kadrius system, starting out with: Admin-0, Athletics-0, Carouse-0, Drive-0, Survival-0",
+	"education": "Attended university on Kadrius.  learned Navigation-0, and Medic-1.  Did not graduate.  In Pre-Career Event, a Life Event, with almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",
 	"terms": [
-		"Scientist (Researcher): Got Scientist basic training. Increased in rank to Researcher/1, gaining Investigate-1. Worked in a field laboratory.",
-		"Scientist (Researcher): Employer cancelled research.  Continued research with another pack of researchers, gained an enemy contact of the previous employer.  Gained another rank to Researcher/2.  In mustering out, gained +1 EDU, and 50,000cr, minus 22,500 to healing from university wounds",
-		"Merchant (Scrounger): Increased in rank to Scrounger 1, gaining mechanic skill."
+		"Scientist (Researcher): Got Scientist basic training. Increased in rank to Researcher/1, gaining Electronics (Sensors)-1, and Investigate-1. Worked in an orbiting laboratory, gaining Vacc Suit-1.",
+		"Scientist (Researcher): Employer cancelled research.  Continued research with another pack of researchers, gained an enemy contact of the previous employer.  Gained Science (Archeology)-1.  Gained another rank to Researcher/2, advancing skill to Science (Archeology)-2.  In mustering out, gained +1 EDU, and 50,000cr, minus 22,500 to healing from university wounds",
+		"Merchant (Scrounger): Received rank Broker-1, Increased in rank to Scrounger/1, gaining skill Mechanic-1 and Electronics (Computers)-1.  Did a lot of business with one company, gaining 1 ally in the Menderes Corporation."
 	]
 }

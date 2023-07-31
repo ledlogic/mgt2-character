@@ -322,7 +322,7 @@
 	color: red;
 }
 
-.st-background {
+.st-bet {
 	border: 1px solid #414042;
 	margin: 0;
 	padding: 0;
@@ -332,12 +332,17 @@
 	width: 588px;
 }
 
+.st-background {
+	border: 1px solid #414042;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
 .st-background-title {
 	background: #414042;
 	color: #ffffff;
 	padding: 0 10px;
 	text-transform: uppercase;
-	width: 588px;
 }
 
 .st-background-value {
@@ -346,12 +351,8 @@
 
 .st-education {
 	border: 1px solid #414042;
-	margin: 0;
+	margin: 0 0 10px 0;
 	padding: 0;
-	position: absolute;
-	top: 390px;
-	left: 200px;
-	width: 588px;
 }
 
 .st-education-title {
@@ -359,7 +360,6 @@
 	color: #ffffff;
 	padding: 0 10px;
 	text-transform: uppercase;
-	width: 588px;
 }
 
 .st-education-value {
@@ -368,12 +368,8 @@
 
 .st-terms {
 	border: 1px solid #414042;
-	margin: 0;
+	margin: 0 0 10px 0;
 	padding: 0;
-	position: absolute;
-	top: 430px;
-	left: 200px;
-	width: 588px;
 }
 
 .st-terms-title {
@@ -381,7 +377,6 @@
 	color: #ffffff;
 	padding: 0 10px;
 	text-transform: uppercase;
-	width: 588px;
 }
 
 .st-term-value {
