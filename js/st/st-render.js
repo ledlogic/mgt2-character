@@ -124,5 +124,13 @@ st.render = {
 		st.character.$pageft.append($sk);		
 	},
 	renderBackground: function() {
+		st.log("rendering background");
+		var $sk = $("<div class=\"st-section st-background\"></div>");
+		var skt = "<div class=\"st-background-title\">background</div>";
+		
+		var value = st.character.spec.background;
+		var skv = "<div class=\"st-background-value\">" + value + "</div>";
+		$sk.append(skt+skv);
+		st.character.$pageft.append($sk);		
 	}
 };

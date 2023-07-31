@@ -1,19 +1,20 @@
 {
 	"overview": {
-		"rank": "Researcher 1",
+		"rank": "Researcher 1/Scrounger 1",
 		"name": "Zeki",
 		"species": "Vargr (Extents)",
 		"gender": "male",
 		"age": "26",
 		"traits": "-",
-		"img": "zeki.jpg"
+		"img": "zeki.jpg",
+		"credits": 27500
 	},
 	"characteristics": {
 		"str": 10,
 		"dex": 5,
 		"end": 8,
 		"int": 12,
-		"edu": 12,
+		"edu": 13,
 		"soc": 8
 	},
 	"skills": {
@@ -23,19 +24,22 @@
 		"drive": 0,
 		"diplomat": 0,
 		"electronics": 0,
+		"electronics (computers)": 1,
 		"investigate": 1,
 		"language": 0,
 		"language (gveh)": 1,
+		"mechanic": 1,
 		"medic": 1,
 		"science": 0,
-		"science (archeologist)": 0,
+		"science (archeologist)": 1,
 		"survival": 0,
 		"vacc suit": 1
 	},
 	"background": "Grew up as the cartographer in the Kadrius system.",
 	"education": "Attended university on Kadrius.  Almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",
 	"terms": [
-		"Scientist (Researcher): Studied as an archeologist. Worked in a field laboratory.  Gained Vacc Suit 1.",
-		"Scientist (Researcher): Studied as an archeologist. Had to leave pack of researchers and joined another pack to continue career."
+		"Scientist (Researcher): Studied as an archeologist. Worked in a field laboratory.  Gained Vacc Suit 1, 50,000cr, minus 22,500 to healing.",
+		"Scientist (Researcher): Studied as an archeologist. Had to leave pack of researchers and joined another pack to continue career, gained +1 EDU.",
+		"Merchant (Scrounger): Gained mechanic skill."
 	]
 }
