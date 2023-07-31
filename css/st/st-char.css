@@ -213,7 +213,7 @@
 	padding: 0 6px 0 6px;
 	position: absolute;
 	text-transform: uppercase;
-	width: 120px;
+	width: 30px;
 }
 
 .st-attribute-label-str,
@@ -244,6 +244,15 @@
 .st-attribute-label-soc,
 .st-attribute-soc {
 	top: 138px;
+}
+
+.st-attribute-mod {
+	left:190px;
+	width:30px;	
+	border: 1px solid #fff;
+	background: #fff;
+	color: #d36b52;
+	text-align: center;
 }
 
 .st-attributes .st-bevel-br {

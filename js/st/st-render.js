@@ -82,14 +82,14 @@ st.render = {
 			var $l = $("<span class=\"st-attribute-label st-attribute-label-" + key + "\">" + name + "</span>");
 			$attr.append($l);
 			
-			var v1 = st.character.modifier(value);
-			if (v1 > 0) {
-				v1 = "+" + v1;
+			var mod = st.character.modifier(value);
+			if (mod > 0) {
+				mod = "+" + mod;
 			}
-			value = value + " DM(" + v1 + ")";
-			
-			var $v = $("<span class=\"st-attribute st-attribute-" + key + "\">" + value + "</span>");
-			$attr.append($v);
+						
+			var v1 = "<span class=\"st-attribute st-attribute-" + key + "\">" + value + "</span>";
+			var v2 = "<span class=\"st-attribute st-attribute-" + key + " st-attribute-mod\">" + mod + "</span>";
+			$attr.append(v1+v2);
 		});
 		
 		var $img2 = $("<div class=\"st-bevel-br\"></div>");
