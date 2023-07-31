@@ -7,7 +7,7 @@ st.render = {
 		r.renderOverview();
 		r.renderCharacteristics();	
 		r.renderSkills();
-		r.renderBET();
+		r.renderBETE();
 
 		$(".st-page").removeClass("st-initial-state");
 	},
@@ -129,7 +129,7 @@ st.render = {
 
 		st.character.$pageft.append($sk);
 	},
-	renderBET: function() {
+	renderBETE: function() {
 		st.log("rendering background, education, terms");
 		var $bet = $("<div class=\"st-section st-bet\"></div>");
 		
@@ -163,6 +163,40 @@ st.render = {
 		});
 		$bet.append($sk);
 		
+		// equipment
+		var sk = "<div class=\"st-section st-equipment\">"
+		       + "<div class=\"st-equipment-title\">equipment</div>"
+		       + "</div>";
+		
+		var eq = st.character.spec.equipment;
+		var t = [];
+		t.push("<table>");
+		
+		// head
+		t.push("<thead>");
+		t.push("<tr>");
+		for (var key in eq[0]) {
+			t.push("<th class=\"st-equipment-" + key + "\">" + key + "</th>");
+		}
+		t.push("<th class=\"st-equipment-" + key + "\">equipped</th>");
+		t.push("</tr>");
+		t.push("</thead>");
+			
+		t.push("<tbody>");
+		_.each(eq, function(value, key) {
+			t.push("<tr>");
+			for (var key in value) {
+				t.push("<th class=\"st-equipment-" + key + "\">" + value[key] + "</th>");
+			}
+			t.push("<th class=\"st-equipment-equipped\"><input type=\"checkbox\" /></th>");
+			t.push("</tr>");	
+		});
+		t.push("</tbody>");
+		t.push("</table>");
+		var $sk = $(sk);
+		$sk.append(t.join(""));
+		$bet.append($sk);		
+	
 		st.character.$pageft.append($bet);		
 	}
 };

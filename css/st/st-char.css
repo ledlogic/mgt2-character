@@ -391,3 +391,49 @@
 .st-term-value {
 	padding: 0 10px;
 }
+
+.st-equipment {
+	border: 1px solid #414042;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-equipment table {
+	width: 100%;
+}
+
+.st-equipment-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-equipment-value {
+	padding: 0 10px;
+}
+
+.st-equipment th,
+.st-equipment td {
+	border: 1px solid #414042;
+	padding: 4px;
+}
+
+.st-equipment th {
+	text-transform: uppercase;
+}
+
+.st-equipment th.st-equipment-name {
+	width:250px;
+}
+.st-equipment th.st-equipment-tech-level {
+	width:60px;
+}
+.st-equipment th.st-equipment-mass {
+	width:80px;
+}
+.st-equipment th.st-equipment-cost {
+	width:100px;
+}
+
+

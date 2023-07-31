@@ -7,7 +7,7 @@
 		"age": "34",
 		"traits": "-",
 		"img": "zeki.jpg",
-		"credits": 27500
+		"credits": 77500
 	},
 	"characteristics": {
 		"str": 10,
@@ -42,8 +42,16 @@
 	"background": "Grew up as the cartographer in the Kadrius system, starting out with: Admin-0, Athletics-0, Carouse-0, Drive-0, Survival-0",
 	"education": "Attended university on Kadrius.  learned Navigation-0, and Medic-1.  Did not graduate.  In Pre-Career Event, a Life Event, with almost died in an accident on campus, left before graduating. Eventually received healing to strength, but incurred some debt",
 	"terms": [
-		"Scientist (Researcher): Got Scientist basic training. Increased in rank to Researcher/1, gaining Electronics (Sensors)-1, and Investigate-1. Worked in an orbiting laboratory, gaining Vacc Suit-1.",
+		"Scientist (Researcher): Scientist basic training. Increased in rank to Researcher/1, gaining Electronics (Sensors)-1, and Investigate-1. Worked in an orbiting laboratory, gaining Vacc Suit-1.",
 		"Scientist (Researcher): Employer cancelled research.  Continued research with another pack of researchers, gained an enemy contact of the previous employer.  Gained Science (Archeology)-1.  Gained another rank to Researcher/2, advancing skill to Science (Archeology)-2.  In mustering out, gained +1 EDU, and 50,000cr, minus 22,500 to healing from university wounds",
-		"Merchant (Scrounger): Received rank Broker-1, Increased in rank to Scrounger/1, gaining skill Mechanic-1 and Electronics (Computers)-1.  Did a lot of business with one company, gaining 1 ally in the Menderes Corporation."
-	]
+		"Merchant (Scrounger): Received rank Broker-1, Increased in rank to Scrounger/1, gaining skill Mechanic-1 and Electronics (Computers)-1.  Did a lot of business with one company, gaining 1 ally in the Menderes Corporation.  Mustered out with 50000cr and a piece of Scientific Equipment"
+	],
+	"equipment": [
+		{
+			"name": "scientific toolkit (archeology)",
+			"tech-level": 5,
+			"mass": 8,
+			"cost": "-"
+		}
+	]	
 }
