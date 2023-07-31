@@ -194,7 +194,11 @@ st.render = {
 		_.each(armour, function(value, key) {
 			t.push("<tr>");
 			for (var key in value) {
-				t.push("<td class=\"st-armour-" + key + "\">" + value[key] + "</td>");
+				var v = value[key];
+				if (!isNaN(v)) {
+					v = Number(v).toLocaleString();
+				}
+				t.push("<td class=\"st-armour-" + key + "\">" + v + "</td>");
 			}
 			t.push("<td class=\"st-armour-equipped\"><input type=\"checkbox\" /></td>");
 			t.push("</tr>");	
@@ -228,7 +232,7 @@ st.render = {
 		_.each(eq, function(value, key) {
 			t.push("<tr>");
 			for (var key in value) {
-				t.push("<td class=\"st-equipment-" + key + "\">" + value[key] + "</td>");
+				t.push("<td class=\"st-equipment-" + key + "\">" + value[key].toLocaleString() + "</td>");
 			}
 			t.push("<td class=\"st-equipment-equipped\"><input type=\"checkbox\" /></td>");
 			t.push("</tr>");	

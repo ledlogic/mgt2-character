@@ -379,7 +379,8 @@
 }
 
 .st-background-value {
-	padding: 0 10px;
+	padding: 2px;
+	font-size: 10px;
 }
 
 /* education */
@@ -398,7 +399,8 @@
 }
 
 .st-education-value {
-	padding: 0 10px;
+	padding: 2px;
+	font-size: 10px;
 }
 
 /* terms */
@@ -417,7 +419,8 @@
 }
 
 .st-term-value {
-	padding: 0 10px;
+	padding: 2px;
+	font-size: 10px;
 }
 
 /* armour */
@@ -497,7 +500,6 @@
 .st-equipment th,
 .st-equipment td {
 	border: 1px solid #414042;
-	padding: 4px;
 	padding: 2px;
 	font-size: 10px;
 }
