@@ -42,6 +42,7 @@ st.character = {
 		that.renderReset();
 		that.renderOverview();
 		that.renderCharacteristics();	
+		that.renderSkills();	
 		
 		$(".st-page").removeClass("st-initial-state");
 	},
@@ -129,8 +130,17 @@ st.character = {
 		var $img2 = $("<div class=\"st-bevel-br\"></div>");
 		$attr.append($img2);
 		
-		st.character.$pageft.append($attr);		
-	},	
+		st.character.$pageft.append($attr);
+		
+		var img3 = "<div class=\"st-img-div\">";
+		img3 += "<img class=\"st-img\" src=\"img/" + st.character.spec.overview.img + "\">";		
+		img3 += "</div>";		
+		var $img3 = $(img3);		
+		st.character.$pageft.append($img3);
+	},
+	renderSkills: function() {
+		
+	},
 	modifier: function(c) {
 		switch (true) {
 			case c===0:

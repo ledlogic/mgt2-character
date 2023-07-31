@@ -1,0 +1,39 @@
+{
+	"overview": {
+		"rank": "Scholar",
+		"name": "Zeki",
+		"species": "Vargr (Extents)",
+		"gender": "male",
+		"age": "18",
+		"traits": "-",
+		"img": "zeki.jpg"
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 5,
+		"end": 8,
+		"int": 12,
+		"edu": 12,
+		"soc": 8
+	},
+	"skills": {
+		"admin": 0,
+		"athletics": 0,
+		"carouse": 0,
+		"drive": 0,
+		"diplomat": 0,
+		"electronics": 0,
+		"investigate": 0,
+		"language": 0,
+		"language (gveh)": 1,
+		"medic": 1,
+		"science": 0,
+		"science (archeologist)": 0,
+		"survival": 0
+	},
+	"background": "Grew up as the cartographer in the Kadrius system.",
+	"education": "Attended university on Kadrius.  Almost died in an accident on campus, left before graduating.",
+	"terms": [
+		"Scholar (Field Researcher): Studied as an archeologist on several systems."
+	]
+}
