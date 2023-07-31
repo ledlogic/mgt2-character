@@ -150,6 +150,7 @@
 }
 
 .st-overview-species {
+	border-right: 1px solid #ffffff;
 	top: 114px;
 	left: 30px;
 }
@@ -171,13 +172,30 @@
 	width: 240px;
 }
 
+.st-overview-label-credits {
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 158px;
+}
+
+.st-overview-credits {
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 184px;
+	z-index:10;
+}
+
 /* attributes */
 
 .st-attributes {
 	background-color: #414042;
 	position: absolute;
 	height: 186px;
-	top: 156px;
+	top: 157px;
 	left: 0px;
 	width: 800px;
 }
@@ -199,7 +217,13 @@
 	left: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	width: 360px;
+	width: 240px;
+}
+
+.st-overview-traits {
+	top: 136px;
+	left: 150px;
+	width: 240px;
 }
 
 .st-attribute {
@@ -280,9 +304,7 @@
 	height: auto;
 }
 
-.border .st-skills {
-	border: 1px solid orange;
-}
+/* skills */
 
 .st-skills {
 	border: 1px solid #414042;
@@ -331,6 +353,8 @@
 	color: red;
 }
 
+/* bet */
+
 .st-bet {
 	border: 1px solid #414042;
 	margin: 0;
@@ -358,6 +382,8 @@
 	padding: 0 10px;
 }
 
+/* education */
+
 .st-education {
 	border: 1px solid #414042;
 	margin: 0 0 10px 0;
@@ -375,6 +401,8 @@
 	padding: 0 10px;
 }
 
+/* terms */
+
 .st-terms {
 	border: 1px solid #414042;
 	margin: 0 0 10px 0;
@@ -391,6 +419,58 @@
 .st-term-value {
 	padding: 0 10px;
 }
+
+/* armour */
+
+.st-armour {
+	border: 1px solid #414042;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-armour table {
+	width: 100%;
+}
+
+.st-armour-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-armour-value {
+	padding: 0 10px;
+}
+
+.st-armour th,
+.st-armour td {
+	border: 1px solid #414042;
+	padding: 4px;
+}
+
+.st-armour th {
+	text-transform: uppercase;
+}
+
+.st-armour th.st-armour-name {
+	width:250px;
+}
+.st-armour th.st-armour-tech-level {
+	width:60px;
+}
+.st-armour th.st-armour-mass {
+	width:80px;
+}
+.st-armour th.st-armour-cost {
+	width:100px;
+}
+.st-armour td.st-armour-name {
+	text-transform: uppercase;
+	width:250px;
+}
+
+/* equipment */
 
 .st-equipment {
 	border: 1px solid #414042;
@@ -435,5 +515,7 @@
 .st-equipment th.st-equipment-cost {
 	width:100px;
 }
-
-
+.st-equipment td.st-equipment-name {
+	text-transform: uppercase;
+	width:250px;
+}

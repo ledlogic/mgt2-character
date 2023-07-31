@@ -46,6 +46,14 @@
 		"Scientist (Researcher): Employer cancelled research.  Continued research with another pack of researchers, gained an enemy contact of the previous employer.  Gained Science (Archeology)-1.  Gained another rank to Researcher/2, advancing skill to Science (Archeology)-2.  In mustering out, gained +1 EDU, and 50,000cr, minus 22,500 to healing from university wounds",
 		"Merchant (Scrounger): Received rank Broker-1, Increased in rank to Scrounger/1, gaining skill Mechanic-1 and Electronics (Computers)-1.  Did a lot of business with one company, gaining 1 ally in the Menderes Corporation.  Mustered out with 50000cr and a piece of Scientific Equipment"
 	],
+	"armour": [
+		{
+			"name": "Vacc Suit",
+			"tech-level": 12,
+			"protection": 10,
+			"cost": "10000"
+		}
+	],	
 	"equipment": [
 		{
 			"name": "scientific toolkit (archeology)",
@@ -53,5 +61,5 @@
 			"mass": 8,
 			"cost": "-"
 		}
-	]	
+	]
 }

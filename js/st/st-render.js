@@ -62,6 +62,14 @@ st.render = {
 		$overview.append($l);
 		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
 		$overview.append($v);
+		
+		// credits
+		var key = "credits";
+		var value = overview[key];
+		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
+		$overview.append($l);
+		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + " cr</span>");
+		$overview.append($v);
 
 		st.character.$pageft.append($overview);
 	},
@@ -163,6 +171,40 @@ st.render = {
 		});
 		$bet.append($sk);
 		
+		// armour with a u because, Mongoose
+		var sk = "<div class=\"st-section st-armour\">"
+		       + "<div class=\"st-armour-title\">armour</div>"
+		       + "</div>";
+		
+		var armour = st.character.spec.armour;
+		var t = [];
+		t.push("<table>");
+		
+		// head
+		t.push("<thead>");
+		t.push("<tr>");
+		for (var key in armour[0]) {
+			t.push("<th class=\"st-armour-" + key + "\">" + key + "</th>");
+		}
+		t.push("<th class=\"st-armour-" + key + "\">equipped</th>");
+		t.push("</tr>");
+		t.push("</thead>");
+			
+		t.push("<tbody>");
+		_.each(armour, function(value, key) {
+			t.push("<tr>");
+			for (var key in value) {
+				t.push("<td class=\"st-armour-" + key + "\">" + value[key] + "</td>");
+			}
+			t.push("<td class=\"st-armour-equipped\"><input type=\"checkbox\" /></td>");
+			t.push("</tr>");	
+		});
+		t.push("</tbody>");
+		t.push("</table>");
+		var $sk = $(sk);
+		$sk.append(t.join(""));
+		$bet.append($sk);
+		
 		// equipment
 		var sk = "<div class=\"st-section st-equipment\">"
 		       + "<div class=\"st-equipment-title\">equipment</div>"
@@ -186,16 +228,16 @@ st.render = {
 		_.each(eq, function(value, key) {
 			t.push("<tr>");
 			for (var key in value) {
-				t.push("<th class=\"st-equipment-" + key + "\">" + value[key] + "</th>");
+				t.push("<td class=\"st-equipment-" + key + "\">" + value[key] + "</td>");
 			}
-			t.push("<th class=\"st-equipment-equipped\"><input type=\"checkbox\" /></th>");
+			t.push("<td class=\"st-equipment-equipped\"><input type=\"checkbox\" /></td>");
 			t.push("</tr>");	
 		});
 		t.push("</tbody>");
 		t.push("</table>");
 		var $sk = $(sk);
 		$sk.append(t.join(""));
-		$bet.append($sk);		
+		$bet.append($sk);
 	
 		st.character.$pageft.append($bet);		
 	}
