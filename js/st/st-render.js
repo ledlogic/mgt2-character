@@ -28,14 +28,14 @@ st.render = {
 		var $img1 = $("<div class=\"st-bevel-tl\"></div>");
 		$overview.append($img1);
 		
-		// rank
-		var h = overview.rank;
-		$elm = $("<span class=\"st-overview-rank\">" + h + "</span>");
-		$overview.append($elm);
-
 		// name
 		var h = overview.name;
 		$elm = $("<span class=\"st-overview-name\">" + h + "</span>");
+		$overview.append($elm);
+
+		// rank
+		var h = overview.ranks.join(", ");
+		$elm = $("<span class=\"st-overview-rank\">" + h + "</span>");
 		$overview.append($elm);
 
 		// overview		
