@@ -8,8 +8,10 @@ st.render = {
 		r.renderCharacteristics();	
 		r.renderSkills();
 		r.renderBETE();
+		r.renderStory();
 
 		$(".st-page").removeClass("st-initial-state");
+		$("h1,.st-nav").hide();
 	},
 	renderReset: function() {
 		st.character.$pageft.html("");
@@ -46,30 +48,6 @@ st.render = {
 			var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
 			$overview.append($v);
 		}
-
-		// age
-		var key = "age";
-		var value = overview[key];
-		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
-		$overview.append($l);
-		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
-		$overview.append($v);
-		
-		// traits
-		var key = "traits";
-		var value = overview[key];
-		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
-		$overview.append($l);
-		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
-		$overview.append($v);
-		
-		// credits
-		var key = "credits";
-		var value = overview[key];
-		var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
-		$overview.append($l);
-		var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + " cr</span>");
-		$overview.append($v);
 
 		st.character.$pageft.append($overview);
 	},
@@ -140,6 +118,83 @@ st.render = {
 	renderBETE: function() {
 		st.log("rendering background, education, terms");
 		var $bet = $("<div class=\"st-section st-bet\"></div>");
+				
+		// stuff
+		var expenses = 0;
+		var stuff = ["armour", "weapons", "equipment"];
+		
+		for (var i=0; i<stuff.length;i++) {
+		
+			var sk = "<div class=\"st-section st-" + stuff[i] + "\">"
+			       + "<div class=\"st-" + stuff[i] + "-title\">" + stuff[i] + "</div>"
+			       + "</div>";
+			
+			var eq = st.character.spec[stuff[i]];
+			var t = [];
+			t.push("<table>");
+			
+			// head
+			t.push("<thead>");
+			t.push("<tr>");
+			for (var key in eq[0]) {
+				t.push("<th class=\"st-" + stuff[i] + "-" + key + "\">" + key + "</th>");
+			}
+			t.push("</tr>");
+			t.push("</thead>");
+				
+			t.push("<tbody>");
+			_.each(eq, function(value, key) {
+				t.push("<tr>");
+				for (var key in value) {
+					var unit = "";
+					if (key == "cost") {
+						unit = "cr";
+						expenses += parseInt(value[key],10);
+					}
+					if (key == "mass") {
+						unit = "kg";
+					}
+					if (key == "range") {
+						unit = "m";
+					}
+					
+					if (key === "equipped") {
+						t.push("<td class=\"st-" + stuff[i] + "-" + key + "\"><input type=\"checkbox\"" + (value[key] === true ? " checked=\"checked\"" : "") + "/></td>");
+					} else {
+						t.push("<td class=\"st-" + stuff[i] + "-" + key + "\">" + value[key].toLocaleString() + unit + "</td>");
+					}
+				}
+				t.push("</tr>");	
+			});
+			t.push("</tbody>");
+			t.push("</table>");
+			var $sk = $(sk);
+			$sk.append(t.join(""));
+			$bet.append($sk);
+		}
+		
+		st.character.$pageft.append($bet);	
+	
+		var spec = st.character.spec;
+		var overview = spec.overview;
+		overview.expenses = expenses;
+		var credits = overview.initial - expenses;
+		var $overview = $(".st-overview");
+		overview.credits = credits;
+		
+		var arr = ["age", "traits", "initial", "credits"];
+		for (var i=0; i<arr.length; i++) {
+			var key = arr[i];
+			var value = overview[key];
+			var $l = $("<span class=\"st-overview-label st-overview-label-" + key + "\">" + key + "</span>");
+			$overview.append($l);
+			var $v = $("<span class=\"st-overview-value st-overview-" + key + "\">" + value + "</span>");
+			$overview.append($v);
+		}	
+	},
+	renderStory: function() {
+		st.log("rendering story");
+		var $story = $("<div class=\"st-section st-story\"></div>");
 		
 		// background
 		var $sk = $("<div class=\"st-section st-background\"></div>");
@@ -147,8 +202,8 @@ st.render = {
 		
 		var value = st.character.spec.background;
 		var skv = "<div class=\"st-background-value\">" + value + "</div>";
-		$bet.append(skt+skv);
-		$bet.append($sk);
+		$story.append(skt+skv);
+		$story.append($sk);
 
 		// education
 		var $sk = $("<div class=\"st-section st-education\"></div>");
@@ -156,8 +211,8 @@ st.render = {
 		
 		var value = st.character.spec.education;
 		var skv = "<div class=\"st-education-value\">" + value + "</div>";
-		$bet.append(skt+skv);
-		$bet.append($sk);
+		$story.append(skt+skv);
+		$story.append($sk);
 
 		// terms
 		var $sk = $("<div class=\"st-section st-terms\"></div>");
@@ -169,80 +224,7 @@ st.render = {
 			var skv = "<div class=\"st-term-value\">" + (key+1) + ". " + value + "</div>";
 			$sk.append(skv);	
 		});
-		$bet.append($sk);
-		
-		// armour with a u because, Mongoose
-		var sk = "<div class=\"st-section st-armour\">"
-		       + "<div class=\"st-armour-title\">armour</div>"
-		       + "</div>";
-		
-		var armour = st.character.spec.armour;
-		var t = [];
-		t.push("<table>");
-		
-		// head
-		t.push("<thead>");
-		t.push("<tr>");
-		for (var key in armour[0]) {
-			t.push("<th class=\"st-armour-" + key + "\">" + key + "</th>");
-		}
-		t.push("<th class=\"st-armour-" + key + "\">equipped</th>");
-		t.push("</tr>");
-		t.push("</thead>");
-			
-		t.push("<tbody>");
-		_.each(armour, function(value, key) {
-			t.push("<tr>");
-			for (var key in value) {
-				var v = value[key];
-				if (!isNaN(v)) {
-					v = Number(v).toLocaleString();
-				}
-				t.push("<td class=\"st-armour-" + key + "\">" + v + "</td>");
-			}
-			t.push("<td class=\"st-armour-equipped\"><input type=\"checkbox\" /></td>");
-			t.push("</tr>");	
-		});
-		t.push("</tbody>");
-		t.push("</table>");
-		var $sk = $(sk);
-		$sk.append(t.join(""));
-		$bet.append($sk);
-		
-		// equipment
-		var sk = "<div class=\"st-section st-equipment\">"
-		       + "<div class=\"st-equipment-title\">equipment</div>"
-		       + "</div>";
-		
-		var eq = st.character.spec.equipment;
-		var t = [];
-		t.push("<table>");
-		
-		// head
-		t.push("<thead>");
-		t.push("<tr>");
-		for (var key in eq[0]) {
-			t.push("<th class=\"st-equipment-" + key + "\">" + key + "</th>");
-		}
-		t.push("<th class=\"st-equipment-" + key + "\">equipped</th>");
-		t.push("</tr>");
-		t.push("</thead>");
-			
-		t.push("<tbody>");
-		_.each(eq, function(value, key) {
-			t.push("<tr>");
-			for (var key in value) {
-				t.push("<td class=\"st-equipment-" + key + "\">" + value[key].toLocaleString() + "</td>");
-			}
-			t.push("<td class=\"st-equipment-equipped\"><input type=\"checkbox\" /></td>");
-			t.push("</tr>");	
-		});
-		t.push("</tbody>");
-		t.push("</table>");
-		var $sk = $(sk);
-		$sk.append(t.join(""));
-		$bet.append($sk);
-	
-		st.character.$pageft.append($bet);		
+		$story.append($sk);
+		st.character.$pageft.append($story);
 	}
 };

@@ -7,7 +7,7 @@
 		"age": "34",
 		"traits": "-",
 		"img": "zeki.jpg",
-		"credits": 67500
+		"initial": 77500
 	},
 	"characteristics": {
 		"str": 10,
@@ -48,18 +48,96 @@
 	],
 	"armour": [
 		{
-			"name": "Vacc Suit",
+			"name": "Vacc Suit, Advanced",
 			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
 			"protection": 10,
-			"cost": "10000"
+			"rad": 90,
+			"traits":"Vacc Suit 0",
+			"equipped": true
 		}
-	],	
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-g",
+			"equipped": true
+		},
+		{
+			"name": "Laser Rifle",
+			"tl": 11,
+			"cost": 8000,
+			"mass": 3,
+			"range": 400,
+			"damage": "5D+3",
+			"magazine": 100,
+			"power pack cost": 3500,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
 	"equipment": [
 		{
 			"name": "scientific toolkit (archeology)",
 			"tl": 5,
+			"cost": 0,
 			"mass": 8,
-			"cost": "-"
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (laser sight)",
+			"tl": 10,
+			"cost": 200,
+			"mass": 0,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (spare power pack)",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 0.5,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Rifle (laser sight)",
+			"tl": 10,
+			"cost": 200,
+			"mass": 0,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Rifle (spare power pack)",
+			"tl": 11,
+			"cost": 3500,
+			"mass": 1.5,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
 		}
 	]
 }

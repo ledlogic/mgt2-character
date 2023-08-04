@@ -3,10 +3,9 @@
 /* page */
 
 .st-page {
-	border: 1px solid #414042d1;
 	position: relative;
-	height: 1000px;
-	width: 800px;
+	height: 800px;
+	width: 1080px;
 	overflow: hidden;
 }
 
@@ -25,32 +24,6 @@
 	position: absolute;
 	top:0;
 	left:0;
-}
-
-/* border */
-
-.st-section {
-	border: 1px solid #ff0000;
-}
-
-.st-item {
-	border: 1px solid #cc0000;
-}
-
-/* .no-border */
-
-.no-border .st-section {
-	border: 1px solid transparent;
-}
-
-.no-border .st-item {
-	border: 1px solid transparent;
-}
-
-/* allegiance */
-
-.st-allegiance {
-	position: relative;
 }
 
 /* overview */
@@ -109,7 +82,6 @@
 }
 
 .st-overview-label {
-	border: 1px solid transparent;
 	background-color: #d36b52;
 	padding: 0 6px 0 6px;
 	position: absolute;
@@ -150,6 +122,7 @@
 }
 
 .st-overview-species {
+	border-left: 1px solid #ffffff;
 	border-right: 1px solid #ffffff;
 	top: 114px;
 	left: 30px;
@@ -162,17 +135,19 @@
 }
 
 .st-overview-age {
+	border-right: 1px solid #ffffff;
 	top: 114px;
 	left: 270px;
 }
 
 .st-overview-traits {
+	border-right: 1px solid #ffffff;
 	top: 136px;
 	left: 150px;
 	width: 240px;
 }
 
-.st-overview-label-credits {
+.st-overview-label-initial {
 	left: 270px;
 	text-align: center;
 	text-transform: uppercase;
@@ -180,12 +155,33 @@
 	top: 158px;
 }
 
-.st-overview-credits {
+.st-overview-initial {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
 	left: 270px;
 	text-align: center;
 	text-transform: uppercase;
 	width: 120px;
-	top: 184px;
+	top: 182px;
+	z-index:10;
+}
+
+.st-overview-label-credits {
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 202px;
+}
+
+.st-overview-credits {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 226px;
 	z-index:10;
 }
 
@@ -284,8 +280,8 @@
 	background-image: url(../../img/bezel-br.png);
 	height: 16px;
 	position: absolute;
-	left: 780px;
-	top: 169px;
+	left: 782px;
+	top: 170px;
 	width: 18px;
 }
 
@@ -312,8 +308,8 @@
 	padding: 0;
 	position: absolute;
 	top: 350px;
-	left: 10px;
-	width: 200px;
+	left: 0px;
+	width: 182px;
 }
 
 .st-skills-title {
@@ -356,17 +352,15 @@
 /* bet */
 
 .st-bet {
-	border: 1px solid #414042;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	top: 350px;
-	left: 200px;
-	width: 588px;
+	left: 190px;
+	width: 612px;
 }
 
 .st-background {
-	border: 1px solid #414042;
 	margin: 0 0 10px 0;
 	padding: 0;
 }
@@ -386,7 +380,6 @@
 /* education */
 
 .st-education {
-	border: 1px solid #414042;
 	margin: 0 0 10px 0;
 	padding: 0;
 }
@@ -406,7 +399,6 @@
 /* terms */
 
 .st-terms {
-	border: 1px solid #414042;
 	margin: 0 0 10px 0;
 	padding: 0;
 }
@@ -425,67 +417,21 @@
 
 /* armour */
 
-.st-armour {
-	border: 1px solid #414042;
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
-.st-armour table {
-	width: 100%;
-}
-
-.st-armour-title {
-	background: #414042;
-	color: #ffffff;
-	padding: 0 10px;
-	text-transform: uppercase;
-}
-
-.st-armour-value {
-	padding: 0 10px;
-}
-
-.st-armour th,
-.st-armour td {
-	border: 1px solid #414042;
-	padding: 2px;
-	font-size: 10px;
-}
-
-.st-armour th {
-	text-transform: uppercase;
-}
-
-.st-armour th.st-armour-name {
-	width:250px;
-}
-.st-armour th.st-armour-tl {
-	width:60px;
-}
-.st-armour th.st-armour-mass {
-	width:80px;
-}
-.st-armour th.st-armour-cost {
-	width:100px;
-}
-.st-armour td.st-armour-name {
-	text-transform: uppercase;
-	width:250px;
-}
-
-/* equipment */
-
+.st-armour,
+.st-weapons,
 .st-equipment {
-	border: 1px solid #414042;
 	margin: 0 0 10px 0;
 	padding: 0;
 }
 
+.st-armour table,
+.st-weapons table,
 .st-equipment table {
 	width: 100%;
 }
 
+.st-armour-title,
+.st-weapons-title,
 .st-equipment-title {
 	background: #414042;
 	color: #ffffff;
@@ -493,34 +439,121 @@
 	text-transform: uppercase;
 }
 
+.st-armour-value,
+.st-weapons-value,
 .st-equipment-value {
 	padding: 0 10px;
 }
 
+.st-armour th,
+.st-weapons th,
 .st-equipment th,
+.st-armour td,
+.st-weapons td,
 .st-equipment td {
 	border: 1px solid #414042;
 	padding: 2px;
 	font-size: 10px;
 }
 
+.st-armour th,
+.st-weapons th,
 .st-equipment th {
 	text-transform: uppercase;
 }
 
+.st-armour th.st-armour-name {
+	width:140px;
+}
+.st-armour th.st-armour-tl {
+	width:24px;
+}
+.st-armour th.st-armour-mass {
+	width:34px;
+}
+.st-armour th.st-armour-cost {
+	width:44px;
+}
+.st-armour th.st-armour-protection {
+	width:54px;
+}
+.st-armour th.st-armour-equipped {
+	width:54px;
+}
+.st-armour th.st-armour-traits {
+	width:104px;
+}
+.st-armour td.st-armour-name {
+	text-transform: uppercase;
+	width:140px;
+}
+.st-armour td.st-armour-equipped {
+	text-align: center;
+	width:54px;
+}
+
+.st-weapons th.st-weapons-name {
+	width:140px;
+}
+.st-weapons th.st-weapons-tl {
+	width:24px;
+}
+.st-weapons th.st-weapons-mass {
+	width:34px;
+}
+.st-weapons th.st-weapons-cost {
+	width:44px;
+}
+.st-weapons th.st-weapons-equipped {
+	width:54px;
+}
+.st-weapons th.st-weapons-traits {
+	width:104px;
+}
+.st-weapons td.st-weapons-name {
+	text-transform: uppercase;
+	width:140px;
+}
+.st-weapons td.st-weapons-equipped {
+	text-align: center;
+	width:54px;
+}
+
 .st-equipment th.st-equipment-name {
-	width:250px;
+	width:240px;
 }
 .st-equipment th.st-equipment-tl {
-	width:60px;
+	width:24px;
 }
 .st-equipment th.st-equipment-mass {
-	width:80px;
+	width:34px;
 }
 .st-equipment th.st-equipment-cost {
-	width:100px;
+	width:44px;
+}
+.st-equipment th.st-equipment-equipped {
+	width:54px;
+}
+.st-equipment th.st-equipment-traits {
+	width:104px;
 }
 .st-equipment td.st-equipment-name {
 	text-transform: uppercase;
-	width:250px;
+	width:240px;
+}
+.st-equipment td.st-equipment-equipped {
+	text-align: center;
+	width:54px;
+}
+.st-equipment td.st-equipment-traits {
+	width:104px;
+}
+
+.st-story {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	left: 810px;
+	width: 260px;
 }
