@@ -25,15 +25,15 @@ st.character = {
 		
 		var t = (new Date()).getTime();
 		$.ajax("js/char/" + uri + "?t=" + t)
-		.done(function(data, status, jqxhr) {
-			st.character.spec = data;
-			setTimeout(st.render.render,10);
-		})
-		.fail(function() {
-			alert("Error: unable to load character.");
-		})
-		.always(function() {
-		});
+			.done(function(data, status, jqxhr) {
+				st.character.spec = data;
+				setTimeout(st.render.render,10);
+			})
+			.fail(function() {
+				alert("Error: unable to load character.");
+			})
+			.always(function() {
+			});
 	},
 	modifier: function(c) {
 		switch (true) {

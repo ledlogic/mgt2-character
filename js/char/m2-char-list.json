@@ -1,6 +1,10 @@
 {
 	"characters": [
 		{
+			"name": "Calypso",
+			"uri": "m2-calypso.json"
+		},
+		{
 			"name": "Zeki",
 			"uri": "m2-zeki.json"
 		}

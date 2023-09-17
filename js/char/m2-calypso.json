@@ -1,0 +1,122 @@
+{
+	"overview": {
+		"ranks": ["Drifter/2", "Merchant (Broker)/2"],
+		"name": "Calypso",
+		"species": "Vegan",
+		"gender": "male",
+		"age": "146",
+		"traits": "-",
+		"img": "calypso.jpg",
+		"initial": 21000
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 6,
+		"end": 10,
+		"int": 11,
+		"edu": 15,
+		"soc": 9
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 3,
+		"art": 0,
+		"broker": 2,
+		"drive": 0,
+		"deception": 0,
+		"flyer": 0,
+		"jack-of-all-trades": 1,
+		"mechanic": 0,
+		"medic": 0,
+		"recon": 1,
+		"science": 0,
+		"science (archeology)": 1,
+		"streetwise": 3,
+		"stealth": 1,
+		"steward": 0,
+		"survival": 0,
+		"vacc-suit": 0
+	},
+	"background": "Starting characterstics: 76ABBB, Art-0, Flyer-0, Mechanic-0, Medic-0, Vacc Suit-0",
+	"education": "University: Advocate-1, Navigation-1, Edu-14, Edu-15.",
+	"terms": [
+		"Drifter (Wanderer): Learned how to survive living on the edge, concealing presence, learning how to pick up on social interactions.  Advanced to Rank 1.",
+		"Drifter (Wanderer): Improved relations, gaining ally: Moonchild.  Advanced to Rank 2.  When mustering out, gained ally, weapon, 1000cr, ship share.",
+		"Merchant (Broker): Advocate-2, Recon-1, Steward-0, Broker-1, Advance to rank Broker/1.",
+		"Merchant (Broker): Unexpected connection: contact.  Admin-1, Advocate-3, Broker-2.  Advance to Broker/2.",
+		"Merchant (Broker): Streetwise-3, gained skill from suppliers/spacers, Science-1 (Archeology).  No Advancement. Mustering out, gained 20000cr, ship share, far trader x3 (75%)"
+	],
+	"armour": [
+		{
+			"name": "Cloth Jacket",
+			"tl": 10,
+			"cost": 500,
+			"mass":2,
+			"protection": 5,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 0,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Improved neural comm: Audio/Visual Computer/0",
+			"tl": 12,
+			"cost": 5000,
+			"mass": 0,
+			"range": "5 k",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "scientific toolkit (archeology)",
+			"tl": 5,
+			"cost": 0,
+			"mass": 8,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (laser sight)",
+			"tl": 10,
+			"cost": 200,
+			"mass": 0,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (spare power pack)",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 0.5,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	]
+}

@@ -22,16 +22,17 @@ st.nav = {
 	loadChars: function() {
 		st.log("loading chars");
 
-		$.ajax("js/char/m2-char-list.json")
-		.done(function(data, status, jqxhr) {
-			st.nav.characters = data.characters;
-			setTimeout(st.nav.renderChars, 10);
-		})
-		.fail(function() {
-			alert("Error: unable to load character list.");
-		})
-		.always(function() {
-		});
+		var t = (new Date()).getTime();
+		$.ajax("js/char/m2-char-list.json?t=" + t)
+			.done(function(data, status, jqxhr) {
+				st.nav.characters = data.characters;
+				setTimeout(st.nav.renderChars, 10);
+			})
+			.fail(function() {
+				alert("Error: unable to load character list.");
+			})
+			.always(function() {
+			});
 	},
 	renderChars: function() {
 		st.log("rendering chars");
