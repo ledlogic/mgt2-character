@@ -147,6 +147,7 @@ st.render = {
 				t.push("<tr>");
 				for (var key in value) {
 					var unit = "";
+					var pos = "";
 					if (key == "cost") {
 						unit = "cr";
 						expenses += parseInt(value[key],10);
@@ -157,11 +158,13 @@ st.render = {
 					if (key == "range") {
 						unit = "m";
 					}
-					
+					if (key == "protection") {
+						pos = "+";
+					}					
 					if (key === "equipped") {
 						t.push("<td class=\"st-" + stuff[i] + "-" + key + "\"><input type=\"checkbox\"" + (value[key] === true ? " checked=\"checked\"" : "") + "/></td>");
 					} else {
-						t.push("<td class=\"st-" + stuff[i] + "-" + key + "\">" + value[key].toLocaleString() + unit + "</td>");
+						t.push("<td class=\"st-" + stuff[i] + "-" + key + "\">" + pos + value[key].toLocaleString() + unit + "</td>");
 					}
 				}
 				t.push("</tr>");	

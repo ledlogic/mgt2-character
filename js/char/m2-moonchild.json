@@ -1,0 +1,140 @@
+{
+	"overview": {
+		"ranks": ["Artist/1, Drifter (Scavenger)/1, Marine (Lance Sergeant)/3"],
+		"name": "Moonchild Rayfisher",
+		"species": "Vegan",
+		"gender": "female",
+		"age": "162",
+		"traits": "-",
+		"img": "moonchild.jpg",
+		"initial": 30000
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 11,
+		"end": 7,
+		"int": 10,
+		"edu": 12,
+		"soc": 10
+	},
+	"skills": {
+		"admin": 0,
+		"art": 1,
+		"astrogation": 0,
+		"athletics": 0,
+		"athletics (dexterity)": 1,
+		"drive": 0,
+		"gun-combat": 0,
+		"gun-combat (energy)": 2,
+		"heavy-weapons": 0,
+		"heavy-weapons (vehicle)": 1,
+		"language": 0,
+		"leadership": 2,
+		"mechanic": 0,
+		"melee": 0,
+		"melee (blade)": 2,
+		"navigation": 1,
+		"persuade": 0,
+		"pilot": 0,
+		"profession": 0,
+		"recon": 0,
+		"tactics": 0,
+		"vacc-suit": 1
+	},
+	"background": "Starting characterstics: 6A69A8, Art-0, Admin-0, Drive-0, Language-0",
+	"education": "Academy (Army): Athletics-0, Gun Combat-0, Heavy Weapons-0, Recon-0, Melee-0, Vacc-Suit-0.  Graduated with honors: EDU-11, SOC-9.",
+	"terms": [
+		"Drifter (Scavenger): Astrogation-0, Mechanic-0, Pilot-0, Advanced to Scavenger/1. Vacc Suit-1, END-6.  Life event: new contact.  mustering out: gained a new contact and a weapon.",
+		"Artist: Persuade-0, SOC-10. Advance to rank Artist/1: Art-1.  Life event: end of a relationship, gained an enemy.  Mustering out: gain one one contact.",
+		"Marine (Ground Assault): Melee (Blade)-1, Tactics-0. Advanced to Lance Corporal/1: Gun Combat (Energy)-1, DEX-11.",
+		"Marine (Ground Assault): Gun Combat (Energy)-2.  Assaulted an enemy fortress.  Leadership-1.  No advancement.",
+		"Marine (Ground Assault): STR-6.  Life event: diffused a situation, avoiding bloodshed.  Advanced to Corporal/2: Navigation-1.",
+		"Marine (Ground Assault): Athletics (Dexterity)-1, Blade (Melee)-2.  Life event: naval engagement against insurgents, raiders.  Advanced to Lance Sergeant/3: Leadership-2, Heavy Weapons (Vehicle)-1",
+		"Marine (Ground Assault): Survival: no. Gain enemy in Vegan military, or diplomatic service, but add contact in Imperial military.  Mustering out: 20000cr, 10000cr, 4000cr, Armour, EDU-12, END-7, Weapon, INT-10."
+	],
+	"armour": [
+		{
+			"name": "Hunter field garb",
+			"tl": 12,
+			"cost": 0,
+			"mass": 3,
+			"protection": 4,
+			"rad": 0,
+			"traits":"Environment, Stealth+2",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 0,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-g",
+			"equipped": true
+		},
+		{
+			"name": "Long blade",
+			"tl": 3,
+			"cost": 300,
+			"mass": 2,
+			"range": 0,
+			"damage": "3D+2",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits":"",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Improved neural comm: Audio/Visual Computer/0",
+			"tl": 12,
+			"cost": 5000,
+			"mass": 0,
+			"range": "5 k",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Improved habitat module",
+			"tl": 10,
+			"cost": 20000,
+			"mass": 500,
+			"range": "-",
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Laser Pistol (laser sight)",
+			"tl": 10,
+			"cost": 200,
+			"mass": 0,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (spare power pack)",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 0.5,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	]
+}

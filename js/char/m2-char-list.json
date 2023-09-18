@@ -1,11 +1,15 @@
 {
 	"characters": [
 		{
-			"name": "Calypso",
+			"name": "Solomani Front: Calypso",
 			"uri": "m2-calypso.json"
 		},
 		{
-			"name": "Zeki",
+			"name": "Solomani Front: Moonchild",
+			"uri": "m2-moonchild.json"
+		},
+		{
+			"name": "Vargr Extents: Zeki",
 			"uri": "m2-zeki.json"
 		}
 	]	
