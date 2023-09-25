@@ -228,6 +228,19 @@ st.render = {
 			$sk.append(skv);	
 		});
 		$story.append($sk);
-		st.character.$pageft.append($story);
+		
+		// interactions
+		var $int = $("<div class=\"st-section st-interactions\"></div>");
+		var intt = "<div class=\"st-terms-title\">interactions</div>";
+		$int.append(intt);
+		
+		var interactions = st.character.spec.interactions;
+		_.each(interactions, function(value, key) {
+			var intv = "<div class=\"st-interaction-value\">" + (key+1) + ". " + value + "</div>";
+			$int.append(intv);	
+		});
+		$story.append($int);
+		
+		st.character.$pageft.append($story);		
 	}
 };

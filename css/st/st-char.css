@@ -322,6 +322,7 @@
 
 .st-skill {
 	display:block;
+	font-size: 12px;
 	width: 200px;
 }
 
@@ -358,61 +359,6 @@
 	top: 350px;
 	left: 190px;
 	width: 612px;
-}
-
-.st-background {
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
-.st-background-title {
-	background: #414042;
-	color: #ffffff;
-	padding: 0 10px;
-	text-transform: uppercase;
-}
-
-.st-background-value {
-	padding: 2px;
-	font-size: 10px;
-}
-
-/* education */
-
-.st-education {
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
-.st-education-title {
-	background: #414042;
-	color: #ffffff;
-	padding: 0 10px;
-	text-transform: uppercase;
-}
-
-.st-education-value {
-	padding: 2px;
-	font-size: 10px;
-}
-
-/* terms */
-
-.st-terms {
-	margin: 0 0 10px 0;
-	padding: 0;
-}
-
-.st-terms-title {
-	background: #414042;
-	color: #ffffff;
-	padding: 0 10px;
-	text-transform: uppercase;
-}
-
-.st-term-value {
-	padding: 2px;
-	font-size: 10px;
 }
 
 /* armour */
@@ -549,6 +495,8 @@
 	width:104px;
 }
 
+/* story */
+
 .st-story {
 	margin: 0;
 	padding: 0;
@@ -556,4 +504,78 @@
 	top: 0px;
 	left: 810px;
 	width: 260px;
+}
+
+.st-background {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-background-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-background-value {
+	padding: 2px;
+	font-size: 10px;
+}
+
+/* education */
+
+.st-education {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-education-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-education-value {
+	padding: 2px;
+	font-size: 10px;
+}
+
+/* terms */
+
+.st-terms {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-terms-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-term-value {
+	padding: 2px;
+	font-size: 10px;
+}
+
+/* interactions */
+
+.st-interactions {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-interaction-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-interaction-value {
+	padding: 2px;
+	font-size: 10px;
 }

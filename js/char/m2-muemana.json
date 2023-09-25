@@ -1,0 +1,101 @@
+{
+	"overview": {
+		"ranks": ["Drifter (Wanderer)/0, Scholar (Field researcher)/2"],
+		"name": "Muemana Kabron",
+		"species": "Vegan",
+		"gender": "female",
+		"age": "114",
+		"traits": "Eye Memb, heat tol, high g intol",
+		"img": "muemana.jpg",
+		"initial": 40000
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 9,
+		"end": 8,
+		"int": 7,
+		"edu": 12,
+		"soc": 11
+	},
+	"skills": {
+		"art": 0,
+		"astrogation": 0,
+		"diplomat": 0,
+		"drive": 0, 
+		"electronics": 0, 
+		"electronics (computers)": 1, 
+		"electronics (sensors)": 1, 
+		"engineer": 0,
+		"engineer (life support)": 0, 
+		"flyer": 0,
+		"gun-combat": 0,
+		"investigate": 1,
+		"jack-of-all-trades": 1,
+		"language (solomani)": 1,
+		"mechanic": 0,
+		"persuade": 1,
+		"pilot": 0,
+		"profession": 0,
+		"science": 0,
+		"science (economics)": 1,
+		"science (genetics)": 1,
+		"science (history)": 1,
+		"streetwise": 0,
+		"vacc-suit": 0
+	},
+	"background": "Starting characterstics: Homeworld: Duikin Tyui, 6986C9, Art-0, Drive-0, Flyer-0, Profession-0, Streetwise-0",
+	"education": "Applied to a Vegan naval academy, but not admitted.",
+	"terms": [
+		"Drifter (Scavenger): Pilot-0, Merchanic-0, Astrogation-0, Vacc Suit-0, Profession-0, Gun Combat-0.  Life event: You pick up a few useful skills here and there. Gain one level of Jack-of-all-Trades. SOC+2.  Mustering out: Weapon.",
+		"Scholar (Field Researcher): Failed survival: The planetary government interferes with your research for political or religious reasons. If you continue with your work openly, increase Science by one level and gain an Enemy. This mishap does not cause you to leave this career: Science (Economics)-1, Diplomat: 0, Electronics 0.  Advance to rank/1.  Science (History)-1. Research was into economic trade and Vegan prosperity under Solomani Confederation.",
+		"Scholar (Field Researcher):  Science (Genetics)-1.  Life event: You become entangled in a bureaucratic or legal morass that distracts you from your work. Gain Persuade-1. No advancement.",
+		"Scholar (Field Researcher):  Language (Solomani)-1. You are given advanced training in a specialist field. Roll EDU 8+ to gain any one skill of your choice at level 1: Investigate-1. Rank/2: Electronics (Computers)-1, Engineering (Life Support).  Mustering out with: Cr40,000, Lab ship, INT+1"
+	],
+	"interactions": [
+		"Wants to buy genetic information to help with high gravity adoption.",
+		"Wants to buy powersuits to help with high gravity adoption.",
+		"Willing to sell artifacts from Vegan worlds.",
+		"Wants to take back Merganser by Vegans away from the human populations, grow the Vegan contingient.  The agricorps charge too much and seemingly work too casually and slowly for such a critical link int he Vegan Autonomous district",
+		"Wants to shift Vegan Autonomous District borders Spinward.",
+		"Supports fighting the Man First movement on Ludmilla",
+		"Advocates forcibly removing the Psionic Solomoni from Hieronymus. ",
+		"Has enemy in Dr. Kaiserliche of the Imperial Trade Council."
+	],
+	"armour": [
+		{
+			"name": "Cloth Jacket",
+			"tl": 10,
+			"cost": 500,
+			"mass":2,
+			"protection": 5,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 0,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	]
+}
