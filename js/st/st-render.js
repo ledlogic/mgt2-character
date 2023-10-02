@@ -200,46 +200,70 @@ st.render = {
 		var $story = $("<div class=\"st-section st-story\"></div>");
 		
 		// background
-		var $sk = $("<div class=\"st-section st-background\"></div>");
-		var skt = "<div class=\"st-background-title\">background</div>";
-		
-		var value = st.character.spec.background;
-		var skv = "<div class=\"st-background-value\">" + value + "</div>";
-		$story.append(skt+skv);
-		$story.append($sk);
+		var background = st.character.spec.background;
+		if (background) {
+			var $sk = $("<div class=\"st-section st-background\"></div>");
+			var skt = "<div class=\"st-background-title\">background</div>";
+			$sk.append(skt);
+
+			var skv = "<div class=\"st-background-value\">" + background + "</div>";
+			$sk.append(skv);
+			$story.append($sk);
+		}
 
 		// education
-		var $sk = $("<div class=\"st-section st-education\"></div>");
-		var skt = "<div class=\"st-education-title\">education</div>";
-		
-		var value = st.character.spec.education;
-		var skv = "<div class=\"st-education-value\">" + value + "</div>";
-		$story.append(skt+skv);
-		$story.append($sk);
+		var education = st.character.spec.education;
+		if (education) {				
+			var $sk = $("<div class=\"st-section st-education\"></div>");
+			var skt = "<div class=\"st-education-title\">education</div>";
+			$sk.append(skt);
+
+			var skv = "<div class=\"st-education-value\">" + education + "</div>";
+			$sk.append(skv);
+			$story.append($sk);
+		}
 
 		// terms
-		var $sk = $("<div class=\"st-section st-terms\"></div>");
-		var skt = "<div class=\"st-terms-title\">terms</div>";
-		$sk.append(skt);
-		
 		var terms = st.character.spec.terms;
-		_.each(terms, function(value, key) {
-			var skv = "<div class=\"st-term-value\">" + (key+1) + ". " + value + "</div>";
-			$sk.append(skv);	
-		});
-		$story.append($sk);
+		if (terms) {
+			var $sk = $("<div class=\"st-section st-terms\"></div>");
+			var skt = "<div class=\"st-terms-title\">terms</div>";
+			$sk.append(skt);
+			
+			_.each(terms, function(value, key) {
+				var skv = "<div class=\"st-term-value\">" + (key+1) + ". " + value + "</div>";
+				$sk.append(skv);	
+			});
+			$story.append($sk);
+		}
+		
+		// contacts
+		var contacts = st.character.spec.contacts;
+		if (contacts) {
+			var $ct = $("<div class=\"st-section st-contacts\"></div>");
+			var cct = "<div class=\"st-contacts-title\">contacts</div>";
+			$ct.append(cct);
+			
+			_.each(contacts, function(value, key) {
+				var cv = "<div class=\"st-contact-value\">" + (key+1) + ". " + value.type + ": " + value.kind + "</div>";
+				$ct.append(cv);	
+			});
+			$story.append($ct);
+		}
 		
 		// interactions
-		var $int = $("<div class=\"st-section st-interactions\"></div>");
-		var intt = "<div class=\"st-terms-title\">interactions</div>";
-		$int.append(intt);
-		
 		var interactions = st.character.spec.interactions;
-		_.each(interactions, function(value, key) {
-			var intv = "<div class=\"st-interaction-value\">" + (key+1) + ". " + value + "</div>";
-			$int.append(intv);	
-		});
-		$story.append($int);
+		if (interactions) {
+			var $int = $("<div class=\"st-section st-interactions\"></div>");
+			var intt = "<div class=\"st-terms-title\">interactions</div>";
+			$int.append(intt);
+			
+			_.each(interactions, function(value, key) {
+				var intv = "<div class=\"st-interaction-value\">" + (key+1) + ". " + value + "</div>";
+				$int.append(intv);	
+			});
+			$story.append($int);
+		}
 		
 		st.character.$pageft.append($story);		
 	}

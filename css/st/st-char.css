@@ -561,6 +561,26 @@
 	font-size: 10px;
 }
 
+/* contacts */
+
+.st-contacts {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.st-contacts-title {
+	background: #414042;
+	color: #ffffff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.st-contact-value {
+	padding: 2px;
+	font-size: 10px;
+	text-transform: capitalize;
+}
+
 /* interactions */
 
 .st-interactions {

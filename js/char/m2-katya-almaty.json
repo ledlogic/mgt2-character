@@ -1,0 +1,104 @@
+{
+	"overview": {
+		"ranks": ["Wastrel/1, Supervisor/2, Performer/1"],
+		"name": "Katya Almaty",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "30",
+		"traits": "",
+		"img": "katya-almaty.jpg",
+		"initial": 25325
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 7,
+		"end": 3,
+		"int": 9,
+		"edu": 8,
+		"soc": 13
+	},
+	"skills": {
+		"admin": 0,
+		"advocate": 2,
+		"art": 0,
+		"art (act)": 1,
+		"dance": 0,
+		"athletics": 0,    
+		"athletics (strength)": 1,
+		"carouse": 1,
+		"diplomat": 1,
+		"drive": 0,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"investigate": 0,
+		"language": 0,
+		"language (vilani)": 1,
+		"melee": 0,
+		"melee (blade)": 1,
+		"persuade": 1,
+		"streetwise": 0
+	},
+	"background": "Homeworld: Caprice A7669AA-C",
+	"education": "",
+	"terms": [
+		"Noble (Dilettante/1): Admin-0, Advocate-0, Diplomat-0, Electronics-0, Investigate-0, Persuade-0, Advocate-0.  New enemy: planetary warlord, Carouse-1, Melee (Slug)-1",
+		"Administrator (Supervisor/2): Diplomat-1, Language (Vilani)-1.  You inherit a gift from a rich relative. You were promoted Mustering Out Benefit: Ship Shares [1].",
+		"Entertainer (Performer/1): Art-0, Athletics (Strength)-1.  New contact: smuggler.  New contact: criminal syndicate.  Dex+1, Soc+1."
+	],
+	"interactions": [
+		"Expertise: Acting, scanning contracts, running businesses, making connections, sealing the deal, quick read on legalese.",
+		"Weaknesses: Adventurous, thrillseeker, needs her close social group to keep her out of trouble.  Tries to blend into crowds (but fails).  Low tolerance to substances.",
+		"Embarrassing fact: her father has been in and out of white-collar prison for insider trading on and off again for the past two decades.  Her mother keeps up appearances as if they have not lost social standing, using her expert admin skills."
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass":3,
+			"protection": 8,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Accelerator rifle",
+			"tl": 9,
+			"cost": 900,
+			"mass": 2,
+			"range": 250,
+			"damage": "3D",
+			"magazine": 15,
+			"power pack cost": 30,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "smuggler"
+		},
+		{
+			"type": "contact",
+			"kind": "criminal syndicate"
+		},
+		{
+			"type": "enemy",
+			"kind": "planetary warlord"
+		}
+	]
+}
