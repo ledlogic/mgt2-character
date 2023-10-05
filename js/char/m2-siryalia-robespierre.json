@@ -1,0 +1,117 @@
+{
+	"overview": {
+		"ranks": ["Corporate Manager/2, Artist (Performer)/1, Colonist/1"],
+		"name": "Siryalia Robespierre",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "38",
+		"traits": "",
+		"img": "siryalia-robespierre.jpg",
+		"initial": 6800
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 7,
+		"end": 6,
+		"int": 8,
+		"edu": 10,
+		"soc": 12
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 0,
+		"art": 0,
+		"art (act)": 2,
+		"athletics": 0,    
+		"athletics (dexterity)": 1,
+		"broker": 0,
+		"diplomat": 1,
+		"drive": 0,
+		"drive (hovercraft)": 1,
+		"electronics": 0,
+		"flyer": 0,
+		"leadership": 0,
+		"medic": 1,
+		"persuade": 0,
+		"profession": 0,
+		"profession (biologicals)": 1,
+		"profession (hydroponics)": 1,
+		"stealth": 1,
+		"streetwise": 1,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Thetis A56A944-E",
+	"education": "7767AC",
+	"terms": [
+		"Citizen (Corporate/1): Admin-0, Advocate-0, Broker-0, Electronics-0, Diplomat-0, Leadership-0, INT+1, Diplomat-1, Art (Act)-1. You befriend a superior in the corporation or the colony. Gain an Ally. Either gain Diplomat 1 or DM +4 to your next Advancement roll thanks to his aid. Your new Ally either ensures you have Diplomacy at 1, or puts in a good word for your next evaluation (+4 Advancement) You were promoted.",
+		"Citizen (Corporate Manager/2): Profession (Biologicals)-1, Admin-1, Profession (Hydroponics)-1.  Someone close to you dies, such as a friend or family member. Alternatively, someone close to you gives birth (or is born!). You are involved in some fashion (father or mother, relative, godparent, or similar). You were promoted.",
+		"Citizen (Corporate Manager/2): Streetwise +1, New enemy: criminal gang.  There was a mishap during this term! You are harassed and your life ruined by a criminal gang. Gain the gang as an Enemy. Mustering Out Benefit: Ship Shares [2].",
+		"Artist (Performer/0): Persuade-0, Athletics (Dexterity)-1. There was a mishap during this term! You expose or are involved in a scandal of some sort.",
+		"Colonist: Drive-0, Drive (Hovercraft)-1.  New ally: planetary governor. There was a mishap during this term! Your business is investigated by the planetary authorities (or your colony suffers interference from interests off world). Are you going to cooperate? Reduce one physical attribute by 1 Modified Str by -1 Mustering Out Benefit: New Ally: Starport Administrator."
+	],
+	"interactions": [
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass":3,
+			"protection": 8,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Accelerator rifle",
+			"tl": 9,
+			"cost": 900,
+			"mass": 2,
+			"range": 250,
+			"damage": "3D",
+			"magazine": 15,
+			"power pack cost": 30,
+			"traits":"Zero-g",
+			"equipped": true
+		},
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits":"Stun, Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "planetary governor (trapezus)"
+		},
+		{
+			"type": "ally",
+			"kind": "starport administrator (thetis)"
+		},
+		{
+			"type": "criminal gang",
+			"kind": "kidashibang (saskatoon)"
+		}
+	]
+}
