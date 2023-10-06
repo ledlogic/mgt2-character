@@ -1,0 +1,116 @@
+{
+	"overview": {
+		"ranks": ["Artist (Performer)/1, Colonist/1, Noble (Assistant)/0"],
+		"name": "Usha Dasdatta",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "38",
+		"traits": "",
+		"img": "usha-dasdatta-02.jpg",
+		"initial": 11550
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 12,
+		"end": 3,
+		"int": 5,
+		"edu": 11,
+		"soc": 11
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 0,
+		"art": 0,
+		"art (act)": 1,
+		"art (dance)": 1,
+		"carouse": 2,    
+		"deception": 0,
+		"diplomat": 2,
+		"drive": 0,
+		"drive (wheel)": 2,
+		"language": 0,
+		"language (vegan)": 1,
+		"mechanic": 0,
+		"navigation": 0,
+		"persuade": 0,
+		"profession": 0,
+		"profession (belter)": 1,
+		"recon": 0,
+		"steward": 0,
+		"streetwise": 1,
+		"survival": 1,
+		"vacc suit": 1
+	},
+	"background": "Homeworld: Jardin A5679BC-D 7B35BB",
+	"education": "Navigation-0, Act-0, Art-0, EDU +1, Carouse-0.  Taking advantage of youth, you party as much as you study. Gain Carouse 1. You just weren't meant to graduation from the University. You pack your things and leave school without a diploma. But you will not leave completely empty handed: you've gained some years and some knowledge.",
+	"terms": [
+		"Deception-0, Drive-0, Persuade-0, Steward-0, INT +1, alien artifact, DEX +1, Carouse-2. As an artist, you lead a strange and charmed life. Go to the Life Events Table and have an Unusual Event. You have a strange and unusual device from an alien culture that is not normally available to humans. You were promoted.",
+        "Art (Dance)-1, SOC -1. There was a mishap during this term! Public opinion turns on you. Reduce your SOC by 1. Mustering Out Benefit: New Contact: Alien Ambassador Mustering Out Benefit: SOC +1.",
+		"Recon-0, Diplomat-1, drive + 1, profession +1.  You spend time maintaining and using heavy vehicles, either as part of your job or as a hobby. Increase Mechanic, Drive, Electronics, Flyer or Engineer by one level. You were promoted Mustering Out Benefit: Ship Shares [2].",
+		"Advocate-0, Admin-1, Streetwise-1.  Your time as a ruler or playboy gives you a wide range of experiences. Gain one of Animals (Handling) 1, Art 1, Carouse 1, or Streetwise 1 Sorry, you were passed over for promotion this term. It's time they start respecting you for all your hard work! Reduce two physical attributes by 1 Modified Dex by -1, Modified Str by -1."
+	],
+	"interactions": [
+		"Diplomacy, holography, driving sportscars, and studying deficiencies in other societies.",
+		"Weaknesses: Prone to elitism and low empathy due to upbringing in state-run creches.  Shuns close relationships as she plans to return to Jardin and live a totally differently life when returning."
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass":3,
+			"protection": 8,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits":"AP 3, Auto 2",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Alien Artifact",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Ship Shares [2]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "planetary governor (masku)"
+		},
+		{
+			"type": "ally",
+			"kind": "corporate executive (nikos lerosis)"
+		},
+		{
+			"type": "criminal syndicate",
+			"kind": "jankin syndicate"
+		}
+	]
+}
