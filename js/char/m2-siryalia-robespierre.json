@@ -98,6 +98,78 @@
 			"range": 0,
 			"traits":"-",			
 			"equipped": true
+		},
+		{
+			"name": "Ship Shares [2]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Grav floater",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Neural-Comm (A/V/D)",
+			"tl": "14",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Wafer Jack (8)",
+			"tl": "13",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Full Body Hair Styler",
+			"tl": "-",
+			"cost": 0,
+			"mass": 8,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Personal Safe (Formidable)",
+			"tl": "-",
+			"cost": 0,
+			"mass": 8,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Autolaundry",
+			"tl": "10",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Domestic Servant",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
 		}
 	],
 	"contacts": [

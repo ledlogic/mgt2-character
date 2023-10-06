@@ -72,7 +72,7 @@
 			"damage": "3D",
 			"magazine": 15,
 			"power pack cost": 30,
-			"traits":"Zero-g",
+			"traits":"Zero-g,Secure",
 			"equipped": true
 		}
 	],
@@ -82,6 +82,87 @@
 			"tl": 6,
 			"cost": 75,
 			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Ship Shares [1]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "High Fidelity Music System",
+			"tl": "11",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Bug (5)",
+			"tl": "11",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "P-HUD Module",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Portable Computer",
+			"tl": "14",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Radio Tranceiver (Very Distant)",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Slow Drug",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Tactical Video Suite",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Wrist Watch",
+			"tl": "10",
+			"cost": 0,
+			"mass": 0,
 			"range": 0,
 			"traits":"-",			
 			"equipped": true
