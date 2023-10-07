@@ -1,0 +1,116 @@
+{
+	"overview": {
+		"ranks": ["Corporate/1, Artist/3"],
+		"name": "Edmore Gray",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "34",
+		"traits": "",
+		"img": "edmore-gray.jpg",
+		"initial": 163725,
+		"debt": 5000
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 5,
+		"end": 5,
+		"int": 12,
+		"edu": 8,
+		"soc": 11
+	},
+	"skills": {
+		"admin": 0,
+		"advocate": 0,
+		"art": 0,
+		"art (act)": 3,
+		"art (dance)": 1,
+		"astrogation": 1,
+		"broker": 0,
+		"carouse": 4,    
+		"diplomat": 0,
+		"drive": 0,
+		"drive (wheel)": 1,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"gambler": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"investigate": 1,
+		"leadership": 0,
+		"recon": 1,
+		"profession": 0,
+		"steward": 0
+	},
+	"background": "Homeworld: Vantage A8DA88A-E",
+	"education": "",
+	"terms": [
+		"Corporate/0: advocate +1, admin +1, broker +1, computers +1, diplomat +1, leadership +1, drive +1, new ally: corporate executiv.  There was a mishap during this term! Your business is investigated by the planetary authorities (or your colony suffers interference from interests off world). Stood up to investigation of Lamarck Minerals",
+		"Artist/1: steward 0, carouse +1, new contact: imperial diplomat, new contact: imperial agent, new contact: artificial intelligence, ensure [act] at least 1, ensure [art] at least 1, carouse +1.  You go on a tour of the sector, visiting several worlds. Gain D3 Contacts. You were promoted",
+		"Artist/2: art +1, new ally: eccentric scientist, art +1. You were promoted",
+		"Artist/3: carouse +1, new ally: mercenary, advancement modifier [2], ensure [investigate] at least 1, carouse +1, gambler+1, slug+1. You were promoted.  You gain a patron in the arts. Gain DM +2 to your next Advancement check and an Ally. You were promoted Reduce one physical attribute by 1 Modified Str by -1 Mustering Out Benefit: New Contact: Bored Noble Mustering Out Benefit: Ship Shares [2] Mustering Out Benefit: Soc +1 Mustering Out Benefit: Ship Shares [2]"
+	],
+	"interactions": [
+		"Connection Event [Patron of the Arts] with Katarin Xuan(Human, 26, Female, Noble-Dilettante)",
+		"Connection Event [Promotion] with Mercenary(Human, 40, Male, Rogue-Enforcer)"
+	],
+	"armour": [
+		{
+			"name": "Ablat",
+			"tl": 9,
+			"cost": 75,
+			"mass": 2,
+			"protection": "1 (Laser: +6)",
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Accelerator rifle",
+			"tl": 11,
+			"cost": 1500,
+			"mass": 2,
+			"range": 400,
+			"damage": "3D",
+			"magazine": 20,
+			"power pack cost": 40,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Ship Shares [4]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "smuggler"
+		},
+		{
+			"type": "contact",
+			"kind": "criminal syndicate"
+		},
+		{
+			"type": "enemy",
+			"kind": "planetary warlord"
+		}
+	]
+}

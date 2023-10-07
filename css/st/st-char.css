@@ -185,6 +185,26 @@
 	z-index:10;
 }
 
+.st-overview-label-debt {
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 240px;
+}
+
+.st-overview-debt {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	left: 270px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+	top: 266px;
+	z-index:10;
+}
+
+
 /* attributes */
 
 .st-attributes {

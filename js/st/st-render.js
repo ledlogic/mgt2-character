@@ -182,10 +182,11 @@ st.render = {
 		var overview = spec.overview;
 		overview.expenses = expenses;
 		var credits = overview.initial - expenses;
+		var debt = overview.debt;
 		var $overview = $(".st-overview");
 		overview.credits = credits;
 		
-		var arr = ["age", "traits", "initial", "credits"];
+		var arr = ["age", "traits", "initial", "credits", "debt"];
 		for (var i=0; i<arr.length; i++) {
 			var key = arr[i];
 			var value = overview[key];
