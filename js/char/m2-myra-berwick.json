@@ -1,0 +1,168 @@
+{
+	"overview": {
+		"ranks": ["Artist (Performer)/4"],
+		"name": "Myra Berwick",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "38",
+		"traits": "",
+		"img": "myra-berwick.jpg",
+		"initial": 3375
+	},
+	"characteristics": {
+		"str": 9,
+		"dex": 5,
+		"end": 5,
+		"int": 8,
+		"edu": 10,
+		"soc": 10,
+		"psi": 6 
+	},
+	"skills": {
+		"admin": 0,
+		"art": 0,
+		"art (act)": 1,
+		"art (dance)": 1,
+		"astrogation": 0,
+		"astrogation": 0,
+		"carouse": 1,    
+		"deception": 1,
+		"diplomat": 1,
+		"electronics": 0,
+		"electronics (computers)": 1,
+		"flyer": 0,
+		"gambler": 1,
+		"gun combat": 0,
+		"mechanic": 0,
+		"melee": 0,
+		"melee (unarmed)": 1,
+		"pilot": 1,
+		"profession": 0,
+		"seafarer": 0,
+		"science": 0,
+		"science (archeology)": 2,
+		"streetwise": 1,
+		"vacc suit": 1,
+		"PSIONIC: Clairovoyance": 0,
+		"PSIONIC: Telepathy": 1
+	},
+	"background": "Homeworld: Pilgham (SR0332 B54296A-B).",
+	"education": "Not admitted, though applied three times to colleges.",
+	"terms": [
+		"Drifter (Scavenger)/0: Pilot-0, Mechanic-0, astrogation-0, profession-0, gun combat-0, vacc suit-1, STR +1. There was a mishap during this term! Injury Modified Str by -1 In this career, you were injured [Str: -1 point, ]. Your previous employer covers (50%) of the cost, leaving you to pay [2500] credits. Let this opportunity (and potential debt) pass, or get professional medical attention? Your out of pocket cost will be [2500] credits to heal Str: -1 point,  You sought professional medical attention.",
+		"Corporate/1: computers 0, gambler +1, electronics + 1, diplomat +1.  You spend time maintaining and using heavy vehicles, either as part of your job or as a hobby. Increase Mechanic, Drive, Electronics, Flyer or Engineer by one level. You were promoted Mustering Out Benefit: New Ally: Free Trader.",
+		"Scavenger/1: unarmed +1, ensure [streetwise] at least 1, DEX +1.  You encounter a Psionic institute.  You undergo testing.  After testing you've found that you have  a small but important amount  of Psionic potential that you've only just begun to understand. TrainForTalentYou spend 0 credits attempting to gain mastery of your Psionic potential. You train across the span of 0 weeks. You did it! You learned ClairvoyanceIt just didn't come to you.  Awareness is currently beyond your grasp.It just didn't come to you.  Telekinesis is currently beyond your grasp. You were promoted Mustering Out Benefit: New Contact: Famous Performer Mustering Out Benefit: New Allies: Researcher Mustering Out Benefit, Planetary Warlord",
+		"Artist/1: carouse-0, art-1, one mustering out benefit roll at [1], ensure [dance] at least 1, deception +1.  One of your works is especially well received and popular, making you a minor celebrity. Gain DM +1 to any one Benefit roll. You were promoted Reduce three physical attributes by 1 Modified Str by -1, Modified Dex by -1, Modified End by -1",		
+		"Artist/1: carouse+1. There was a mishap during this term! You expose or are involved in a scandal of some sort."		
+	],
+	"interactions": [
+		"Expertise: Acting, Civil Engineering, and Archeology.",
+		"Weaknesses: Loves to travel more than working."
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass":3,
+			"protection": 8,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		},
+		{
+			"name": "Vacc Suit",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
+			"protection": 10,
+			"rad": 90,
+			"traits":"Vacc Suit 0",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 0,
+			"traits":"",
+			"equipped": true
+		},
+		{
+			"name": "Long Blade",
+			"tl": 3,
+			"cost": 300,
+			"mass": 4,
+			"range": 0,
+			"damage": "3D+2",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits":"AP 3, Auto 2",
+			"equipped": true
+		},
+		{
+			"name": "Crossbow",
+			"tl": 1,
+			"cost": 200,
+			"mass": 3,
+			"range": 100,
+			"damage": "3D-3",
+			"magazine": 1,
+			"power pack cost": 1,
+			"traits":"AP 2, Silent",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Ground car",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Light Intensifier Goggles",
+			"tl": "9",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Wafer Jack (8)",
+			"tl": "13",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Free Trader"
+		},
+		{
+			"type": "ally",
+			"kind": "Researcher"
+		},
+		{
+			"type": "ally",
+			"kind": "Planetary Warlord"
+		},
+		{
+			"type": "contact",
+			"kind": "Famous Performer"		}
+	]
+}

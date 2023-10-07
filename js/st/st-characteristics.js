@@ -6,5 +6,6 @@ st.characteristics = {
 	"end": {name: "endurance"},
 	"int": {name: "intellect"},
 	"edu": {name: "education"},
-	"soc": {name: "social"}
+	"soc": {name: "social"},
+	"psi": {name: "psionics"}
 };

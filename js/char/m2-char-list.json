@@ -5,12 +5,20 @@
 			"uri": "m2-calypso.json"
 		},
 		{
+			"name": "Solomani Front: Katya Almaty",
+			"uri": "m2-katya-almaty.json"
+		},
+		{
 			"name": "Solomani Front: Moonchild",
 			"uri": "m2-moonchild.json"
 		},
 		{
-			"name": "Solomani Front: Katya Almaty",
-			"uri": "m2-katya-almaty.json"
+			"name": "Solomani Front: Muemana",
+			"uri": "m2-muemana.json"
+		},
+		{
+			"name": "Solomani Front: Myra Berwick",
+			"uri": "m2-myra-berwick.json"
 		},
 		{
 			"name": "Solomani Front: Siryalia Robespierre",
@@ -19,10 +27,6 @@
 		{
 			"name": "Solomani Front: Usha Dasdatta",
 			"uri": "m2-usha-dasdatta.json"
-		},
-		{
-			"name": "Solomani Front: Muemana",
-			"uri": "m2-muemana.json"
 		},
 		{
 			"name": "Vargr Extents: Zeki",

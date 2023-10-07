@@ -251,19 +251,24 @@
 	top: 69px;
 }
 
-.st-attribute-label-edu,
-.st-attribute-edu {
+.st-attribute-label-int,
+.st-attribute-int {
 	top: 92px;
 }
 
-.st-attribute-label-int,
-.st-attribute-int {
+.st-attribute-label-edu,
+.st-attribute-edu {
 	top: 115px;
 }
 
 .st-attribute-label-soc,
 .st-attribute-soc {
 	top: 138px;
+}
+
+.st-attribute-label-psi,
+.st-attribute-psi {
+	top: 161px;
 }
 
 .st-attribute-mod {
@@ -322,7 +327,7 @@
 
 .st-skill {
 	display:block;
-	font-size: 10px;
+	font-size: 9.25px;
 	width: 200px;
 }
 
@@ -558,7 +563,7 @@
 
 .st-term-value {
 	padding: 2px;
-	font-size: 10px;
+	font-size: 8.8px;
 }
 
 /* contacts */
