@@ -1,0 +1,137 @@
+{
+	"overview": {
+		"ranks": ["Artist (Journalist)/1, Entertainer (Freelancer)/1, Cavalry (Trooper)/0, Scientist (Explorer) Scout/1, Artist (Performer)/2"],
+		"name": "Rille Iquiek",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "38",
+		"traits": "Psionic",
+		"img": "rille-iquiek.jpg",
+		"initial": 68750
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 6,
+		"end": 11,
+		"int": 11,
+		"edu": 9,
+		"soc": 10,
+		"psi": 6
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 0,
+		"art": 0,
+		"art (act)": 2,
+		"broker": 1,
+		"carouse": 0,    
+		"deception": 0,
+		"diplomat": 2,
+		"drive": 0,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"electronics (remote ops)": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"gun combat (slug)": 2,
+		"jack-of-all-trades": 1,
+		"language": 0,
+		"language (vegan)": 1,
+		"medic": 1,
+		"persuade": 0,
+		"pilot": 0,
+		"profession": 0,
+		"profession (polymers)": 1,
+		"recon": 1,
+		"science": 0,
+		"science (genetics)": 1,
+		"science (psionicology)": 1,
+		"steward": 1,
+		"vacc suit": 1,
+		"Psionics: Awareness": 0,
+		"Psionics: Clairovoyance": 0,
+		"Psionics: Telekineses": 0,
+		"Psionics: Telepathy": 0
+	},
+	"background": "Homeworld: Twylo (SR1034) A551AA6-E",
+	"education": "language-0, profession (Polymers)-0, profession-0, edu +1.  You are approached by an underground (and highly illegal) psionic group who sense potential in you. After psionic testing you've found that you have  an average amount  of Psionic potential.",
+	"terms": [
+		"Artist (Journalist)/1: carouse-0, deception-0, persuade-0, steward-1, new ally: corporate agent, electronics (comms)-1, jack-of-all-trades-1.  You gain a patron in the arts. You were promoted.",
+		"Entertainer (Freelancer)/1: Mustering Out Benefit: Soc+1, Int+1.",
+		"Marines (Cavalry) Trooper: Gun combat (energy)-1, Gun combat (slug)-1, medic-1, gun combat (slug)-2, new contacts: army quartermaster, inveterate gambler, imperial agent. You are involved in a disastrous campaign and barely escape off planet in a frantic and badly organised evacuation. This leaves you a long way from friendly lines and you makes D3 Contacts as you return home. You are exonerated. Obtain an additional benefit in your current career. Mustering Out Benefit: The Nenjchinzhe’driante (the Consular Legion of Merit).",
+		"Explorer Scout/1: end +1, recon +1, vacc suit-1, science +1.  You survey an alien world. Science-1. You were promoted. Aging: Str-1, End-1. Mustering Out Benefit: Slug+1",
+		"Artist Rank/2: art (act)-1, new enemy: free trader, admin-1, art (act)-2. You have the opportunity to criticize or even bring down a questionable political leader on your homeworld. If you refuse and support the leader, you gain nothing. If you accept, gain an Enemy and roll Art or Persuade 8+. You choose to profit from the secret you learned. Did you learn a new skill (either Deception 1, or Streetwise 1), or did you work through the underground and gain a contact? Using your personal charm/fame, your create works or perform in an attempt to draw badly needed attention to your candidate. SOC +1." 		
+	],
+	"interactions": [
+		"Expertise: Acting, administration, extremely deceptive.",
+		"Weaknesses: Good eye for a easy target – thievery."
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass":3,
+			"protection": 8,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits":"AP 3, Auto 2",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits":"-",			
+			"equipped": true
+		},
+		{
+			"name": "Gauss Pistol (laser sight)",
+			"tl": 10,
+			"cost": 200,
+			"mass": 0,
+			"range": "0",
+			"traits":"-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Corporate Agent"
+		},
+		{
+			"type": "contact",
+			"kind": "army quartermaster"
+		},
+		{
+			"type": "contact",
+			"kind": "inveterate gambler"
+		},
+		{
+			"type": "contact",
+			"kind": "imperial agent"
+		},
+		{
+			"type": "enemy",
+			"kind": "free trader"
+		}
+	]
+}
