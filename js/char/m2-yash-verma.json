@@ -1,0 +1,156 @@
+{
+	"overview": {
+		"ranks": ["Artist (Performer)/1, Colonist/1, Noble (Assistant)/0"],
+		"name": "Yash Verma",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "42",
+		"traits": "-",
+		"img": "yash-verma.jpg",
+		"initial": 163725,
+		"debt": 5000
+	},
+	"characteristics": {
+		"str": 12,
+		"dex": 5,
+		"end": 7,
+		"int": 9,
+		"edu": 7,
+		"soc": 10
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 1,
+		"animals": 0,
+		"art": 0,
+		"art (act)": 1,
+		"astrogation": 0,
+		"broker": 1,    
+		"carouse": 1,    
+		"deception": 1,
+		"diplomat": 1,
+		"drive": 0,
+		"electronics": 0,
+		"flyer": 0,
+		"flyer (rotor)": 1,
+		"gambler": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"investigate": 1,
+		"recon": 1,
+		"science": 0,
+		"science (archeology)": 1,
+		"stealth": 0,
+		"streetwise": 1,
+		"survival": 0
+	},
+	"background": "Homeworld: Scathe A000A99-E",
+	"education": "",
+	"terms": [
+		"Wanderer: Drive-0, Deception-0, Recon-0, Stealth-0, Streetwise-0, Survival-0, DEX+1, -5000 credits.  You are offered a chance to take part in a risky but rewarding adventure. Injury You'll never forget the feeling of losing a part of yourself. Choose between reducing your Strength or your Dexterity by 1 Mustering Out Benefit: New Contact: Famous Performer In this career, you were injured [DEX -1].  You sought professional medical attention.",
+		"Corporate/1: Broker-0, Advocate-1, Investigate-1, Broker-1.  You are given advanced training in a specialist field. You were promoted.",
+        "Corporate/2: Diplomat-1, Admin-1, INT+1.  You befriend a superior in the corporation or the colony. Gain an Ally. Your new Ally either ensures you have Diplomacy at 1, or puts in a good word for your next evaluation. You were promoted.",
+		"Corporate/3: Flyer-1, END+2, -5000 credits There was a mishap during this term! Injury Modified END-2. Your previous employer covers (50%) of the cost. You seek professional medical attention.",
+		"Diplomat (3rd secretary)/1: Electronics-0, Deception-1, Act-1, Admin-1, Gambler-1. Your time as a ruler or playboy gives you a wide range of experiences. Gain Streetwise-1. You were promoted.",
+		"Diplomat (2nd Secretary)/2: Carouse-1, new ally: planetary governor, Gambler-2, Science (Archaeology)-1, Gun combat (Energy)-1.  You were promoted. Mustering Out Benefit: Nontransferable, lifetime membership in the Traveller’s Aid Society (TAS). Mustering Out Benefit: Ship Shares [2]."
+	],
+	"interactions": [
+		"Diplomacy, holography, driving sportscars, and studying deficiencies in other societies.",
+		"Weaknesses: Prone to elitism and low empathy due to upbringing in state-run creches.  Shuns close relationships as she plans to return to Jardin and live a totally differently life when returning."
+	],
+	"armour": [
+		{
+			"name": "Ablat",
+			"tl": 9,
+			"cost": 75,
+			"mass": 2,
+			"protection": "1 (Laser: +6)",
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Flechette Pistol",
+			"tl": 9,
+			"cost": 275,
+			"mass": 1,
+			"range": 10,
+			"damage": "3D-2",
+			"magazine": 2,
+			"power pack cost": 10,
+			"traits":"Silent",
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 275,
+			"mass": 2,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "TAS Membership",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Ship Shares [2]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Laser Sight",
+			"tl": "10",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"-",			
+			"equipped": false
+		},
+		{
+			"name": "Neural-Link",
+			"tl": "13",
+			"cost": 30000,
+			"mass": 0,
+			"range": 0,
+			"traits":"Neural Comm + nervous system access",			
+			"equipped": true
+		},
+		{
+			"name": "PERIPHERAL VISION ENHANCEMENT",
+			"tl": 10,
+			"cost": 50000,
+			"mass": 0,
+			"range": 0,
+			"traits":"DM+1 to initiative and recon checks",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "planetary governor (Cameron Saruven)"
+		},
+		{
+			"type": "contact",
+			"kind": "famous performer (Edmore Gray)"
+		}
+	]
+}
