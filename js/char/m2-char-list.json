@@ -1,6 +1,10 @@
 {
 	"characters": [
 		{
+			"name": "Majesty's Secret Service: Makval",
+			"uri": "m2-makval.json"
+		},
+		{
 			"name": "Solomani Front: Calypso",
 			"uri": "m2-calypso.json"
 		},

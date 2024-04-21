@@ -1,0 +1,127 @@
+{
+	"overview": {
+		"ranks": ["Agent-1, Citizen-2, Corporate-1, Scout-1"],
+		"name": "Makval Shaposym",
+		"species": "Human/Solomani",
+		"gender": "Male",
+		"age": "38",
+		"traits": "Suspicious, Rope-tier, Cigar Scented",
+		"img": "makval.webp",
+		"initial": 2550,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 9,
+		"end": 7,
+		"int": 10,
+		"edu": 11,
+		"soc": 9
+	},
+	"skills": {
+		"animals": 0,
+		"athletics": 0,
+		"broker": 1,
+		"deception": 1,
+		"drive": 0,
+		"electronics": 0,
+		"electronics/sensors": 1,
+		"engineer": 0,
+		"flyer": 0,
+		"flyer/rotor": 1,
+		"gun-combat": 0,
+		"leadership": 1,
+		"mechanic": 1,
+		"medic": 1,
+		"pilot": 0,
+		"pilot/smallcraft": 1,
+		"profession (waterskin armorer/tailor)": 0,
+		"recon": 2,
+		"science": 0,
+		"stealth": 2,
+		"streetwise": 1,
+		"vacc-suit": 1
+	},
+	"background": "",
+	"education": "",
+	"terms": [
+		"Citizen/Worker-0",
+		"Citizen/Worker-1",
+		"Agent/Intelligence-0",
+		"Scout/Explorer-0",
+		"Citizen/Corporate"
+	],
+	"armour": [
+		{
+			"name": "Protec Suit",
+			"tl": 9,
+			"cost": 0,
+			"mass": 1,
+			"protection": 4,
+			"rad": 0,
+			"traits":"",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 0,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits":"Zero-g",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Automedikit",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": "",
+			"traits":"Automatically applies First Aid if the wearer is reduced to END 0: Medic-1",		
+			"equipped": true
+		},
+		{
+			"name": "Disguise Net",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": "-",
+			"traits":"Short-range holographic projectors mimic the appearance of any individual, real or imagined, creating features that float just above the surface. Will almost always fool even very close visual inspection but easily detectable by electronics. It can be worn above clothing. Limited to same general size and shape – slightly larger is possible; smaller is not. Batteries last a day, with wireless recharging.",			
+			"equipped": true
+		},
+		{
+			"name": "Electronic Binoculars",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits":"Laser rangefinder and light intensification function that allows vision in all conditions of poor lighting except total darkness. Electronic binoculars do not allow the user to see through fog, smoke or thick foliage. TL9: +infrared and thermal imaging capabilities. TL10: +image-processing unit to help identify partially hidden objects.",			
+			"equipped": true
+		},
+		{
+			"name": "Radio Transceiver/Continental",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": "12 km",
+			"traits": "Added to Electronic Binoculars. Integral Computer/0 functionality,",			
+			"equipped": true
+		},
+		{
+			"name": "Sunglasses",
+			"tl": 9,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits":"Sunglasses or full goggles designed to protect the eyes from bright light. At TL7, reactive lenses are available allowing the wearer to keep their shades on while moving from dark to light conditions. At TL9, they include automatic protection against very bright light such as lasers, flares or nuclear detonations. The shades remain dark for a full minute after protecting the wearer in this way and must be removed to regain sight.",			
+			"equipped": true
+		}
+	]
+}
