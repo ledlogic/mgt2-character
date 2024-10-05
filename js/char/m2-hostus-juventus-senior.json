@@ -1,0 +1,162 @@
+{
+	"overview": {
+		"ranks": [""],
+		"name": "Hostus Juventus, Senior",
+		"species": "Solamani",
+		"gender": "male",
+		"age": "50",
+		"traits": "determined",
+		"img": "hostus-juventus-senior.png",
+		"initial": 550,
+		"debt": 60000
+	},
+	"characteristics": {
+		"str": 3,
+		"dex": 2,
+		"end": 5,
+		"int": 9,
+		"edu": 13,
+		"soc": 9,
+		"psi": 4
+	},
+	"skills": {
+		"art": 0,
+		"athletics": 0,
+		"drive": 0,
+		"electronics": 0,
+		"electronics (comms)": 2,
+		"electronics (computers)": 1,
+		"engineer": 0,
+		"engineer (j-drive)": 1,
+		"engineer (power)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 2,
+		"heavy weapons": 0,
+		"heavy weapons (vehicle)": 1,
+		"joat": 1,
+		"leadership": 2,
+		"mechanic": 0,
+		"melee": 0,
+		"navigation": 1,
+		"recon": 0,
+		"seafarer": 0,
+		"streetwise": 0,
+		"vacc suit": 2
+	},
+	"background": "Homeworld: Cyan/Kukulkan (Solomani Rim 2937) A552767-C",
+	"interactions": [
+		"Expertise: ",
+		"Weaknesses: "
+	],
+	"terms": [
+		"Army (Support)/0: You didn't survive the brutal ground war intact. Sometimes in life, things don't go as planned. Something bad has happened... It was gruesome. Your existence flashed before your eyes. You're lucky to even be alive. Reduce one physical characteristic by 1D, then reduce two other physical characteristics by 2 Modified Str by -4 Modified Dex by -2, Modified Str by -2 [Str] in Crisis.You are seriously injured, and hospitalized. Your mortality is readily apparent. Your concern about the money is second only to your desire to get better. Sorry, you were passed over for promotion this term. It's time they start respecting you for all your hard work!",
+		"Army/1: You are assigned to a planet with a hostile or wild environment. Gain one of Vacc Suit 1, Engineer (any) 1, Animals (Handling or Training) 1 or Recon 1.",
+		"Army/2: You are thrown into a brutal ground war. Throw Endurance 8+ to avoid injury; if you succeed, you gain one level in Gun Combat (any) or Leadership. [SUCCEEDED] You successfully survived the brutal ground war. Gain 1 level in Gun Combat or Leadership You were promoted.",
+		"Army/2: You didn't survive the brutal ground war intact. Sometimes in life, things don't go as planned. Something bad has happened... It was gruesome. Your existence flashed before your eyes. You're lucky to even be alive. Reduce one physical characteristic by 1D, then reduce two other physical characteristics by 2 Modified Str by -4 Modified Dex by -2, Modified Str by -2 [Str] in Crisis.You are seriously injured, and hospitalized. Your mortality is readily apparent. Your concern about the money is second only to your desire to get better. Sorry, you were passed over for promotion this term. It's time they start respecting you for all your hard work!",
+		"Scouts (Explorer)/0: You are assigned to a planet with a hostile or wild environment. Gain one of Vacc Suit 1, Engineer (any) 1, Animals (Handling or Training) 1 or Recon 1.",
+		"Scouts (Explorer)/1.",
+		"Scouts (Courier)/1: When dealing with an alien race, you have an opportunity to gather extra intelligence about them. Roll either Electronics 8+ or Deception 8+. If you succeed, gain an Ally in the Imperium and a +2 DM to your next Advancement roll. If you fail, roll on the Mishap table, but you are not ejected from this career. You use your knowledge of Electronics [FAILED] Mishap: Injury You'll never forget the feeling of losing a part of yourself. Choose between reducing your Strength or your Dexterity by 1 Sorry, you were passed over for promotion this term. It's time they start respecting you for all your hard work! Reduce one physical attribute by 2, and two physical attributes by 1 Modified End by -2 Modified Str by -1, Modified Dex by -1.",
+		"Scouts (Explorer)/2: Your Scout ship is one of the first on the scene to rescue the survivors of a disaster. Roll either Medic 8+ or Engineer 8+. If you succeed, gain a Contact and a +2 DM to your next Advancement check. If you fail, gain an Enemy. You choose to help by using your Engineer skill [SUCCEEDED] You were promoted Reduce two physical attribute by 2, and one physical attribute by 1 Modified Dex by -2, Modified End by -2 Modified Dex by -1 Mustering Out Benefit: Slug + 1 Mustering Out Benefit: Int +1 Mustering Out Benefit: Edu +1 In this career, you were injured [Str: -1 point, ].  Your previous employer covers (0%) of the cost, leaving you to pay [5000] credits.  Let this opportunity (and potential debt) pass, or get professional medical attention? Your out of pocket cost will be [5000] credits to heal Str: -1 point, You seek professional medical attention. It's time to heal!"
+	],
+	"armour": [
+		{
+			"name": "Combat Environment Suit",
+			"tl": 0,
+			"cost": 0,
+			"mass":2,
+			"protection": 8,
+			"rad": 20,
+			"traits": "None",
+			"equipped": false
+		},
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 0,
+			"mass":2,
+			"protection": 4,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Adv Cmbt Rifle",
+			"tl": 10,
+			"cost": 0,
+			"mass": 3,
+			"range": 450,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 0,
+			"traits":"Scope, Auto: 3",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Electronic Tool Set",
+			"tl": "7",
+			"cost": 0,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",			
+			"equipped": false
+		},
+		{
+			"name": "Slug Weapon Tool Kit",
+			"tl": 12,
+			"cost": 0,
+			"mass": 12,
+			"range": "0",
+			"traits": "-",			
+			"equipped": false
+		},
+		{
+			"name": "Portable Computer",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "Computer 3",			
+			"equipped": true
+		},
+		{
+			"name": "Enhanced Vision",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "Binoculars, IR/Light intensifier",			
+			"equipped": true
+		},
+		{
+			"name": "Functional prosthetic",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "Immune to EMP",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "army quartermaster"
+		},
+		{
+			"type": "ally",
+			"kind": "army quartermaster"
+		},
+		{
+			"type": "contact",
+			"kind": "starport administrator"
+		},
+		{
+			"type": "rivals",
+			"kind": "army soldier"
+		}
+	]
+}

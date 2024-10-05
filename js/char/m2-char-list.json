@@ -1,6 +1,18 @@
 {
 	"characters": [
 		{
+			"name": "CHeFs: Nona Lillius",
+			"uri": "m2-nona-lillius.json"
+		},
+		{
+			"name": "CHeFs: Deci Vitellius II",
+			"uri": "m2-deci-vitellius.json"
+		},
+		{
+			"name": "CHeFs: Hostus Juventus, Senior",
+			"uri": "m2-hostus-juventus-senior.json"
+		},
+		{
 			"name": "Majesty's Secret Service: Makval",
 			"uri": "m2-makval.json"
 		},

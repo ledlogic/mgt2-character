@@ -1,0 +1,173 @@
+{
+	"overview": {
+		"ranks": [""],
+		"name": "Deci Vitellius II",
+		"species": "Solamani",
+		"gender": "female",
+		"age": "38",
+		"traits": "Coward",
+		"img": "deci-vitellius.jpg",
+		"initial": 600,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 8,
+		"end": 5,
+		"int": 11,
+		"edu": 10,
+		"soc": 5,
+		"psi": 3
+	},
+	"skills": {
+		"admin": 0,
+		"advocate": 0,
+		"animals": 0,
+		"astrogation": 2,
+		"athletics": 0,
+		"athletics (endurance)": 1,
+		"broker": 0,
+		"carouse": 1,
+		"diplomat": 1,
+		"drive": 0,
+		"electronics": 0,
+		"electronics (comms)": 2,
+		"electronics (computers)": 2,
+		"flyer": 0,
+		"flyer (ornithopter)": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"leadership": 0,
+		"mechanic": 1,
+		"medic": 0,
+		"pilot": 0,
+		"pilot (small craft)": 1,
+		"vacc suit": 1
+	},
+	"background": "Homeworld: Santorini/Kukulkan (Solomani Rim 2938) A689856-D",
+	"interactions": [
+		"Expertise: ",
+		"Weaknesses: "
+	],
+	"terms": [
+		"Corporate: You are given advanced training in a specialist field. Roll EDU 10+ to gain any one skill of your choice at level 1. [SUCCEEDED] You were promoted You're doing a great job! Not only did you get a promotion, they insist you stay another term.",
+		"Corporate/1: There was a mishap during this term! Hard times caused by a lack of interstellar trade costs you your job. Lose one SOC. Mustering Out Benefit: Int +1",
+		"Courier (Scout)/1: Your Scout ship is one of the first on the scene to rescue the survivors of a disaster. Roll either Medic 8+ or Engineer 8+. If you succeed, gain a Contact and a +2 DM to your next Advancement check. If you fail, gain an Enemy. You choose to help by using your Engineer skill [SUCCEEDED] You were promoted",
+		"Courier (Scout)/2: You serve as the courier for an important message from the Imperium. Either gain one level of Diplomat, or take a +4 DM to your next Advancement roll. You were promoted",
+		"Courier (Senior)/3: You gain a new Contact You were promoted You have been given care over a ship which you don't own, but have use of.  You don't need to make payments, but the owning entity (for instance the Scout service) may require your assistance from  time to time. Mustering Out Benefit: Ship Shares [1] Mustering Out Benefit: Energy + 1."
+	],
+	"armour": [
+		{
+			"name": "Vacc Suit",
+			"tl": 12,
+			"cost": 0,
+			"mass":8,
+			"protection": 10,
+			"rad": 90,
+			"traits": "None",
+			"equipped": false
+		},
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 0,
+			"mass":2,
+			"protection": 4,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 0,
+			"traits":"Stun, Zero-G",
+			"equipped": true
+		},
+		{
+			"name": "Crescent Blade",
+			"tl": 3,
+			"cost": 0,
+			"mass": 1,
+			"range": 0,
+			"damage": "2D+3",
+			"magazine": "",
+			"power pack cost": 0,
+			"traits":"",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Scout/Courier (25%)",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Ship Shares [1]",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Mobile Comm",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Medikit",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Hiking Boots",
+			"tl": 0,
+			"cost": 0,
+			"mass": 2,
+			"range": "0",
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Electronic Tool Set",
+			"tl": 0,
+			"cost": 0,
+			"mass": 2,
+			"range": "0",
+			"traits": "-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "crooked trader"
+		},
+		{
+			"type": "contact",
+			"kind": "game developer"
+		}
+	]
+}

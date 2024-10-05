@@ -1,0 +1,135 @@
+{
+	"overview": {
+		"ranks": ["Lietenant/1, Crewman/0, Explorer/0, Wanderer/1"],
+		"name": "Nona Lillius",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "42",
+		"traits": "honest",
+		"img": "nona-lillius.jpg",
+		"initial": 50,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 9,
+		"end": 7,
+		"int": 11,
+		"edu": 11,
+		"soc": 10,
+		"psi": 5
+	},
+	"skills": {
+		"art": 0,
+		"astrogation": 0,
+		"athletics": 0,
+		"broker": 0,
+		"drive": 0,
+		"electronics": 0,
+		"gambler": 0,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"gunner": 0,
+		"language": 0,
+		"leadership": 1,
+		"mechanic": 1,
+		"medic": 0,
+		"persuade": 0,
+		"pilot": 0,
+		"recon": 1,
+		"stealth": 1,
+		"steward": 0,
+		"streetwise": 1,
+		"survival": 1,
+		"tactics": 0,
+		"tactics (naval)": 1,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Santorini/Kukulkan (Solomani Rim 2938) A689856-D",
+	"interactions": [
+		"Expertise: ",
+		"Weaknesses: "
+	],
+	"terms": [
+		"Naval Academy: You just weren't meant to graduation from the Naval Academy.",
+		"Merchant Marine: You make an unexpected connection outside your normal circles. Gain a Contact.",
+		"Ground Assault: As a rank 0 Marine, the ensure you pick up proficiency with a weapon. Your commanding officer takes an interest in your career.",
+		"Ground Assault: There was a mishap during this term! Injury Modified Str by -4 Mustering Out Benefit: Nontransferable, lifetime membership in the exclusive Traveller’s Aid Society (TAS).",
+		"Explorer: There was a mishap during this term! Injury It was gruesome. Your existence flashed before your eyes. You're lucky to even be alive. Reduce one physical characteristic by 1D, then reduce two other physical characteristics by 2 Modified End by -1 Modified Str by -2, Modified Dex by -2 In this career, you were injured [Str: -2 points, Dex: -2 points, End: -1 point, ].  Your previous employer covers (50%) of the cost, leaving you to pay [12500] credits.",
+		"Wanderer: Mishap: You suffer from a life-threatening illness. Reduce your Endurance by 1. You were promoted Mustering Out Benefit: Edu +1 In this career, you were injured [End: -1 point, ]. You seek professional medical attention."
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 0,
+			"mass":2,
+			"protection": 4,
+			"rad": 0,
+			"traits":"None",
+			"equipped": true
+		},
+		{
+			"name": "Advanced Desert Suit",
+			"tl": 0,
+			"cost": 0,
+			"mass":2,
+			"protection": 0,
+			"rad": 0,
+			"traits":"None",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Rifle",
+			"tl": 11,
+			"cost": 0,
+			"mass": 5,
+			"range": 400,
+			"damage": "5D+3",
+			"magazine": 100,
+			"power pack cost": 0,
+			"traits":"Zero-G",
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 0,
+			"mass": 2,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 0,
+			"traits":"Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "TAS Membership",
+			"tl": "-",
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "-",			
+			"equipped": true
+		},
+		{
+			"name": "Laser sight",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": "0",
+			"traits": "-",			
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "marine captain"
+		}
+	]
+}
