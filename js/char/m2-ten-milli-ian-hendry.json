@@ -1,0 +1,165 @@
+{
+	"overview": {
+		"ranks": ["Navy (Medical)/1", "Navy (Engineering)/2", "Army (Support)/1", "Agent (Intelligence)/1"],
+		"name": "Ten Milli (Ian Hendry)",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "38",
+		"traits": "Resourceful, Pragmatic, Improviser",
+		"img": "ian-hendry-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 6,
+		"end": 8,
+		"int": 11,
+		"edu": 12,
+		"soc": 11
+	},
+	"skills": {
+		"admin": 1,
+		"computer": 1,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"engineer": 0,
+		"engineer (life support)": 1,
+		"gun combat": 0,
+		"investigate": 1,
+		"mechanic": 2,
+		"medic": 2,
+		"science": 0,
+		"science (biology)": 1,
+		"vacc suit": 1
+	},
+	"background": "Homeworld: Haven/Vald (B000454-E). Grew up on asteroid belt stations. 'Ten Milli' earned nickname after salvaging a 10-million-credit medical unit to save three soldiers during combat. Pragmatic approach: cares about results, not politics.",
+	"education": "Navy Medical School and Engineering certification",
+	"terms": [
+		"Navy (Medical): Medic-1, Science (biology)-1, Admin-1. Medical training in naval service. Served on patrol cruisers. Advanced to rank 1.",
+		"Navy (Engineering): Mechanic-1, Engineer (life support)-1, Electronics-1. Cross-trained in engineering. Valuable dual-specialty operative. Advanced to rank 1.",
+		"Navy (Engineering): Mechanic-2, Vacc Suit-1. Specialized in life support systems and emergency repairs. Advanced to rank 2. Mustering out: Medical Kit, Mechanic's Toolkit.",
+		"Army (Support): Medic-2, Computer-1, Investigate-1. Transferred to Army for ground operations support. Combat medic role. Advanced to rank 1.",
+		"Army (Support): Mechanic-2. Recent operation against stubborn rebel force ended with rebels undefeated - frustrating lesson in limits of military power.",
+		"Agent (Intelligence): Electronics (sensors)-1. Recruited by SolSec for medical and technical support operations. Current assignment: Reversed Engineering operation. Advanced to rank 1. Mustering out: Emergency Med-Scanner, Vacc Suit, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Combat medicine, field surgery, improvised repairs, life support systems, zero-gravity operations, diagnostic analysis",
+		"Weaknesses: Apolitical (doesn't care about ideology), sometimes too pragmatic (corners cut), limited patience for bureaucracy, squad-loyal over nation-loyal"
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		},
+		{
+			"name": "Vacc Suit",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
+			"protection": 10,
+			"rad": 90,
+			"traits": "Vacc Suit 0",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits": "Stun, Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Medical Kit TL-12",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 6,
+			"range": 0,
+			"traits": "Medic +2",
+			"equipped": true
+		},
+		{
+			"name": "Mechanic's Toolkit",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Emergency Med-Scanner",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Diagnostic +1",
+			"equipped": true
+		},
+		{
+			"name": "Diagnostic Scanner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Medical Supplies (emergency)",
+			"tl": 12,
+			"cost": 500,
+			"mass": 3,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Smoke Grenade (x2)",
+			"tl": 7,
+			"cost": 30,
+			"mass": 1,
+			"range": 0,
+			"traits": "Smoke",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Navy medical officer"
+		},
+		{
+			"type": "contact",
+			"kind": "Army combat medic"
+		},
+		{
+			"type": "contact",
+			"kind": "Asteroid belt salvage operator"
+		}
+	]
+}

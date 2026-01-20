@@ -89,14 +89,32 @@ st.render = {
 		var $img3 = $(img3);		
 		st.character.$pageft.append($img3);
 	},
+	sortSkillsAlphabetically: function(skills) {
+	    // Get all skill keys and sort them alphabetically
+	    var sortedKeys = _.keys(skills).sort();
+	    
+	    // Create a new object with sorted keys
+	    var sortedSkills = {};
+	    _.each(sortedKeys, function(key) {
+	        sortedSkills[key] = skills[key];
+	    });
+	    
+	    return sortedSkills;
+	},
 	renderSkills: function() {
 		st.log("rendering skills");
 
+		var sk = st.character.spec.skills;
+		sk = st.render.sortSkillsAlphabetically(sk);
+		
 		var $sk = $("<div class=\"st-section st-skills\"></div>");
 		var $skt = $("<div class=\"st-skills-title\">Skills</div>");
 		$sk.append($skt);
-		var sk = st.character.spec.skills;
+		
+		var sklen = 0;
+		
 		_.each(sk, function(value, key) {
+			sklen++;
 			var l1 = "<span class=\"st-skill\">";
 			var keyClass = "st-skill-label st-skill-label-" + key;
 			var hasParens = key.indexOf("(")>-1;
@@ -112,6 +130,9 @@ st.render = {
 			var l3 = "</span>";
 			$sk.append(l1 + l2 + v + l3);
 		});
+		
+		sklen = Math.ceil(sklen / 5) * 5;
+		$sk.addClass(" st-skills-len-" + sklen);
 
 		st.character.$pageft.append($sk);
 	},

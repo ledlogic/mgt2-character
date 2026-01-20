@@ -1,0 +1,182 @@
+{
+	"overview": {
+		"ranks": ["Drifter (Scavenger)/1", "Merchant (Free Trader)/1", "Agent (Intelligence)/1"],
+		"name": "Sparks (Rahman Okoye)",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "34",
+		"traits": "Ingenious, Pragmatic, Apolitical",
+		"img": "rahman-okoye-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 12,
+		"dex": 10,
+		"end": 8,
+		"int": 10,
+		"edu": 7,
+		"soc": 9
+	},
+	"skills": {
+		"astrogation": 0,
+		"electronics": 0,
+		"electronics (comms)": 2,
+		"electronics (computers)": 2,
+		"engineer": 0,
+		"engineer (power)": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"language": 0,
+		"language (vegan)": 1,
+		"mechanic": 3,
+		"pilot": 0,
+		"pilot (small craft)": 1,
+		"stealth": 1,
+		"streetwise": 2,
+		"vacc suit": 2,
+		"zero-g": 2
+	},
+	"background": "Homeworld: Caprice/Kukulcan (A7978B-C). Grew up on orbital stations as salvage tech. 'Sparks' nickname from electrical engineering expertise and shocking solutions. Intuitive understanding of technology - can repair almost anything with improvised parts. 2 years on Solomani-Vegan cargo freighters.",
+	"education": "Orbital station technical training",
+	"terms": [
+		"Drifter (Scavenger): Astrogation-0, Mechanic-1, Pilot-0, Vacc Suit-1, Zero-G-1. Salvage tech and tinkerer on Caprice orbital stations. Advanced to rank 1.",
+		"Drifter (Scavenger): Mechanic-2, Vacc Suit-2, Zero-G-2, Streetwise-1. Discovered Imperial spy transmitter in salvaged ship component. Turned it over to authorities.",
+		"Merchant (Free Trader): Mechanic-3, Engineer (power)-1, Electronics (comms)-1. Worked on Solomani-Vegan cargo freighters. Learned Vegan engineering philosophy and language. Advanced to rank 1.",
+		"Merchant (Free Trader): Engineer (power)-2, Electronics (computers)-1, Pilot (small craft)-1. Respected Vegan engineering: elegant, efficient, minimal waste. Made Vegan friends.",
+		"Merchant (Free Trader): Electronics (comms)-2, Electronics (computers)-2, Streetwise-2. Two years in merchant community. Mustering out: gained Vegan merchant contacts.",
+		"Agent (Intelligence): Stealth-1, Gun Combat (slug)-1, Language (vegan)-1. Recruited by SolSec after discovering spy equipment. Technical operations specialist. Current assignment: Reversed Engineering operation. Advanced to rank 1. Mustering out: Laser Pistol, Vacc Suit, Engineer's Toolkit, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Mechanical repair, power systems engineering, electronics (comms and computers), improvisation, salvage operations, zero-gravity work, Vegan engineering techniques, small craft piloting",
+		"Weaknesses: Apolitical (doesn't care about Solomani Cause), trusts Vegan friends (potential security risk), pragmatic to a fault, limited formal education"
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		},
+		{
+			"name": "Vacc Suit",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
+			"protection": 10,
+			"rad": 90,
+			"traits": "Vacc Suit 0",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 1,
+			"range": 30,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Engineer's Toolkit",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 24,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Electronics Toolkit",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "TL-13 Computer/3",
+			"tl": 13,
+			"cost": 2000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Computer/3",
+			"equipped": true
+		},
+		{
+			"name": "Portable Power Cell",
+			"tl": 12,
+			"cost": 500,
+			"mass": 5,
+			"range": 0,
+			"traits": "Emergency power",
+			"equipped": true
+		},
+		{
+			"name": "Improvised Parts Collection",
+			"tl": 10,
+			"cost": 200,
+			"mass": 10,
+			"range": 0,
+			"traits": "Mechanic +1 for improvisation",
+			"equipped": true
+		},
+		{
+			"name": "Multitool (Vegan-made)",
+			"tl": 12,
+			"cost": 300,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Superior quality",
+			"equipped": true
+		},
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol (spare power pack)",
+			"tl": 11,
+			"cost": 3000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Vegan merchant captain"
+		},
+		{
+			"type": "ally",
+			"kind": "Vegan engineer"
+		},
+		{
+			"type": "contact",
+			"kind": "Caprice orbital salvage boss"
+		},
+		{
+			"type": "contact",
+			"kind": "Free trader crew"
+		}
+	]
+}

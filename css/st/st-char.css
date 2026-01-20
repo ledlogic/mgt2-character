@@ -351,6 +351,30 @@
 	width: 200px;
 }
 
+.st-skills-len-10 .st-skill {
+	font-size: 15px;
+}
+
+.st-skills-len-15 .st-skill {
+	font-size: 14px;
+}
+
+.st-skills-len-20 .st-skill {
+	font-size: 13px;
+}
+
+.st-skills-len-25 .st-skill {
+	font-size: 10px;
+}
+
+.st-skills-len-30 .st-skill {
+	font-size: 8px;
+}
+
+.st-skills-len-35 .st-skill {
+	font-size: 6px;
+}
+
 .st-skill-subset {
 	font-style: italic;
 }

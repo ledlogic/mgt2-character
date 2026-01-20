@@ -1,0 +1,192 @@
+{
+	"overview": {
+		"ranks": ["Navy (Command)/2", "Navy (Flight)/3", "Agent (Intelligence)/3"],
+		"name": "Frost (Alexei Volkov)",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "46",
+		"traits": "Cold, Calculating",
+		"img": "alexei-volkov-sq.png",
+		"initial": 10000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 11,
+		"dex": 9,
+		"end": 10,
+		"int": 8,
+		"edu": 9,
+		"soc": 10
+	},
+	"skills": {
+		"admin": 2,
+		"advocate": 0,
+		"computer": 1,
+		"diplomat": 2,
+		"electronics": 0,
+		"electronics (sensors)": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"gunner": 0,
+		"gunner (capital)": 1,
+		"investigate": 1,
+		"language": 0,
+		"language (vegan)": 1,
+		"leadership": 3,
+		"persuade": 2,
+		"pilot": 0,
+		"pilot (capital ships)": 1,
+		"tactics": 0,
+		"tactics (naval)": 2
+	},
+	"background": "Homeworld: Scandia/Arcturus (B5559D-F). From occupied world under Imperial military rule since 1002. 'Frost' nickname from cold strategic calculations and ice-world origin. 44 years undermining Imperial control. This mission is personal - Rushorin defecting through his occupied homeworld.",
+	"education": "Solomani Naval Academy (final years before occupation)",
+	"terms": [
+		"Navy (Command): Leadership-1, Tactics (naval)-1, Admin-1. Served in final years of Solomani Rim War. Advanced to rank 1.",
+		"Navy (Command): Leadership-2, Gunner (capital)-1, Pilot (capital ships)-1. War ended. Scandia occupied. Continued service with remnant Confederation Navy. Advanced to rank 2.",
+		"Navy (Flight): Tactics (naval)-2, Electronics (sensors)-1. Joint operations with Vegan auxiliary forces. Learned to respect Vegan tactical discipline. Advanced to rank 1.",
+		"Navy (Flight): Leadership-3, Admin-2. Advocated for stronger Confederation-Vegan cooperation. Advanced to rank 2.",
+		"Navy (Flight): Electronics (sensors)-2, Computer-1. Strategic planning and sensor operations. Advanced to rank 3. Mustering out: gained contacts in Vegan military.",
+		"Agent (Intelligence): Diplomat-1, Persuade-1, Investigate-1. Recruited by SolSec External Directorate. Specialized in undermining Imperial occupation. Advanced to rank 1.",
+		"Agent (Intelligence): Diplomat-2, Persuade-2, Language (vegan)-1. 44 years of covert operations against Imperial control of Scandia. Advanced to rank 2.",
+		"Agent (Intelligence): Gun Combat (energy)-1. Current assignment: Reversed Engineering operation. Mission commander. Reports to Minister Feng Banerjee. Advanced to rank 3. Mustering out: Command Armor, Gauss Pistol, Tactical Computer, Secure Command Comms, 10000cr."
+	],
+	"interactions": [
+		"Expertise: Strategic planning, naval tactics, command operations, diplomacy, intelligence operations, sensor analysis, Vegan military cooperation, capital ship operations",
+		"Weaknesses: Ideology over humanity, cold and calculating, willing to sacrifice for strategic victory, personal vendetta against Imperial occupation may cloud judgment"
+	],
+	"armour": [
+		{
+			"name": "Command Armor",
+			"tl": 12,
+			"cost": 95000,
+			"mass": 20,
+			"protection": 12,
+			"rad": 100,
+			"traits": "Command systems integrated",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits": "AP 3, Auto 2",
+			"equipped": true
+		},
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits": "Stun, Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Tactical Computer",
+			"tl": 13,
+			"cost": 10000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Computer/4, Advanced tactical software",
+			"equipped": true
+		},
+		{
+			"name": "Secure Command Comms",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 1,
+			"range": "500 km",
+			"traits": "Encrypted, Multi-channel, Priority access",
+			"equipped": true
+		},
+		{
+			"name": "Neural Comm",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0,
+			"range": "5 km",
+			"traits": "Subvocal, encrypted",
+			"equipped": true
+		},
+		{
+			"name": "Strategic Planning Software",
+			"tl": 13,
+			"cost": 3000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Tactics +1",
+			"equipped": true
+		},
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Diplomatic Kit",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Command Authorization Codes",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Can commandeer Confederation assets",
+			"equipped": true
+		},
+		{
+			"name": "Tactical Display",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Minister Feng Banerjee (SolSec)"
+		},
+		{
+			"type": "ally",
+			"kind": "Vegan naval commander"
+		},
+		{
+			"type": "contact",
+			"kind": "Confederation Navy admiral"
+		},
+		{
+			"type": "contact",
+			"kind": "Scandia resistance cell leader"
+		},
+		{
+			"type": "enemy",
+			"kind": "Imperial occupation governor (Scandia)"
+		}
+	]
+}

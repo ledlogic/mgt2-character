@@ -1,0 +1,163 @@
+{
+	"overview": {
+		"ranks": ["Agent (Corporate)/1", "Entertainer (Journalist)/2", "Agent (Intelligence)/2"],
+		"name": "Rolo (Trent Naver)",
+		"species": "Human",
+		"gender": "male",
+		"age": "42",
+		"traits": "Disarming, Chameleon, Restless",
+		"img": "trent-naver-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 8,
+		"end": 6,
+		"int": 11,
+		"edu": 10,
+		"soc": 11
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 0,
+		"art": 0,
+		"broker": 0,
+		"carouse": 1,
+		"computer": 1,
+		"deception": 2,
+		"diplomat": 0,
+		"electronics": 0,
+		"investigate": 2,
+		"language": 0,
+		"language (vegan)": 0,
+		"persuade": 2,
+		"recon": 1,
+		"stealth": 1,
+		"streetwise": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 0
+	},
+	"background": "Homeworld: Loki/Sol (C9CA369-C). Carnegie Mellon University dropout. 'Rolo' earned his nickname from his ability to play many roles. Master of social engineering and corporate competitive analysis turned SolSec infiltrator.",
+	"education": "Carnegie Mellon University (incomplete) - Corporate Competitive Analysis program",
+	"terms": [
+		"Agent (Corporate): Investigate-1, Deception-1, Admin-1. Corporate analyst specializing in competitive intelligence. Advanced to rank 1.",
+		"Entertainer (Journalist): Persuade-1, Streetwise-1, Carouse-1. Cover identity as investigative journalist provided excellent access to sources. Advanced to rank 1.",
+		"Entertainer (Journalist): Investigate-2, Persuade-2, Deception-2. Built extensive network of contacts across corporate and media sectors. Advanced to rank 2. Mustering out: gained multiple contacts.",
+		"Agent (Intelligence): Streetwise-2, Recon-1, Stealth-1. Recruited by SolSec for infiltration operations. 6-month deep cover assignment in Vegan trade communities. Cultural knowledge of Vegans acquired.",
+		"Agent (Intelligence): Computer-1, Deception-2. Specialized in social engineering and information extraction. Current assignment: Reversed Engineering operation. Advanced to rank 2. Mustering out: Multiple false IDs, Voice Modulator, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Social engineering, building networks rapidly, extracting information through charm, blending into any social environment, Vegan cultural knowledge",
+		"Weaknesses: Divided loyalties (Vegan sympathies), moral conflict with SolSec methods, difficulty forming genuine relationships due to constant deception"
+	],
+	"armour": [
+		{
+			"name": "Cloth (concealed)",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "Concealed",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Snub Pistol (concealed)",
+			"tl": 10,
+			"cost": 150,
+			"mass": 0.5,
+			"range": 5,
+			"damage": "3D-3",
+			"magazine": 6,
+			"power pack cost": 0,
+			"traits": "Silent",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Multiple False IDs (5)",
+			"tl": 12,
+			"cost": 2500,
+			"mass": 0,
+			"range": 0,
+			"traits": "Cover identities",
+			"equipped": true
+		},
+		{
+			"name": "Disguise Kit",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Voice Modulator",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Vocal alteration",
+			"equipped": true
+		},
+		{
+			"name": "Forgery Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Recording Devices (Bug x5)",
+			"tl": 11,
+			"cost": 250,
+			"mass": 0,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Secure Comms",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 0.5,
+			"range": "50 km",
+			"traits": "Encrypted",
+			"equipped": true
+		},
+		{
+			"name": "Hip-Bag",
+			"tl": 6,
+			"cost": 25,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Vegan merchant captain"
+		},
+		{
+			"type": "contact",
+			"kind": "Corporate executive"
+		},
+		{
+			"type": "contact",
+			"kind": "Investigative journalist"
+		},
+		{
+			"type": "contact",
+			"kind": "Vegan trade liaison"
+		}
+	]
+}

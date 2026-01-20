@@ -59,6 +59,38 @@
 		{
 			"name": "Vargr Extents: Zeki",
 			"uri": "m2-zeki.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Niner (Barb Feldon)",
+			"uri": "m2-niner-barb-feldon.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Rolo (Trent Naver)",
+			"uri": "m2-rolo-trent-naver.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Wildfire (Wandisa Guida)",
+			"uri": "m2-wildfire-wandisa-guida.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Dukes (Jackie Shroff)",
+			"uri": "m2-dukes-jackie-shroff.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Ten Milli (Ian Hendry)",
+			"uri": "m2-ten-milli-ian-hendry.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Chives (Jasper Dobrillo)",
+			"uri": "m2-chives-jasper-dobrillo.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Frost (Alexei Volkov)",
+			"uri": "m2-frost-alexei-volkov.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Sparks (Rahman Okoye)",
+			"uri": "m2-sparks-rahman-okoye.json"
 		}
 	]	
 }

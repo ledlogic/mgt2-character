@@ -1,0 +1,157 @@
+{
+	"overview": {
+		"ranks": ["Scholar (Scientist)/2", "Scout/1", "Merchant (Broker)/1", "Agent (Intelligence)/2"],
+		"name": "Niner (Barb Feldon)",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "30",
+		"traits": "Curious, Obsessive",
+		"img": "barb-feldon-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 7,
+		"end": 8,
+		"int": 10,
+		"edu": 12,
+		"soc": 9
+	},
+	"skills": {
+		"admin": 1,
+		"advocate": 0,
+		"broker": 1,
+		"computer": 1,
+		"electronics": 0,
+		"electronics (computers)": 2,
+		"investigate": 1,
+		"persuade": 0,
+		"science": 0,
+		"science (cybernetics)": 2,
+		"deception": 0,
+		"stealth": 0,
+		"gun combat": 0,
+		"gun combat (energy)": 0,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Walkriver/Oriah (E434642-8). Niner earned her nickname from obsession with base-9 mathematics and cryptography. Brilliant computer specialist recruited by SolSec after demonstrating exceptional skills in corporate competitive analysis.",
+	"education": "University graduate with honors in Computer Science and Cybernetics.",
+	"terms": [
+		"Scholar (Scientist): Electronics (computers)-1, Science (cybernetics)-1. Advanced training in specialist field: cryptography. Promoted to rank 1.",
+		"Scholar (Scientist): Science (cybernetics)-2, Computer-1. Published groundbreaking paper on bio-silicon interfaces. Promoted to rank 2. Mustering out: gained contact in academic circles.",
+		"Scout (Survey): Electronics (computers)-2, Investigate-1. Recruited for intelligence gathering operations. Survey work provided cover for SolSec recruitment.",
+		"Merchant (Broker): Broker-1, Admin-1. Corporate cover identity as trade analyst. Actually analyzing encrypted communications for SolSec.",
+		"Agent (Intelligence): Deception-0, Investigate-1. Ludmilla Factory Incident: provided encryption analysis that led to raid resulting in 40 civilian casualties. Carries significant guilt. Promoted to rank 1.",
+		"Agent (Intelligence): Electronics (computers)-2, Science (cybernetics)-2. Specialized in cyber-warfare and cryptanalysis. Current assignment: Reversed Engineering operation. Promoted to rank 2. Mustering out: TL-13 Computer/4, Secure Comms, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Computer hacking, cryptography, cybernetics analysis, base-9 mathematical systems",
+		"Weaknesses: Guilt over Ludmilla casualties, obsessive personality, can become fixated on puzzles to exclusion of mission priorities"
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits": "Stun, Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "TL-13 Computer/4",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Computer/4",
+			"equipped": true
+		},
+		{
+			"name": "Electronics Toolkit",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Hacking Software Suite",
+			"tl": 13,
+			"cost": 10000,
+			"mass": 0,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Secure Comms Unit",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 0.5,
+			"range": "50 km",
+			"traits": "Encrypted",
+			"equipped": true
+		},
+		{
+			"name": "Forgery Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Disguise Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Waterproof Backpack",
+			"tl": 6,
+			"cost": 75,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "SolSec handler (Baldwin Wei)"
+		},
+		{
+			"type": "contact",
+			"kind": "University professor (cryptography)"
+		},
+		{
+			"type": "enemy",
+			"kind": "Ludmilla survivor families"
+		}
+	]
+}

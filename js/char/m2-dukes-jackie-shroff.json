@@ -1,0 +1,170 @@
+{
+	"overview": {
+		"ranks": ["Army (Infantry)/2", "Army (Support)/3", "Agent (Intelligence)/2"],
+		"name": "Dukes (Jackie Shroff)",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "38",
+		"traits": "Hopeful, Idealistic, Determined",
+		"img": "jackie-shroff-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 9,
+		"end": 9,
+		"int": 7,
+		"edu": 10,
+		"soc": 7
+	},
+	"skills": {
+		"drive": 0,
+		"drive (tracked)": 1,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 2,
+		"heavy weapons": 0,
+		"heavy weapons (portable)": 1,
+		"leadership": 2,
+		"melee": 0,
+		"melee (blade)": 1,
+		"recon": 2,
+		"survival": 1,
+		"tactics": 0,
+		"tactics (military)": 2,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Narodnya/Wovoka (E657566-7). Grew up hauling agricultural goods. Joined the Solomani Army seeking purpose and stability. Dreams of liberating frontier worlds from Imperial occupation. 'Dukes' nickname from his natural leadership presence.",
+	"education": "Army basic training and tactical academy",
+	"terms": [
+		"Army (Infantry): Gun Combat (slug)-1, Recon-1, Melee (blade)-1. Infantry training and first combat deployment. Agricultural background made transition to military life easy. Advanced to rank 1.",
+		"Army (Infantry): Gun Combat (slug)-2, Leadership-1, Tactics (military)-1. Showed natural leadership abilities. Promoted to squad leader. Advanced to rank 2.",
+		"Army (Support): Leadership-2, Heavy Weapons-1, Electronics (sensors)-1. Transferred to support operations. Advanced tactical training. Advanced to rank 1.",
+		"Army (Support): Tactics (military)-2, Recon-2, Drive (tracked)-1. Promoted to Lieutenant Colonel. Commanded support operations on unstable worlds. Advanced to rank 3.",
+		"Agent (Intelligence): Survival-1. Recruited by SolSec for tactical command and operations planning. True believer in Solomani Cause. Advanced to rank 1.",
+		"Agent (Intelligence): Leadership-2, Tactics (military)-2. Current assignment: Reversed Engineering operation. Tactical commander. Advanced to rank 2. Mustering out: Gauss Rifle, Gauss Pistol, Tactical Computer, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Tactical command, squad leadership, military operations, heavy weapons, sensors and reconnaissance, inspiring troops",
+		"Weaknesses: Idealistic to a fault, questions methods that harm innocents, can be rigid in following doctrine, agricultural roots sometimes show"
+	],
+	"armour": [
+		{
+			"name": "Combat Armor",
+			"tl": 12,
+			"cost": 85000,
+			"mass": 18,
+			"protection": 14,
+			"rad": 100,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Rifle",
+			"tl": 13,
+			"cost": 1500,
+			"mass": 4,
+			"range": 500,
+			"damage": "4D",
+			"magazine": 80,
+			"power pack cost": 60,
+			"traits": "AP 3, Auto 3, Scope",
+			"equipped": true
+		},
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits": "AP 3, Auto 2",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Tactical Computer",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Computer/3, Tactical software",
+			"equipped": true
+		},
+		{
+			"name": "Command Comms",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 1,
+			"range": "100 km",
+			"traits": "Encrypted, Multi-channel",
+			"equipped": true
+		},
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Binoculars",
+			"tl": 10,
+			"cost": 75,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "IR, Light Intensifier",
+			"equipped": true
+		},
+		{
+			"name": "Survival Kit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Map/Navigation Gear",
+			"tl": 10,
+			"cost": 200,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Frag Grenade (x2)",
+			"tl": 8,
+			"cost": 60,
+			"mass": 1,
+			"range": 0,
+			"traits": "Blast 9, 5D",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Army quartermaster"
+		},
+		{
+			"type": "contact",
+			"kind": "Narodnya agricultural cooperative leader"
+		},
+		{
+			"type": "contact",
+			"kind": "Solomani Army colonel"
+		}
+	]
+}

@@ -1,0 +1,182 @@
+{
+	"overview": {
+		"ranks": ["Army (Cavalry)/1", "Marine (Support)/1", "Scout/1", "Agent (Intelligence)/2"],
+		"name": "Wildfire (Wandisa Guida)",
+		"species": "Human",
+		"gender": "female",
+		"age": "38",
+		"traits": "Moralistic, Fiery Temper, Protective",
+		"img": "wandisa-guida-eyes-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 12,
+		"end": 10,
+		"int": 7,
+		"edu": 9,
+		"soc": 10
+	},
+	"skills": {
+		"athletics": 0,
+		"athletics (dexterity)": 1,
+		"drive": 0,
+		"gun combat": 0,
+		"gun combat (slug)": 3,
+		"heavy weapons": 0,
+		"heavy weapons (portable)": 1,
+		"leadership": 0,
+		"melee": 0,
+		"navigation": 2,
+		"pilot": 0,
+		"pilot (small craft)": 1,
+		"recon": 2,
+		"stealth": 1,
+		"survival": 2,
+		"tactics": 0,
+		"tactics (military)": 1,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Walkriver/Oriah (E434642-8). Former Imperial soldier who led a mutiny after witnessing corruption that got her squad killed. Escaped and joined Solomani forces. 'Wildfire' nickname from her quick temper and even quicker reflexes.",
+	"education": "Imperial Army basic training",
+	"terms": [
+		"Army (Cavalry): Gun Combat (slug)-1, Recon-1, Survival-1. Served in Imperial Army cavalry unit on frontier worlds. Advanced to rank 1.",
+		"Army (Cavalry): Gun Combat (slug)-2, Tactics (military)-1. Witnessed incompetent commanding officer's actions result in squad deaths. Led mutiny. Forced to flee Imperial service.",
+		"Marine (Support): Navigation-1, Pilot (small craft)-1. Escaped into Solomani space. Joined Solomani Marine Corps under false identity. Advanced to rank 1.",
+		"Marine (Support): Gun Combat (slug)-3, Heavy Weapons (portable)-1, Navigation-2. Proved herself in combat against pirates. Recommended for special operations.",
+		"Scout: Survival-2, Recon-2. Transferred to Scout Service for covert operations. Experience in hostile environments.",
+		"Agent (Intelligence): Stealth-1, Athletics (dexterity)-1. Recruited by SolSec for combat operations. Strong moral code sometimes conflicts with orders. Current assignment: Reversed Engineering operation. Advanced to rank 2. Mustering out: Gauss Rifle, Combat Armor, Tactical Goggles, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Combat tactics, sniper operations, survival in hostile environments, small craft piloting, reconnaissance",
+		"Weaknesses: Will disobey orders that violate her moral code, protective of civilians to fault, suspicious of authority, anger management issues"
+	],
+	"armour": [
+		{
+			"name": "Combat Armor",
+			"tl": 12,
+			"cost": 85000,
+			"mass": 18,
+			"protection": 16,
+			"rad": 100,
+			"traits": "None",
+			"equipped": true
+		},
+		{
+			"name": "Tactical Goggles",
+			"tl": 12,
+			"cost": 500,
+			"mass": 0,
+			"protection": 0,
+			"rad": 0,
+			"traits": "IR, Light Intensifier",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Rifle",
+			"tl": 13,
+			"cost": 1500,
+			"mass": 4,
+			"range": 500,
+			"damage": "4D",
+			"magazine": 80,
+			"power pack cost": 60,
+			"traits": "AP 3, Auto 3, Scope",
+			"equipped": true
+		},
+		{
+			"name": "Snub Pistol",
+			"tl": 10,
+			"cost": 150,
+			"mass": 0.5,
+			"range": 5,
+			"damage": "3D-3",
+			"magazine": 6,
+			"power pack cost": 0,
+			"traits": "Silent",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Survival Kit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Tactical Scanner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 1,
+			"range": "1 km",
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Camouflage Gear",
+			"tl": 10,
+			"cost": 150,
+			"mass": 1,
+			"range": 0,
+			"traits": "Stealth +1",
+			"equipped": true
+		},
+		{
+			"name": "Frag Grenade (x2)",
+			"tl": 8,
+			"cost": 60,
+			"mass": 1,
+			"range": 0,
+			"traits": "Blast 9, 5D",
+			"equipped": true
+		},
+		{
+			"name": "Smoke Grenade (x2)",
+			"tl": 7,
+			"cost": 30,
+			"mass": 1,
+			"range": 0,
+			"traits": "Smoke",
+			"equipped": true
+		},
+		{
+			"name": "Rangefinder",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "enemy",
+			"kind": "Former Imperial commanding officer"
+		},
+		{
+			"type": "ally",
+			"kind": "Solomani Marine sergeant"
+		},
+		{
+			"type": "contact",
+			"kind": "Scout service pilot"
+		}
+	]
+}

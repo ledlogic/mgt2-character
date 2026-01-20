@@ -1,0 +1,194 @@
+{
+	"overview": {
+		"ranks": ["Citizen (Corporate)/1", "Citizen (Colonist)/1", "Agent (Intelligence)/1"],
+		"name": "Chives (Jasper Dobrillo)",
+		"species": "Solomani/Cyber",
+		"gender": "male",
+		"age": "34",
+		"traits": "Respectful, Polite, Physically Limited",
+		"img": "jasper-dobrillo-sq.png",
+		"initial": 5000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 2,
+		"dex": 9,
+		"end": 6,
+		"int": 7,
+		"edu": 7,
+		"soc": 11
+	},
+	"skills": {
+		"admin": 0,
+		"athletics": 0,
+		"athletics (endurance)": 2,
+		"computer": 1,
+		"electronics": 0,
+		"electronics (sensors)": 2,
+		"engineer": 0,
+		"engineer (j-drive)": 2,
+		"engineer (power)": 0,
+		"jack-of-all-trades": 2,
+		"mechanic": 1,
+		"science": 0,
+		"science (robotics)": 1,
+		"vacc suit": 1
+	},
+	"background": "Homeworld: Arisia/Jardin (B57A566-D). Brilliant engineer who suffered chemical exposure causing cystic and muscular fibrosis. Cyber augments restored endurance but not strength. 'Chives' nickname from unfailing politeness.",
+	"education": "Corporate technical training and colonist engineering certification",
+	"terms": [
+		"Citizen (Corporate): Admin-0, Electronics (sensors)-1, Engineer (j-drive)-1. Corporate tech specializing in factories, reactors, and digesters. Advanced to rank 1.",
+		"Citizen (Corporate): Engineer (j-drive)-2, Mechanic-1. Building everything from corp tech to starship components. Chemical emission injury occurred.",
+		"Citizen (Colonist): Athletics (endurance)-1, Jack-of-all-Trades-1, Vacc Suit-1. Colonist work while recovering. Cyber augments installed. Advanced to rank 1.",
+		"Citizen (Colonist): Electronics (sensors)-2, Science (robotics)-1. Specialized in sensor systems and automated equipment.",
+		"Agent (Intelligence): Athletics (endurance)-2, Jack-of-all-Trades-2, Computer-1. Recruited by SolSec for technical expertise despite physical limitations. Neural computer link augmentation. Current assignment: Reversed Engineering operation. Advanced to rank 1. Mustering out: Comprehensive Engineer's Toolkit, Neural Interface Cable, 5000cr."
+	],
+	"interactions": [
+		"Expertise: Jump drive engineering, power systems, sensor electronics, robotics, jack-of-all-trades problem solving, neural computer interfacing",
+		"Weaknesses: STR 2 (physical tasks difficult), requires cyber augments for endurance, overly polite (can slow critical moments), chemical sensitivity"
+	],
+	"augmentations": [
+		{
+			"name": "Endurance Enhancement (internal)",
+			"tl": 13,
+			"description": "Augmented lungs and muscular support system",
+			"effect": "+4 END (already reflected in stats)"
+		},
+		{
+			"name": "Neural Computer Link",
+			"tl": 13,
+			"description": "Direct neural interface for computer systems",
+			"effect": "Can interface directly with computers and ship systems"
+		},
+		{
+			"name": "Pain Suppression System",
+			"tl": 13,
+			"description": "Manages chronic pain from fibrosis",
+			"effect": "No penalties from injury until END reaches 0"
+		}
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		},
+		{
+			"name": "Vacc Suit",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
+			"protection": 10,
+			"rad": 90,
+			"traits": "Vacc Suit 0",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "None (STR too low for most weapons)",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"damage": "N/A",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "-",
+			"equipped": false
+		}
+	],
+	"equipment": [
+		{
+			"name": "Engineer's Toolkit (comprehensive)",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 24,
+			"range": 0,
+			"traits": "All engineering tasks",
+			"equipped": true
+		},
+		{
+			"name": "Electronics Toolkit",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "TL-13 Computer/3",
+			"tl": 13,
+			"cost": 2000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Computer/3",
+			"equipped": true
+		},
+		{
+			"name": "Neural Interface Cable",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Direct neural connection",
+			"equipped": true
+		},
+		{
+			"name": "Diagnostic Scanner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Portable Workshop",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 10,
+			"range": 0,
+			"traits": "Field repairs",
+			"equipped": false
+		},
+		{
+			"name": "Spare Parts Kit",
+			"tl": 12,
+			"cost": 500,
+			"mass": 5,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Military Pack",
+			"tl": 12,
+			"cost": 200,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Corporate factory manager"
+		},
+		{
+			"type": "contact",
+			"kind": "Colonist chief engineer"
+		},
+		{
+			"type": "contact",
+			"kind": "Cybernetics specialist"
+		}
+	]
+}
