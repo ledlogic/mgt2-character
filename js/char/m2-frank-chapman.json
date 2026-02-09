@@ -1,0 +1,181 @@
+{
+	"overview": {
+		"ranks": ["Agent (Intelligence)/3"],
+		"name": "Frank Chapman",
+		"species": "Human/Imperial",
+		"gender": "male",
+		"age": "38",
+		"traits": "Calm, Professional, Psychic",
+		"img": "frank-chapman.jpg",
+		"initial": 50000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 11,
+		"dex": 10,
+		"end": 10,
+		"int": 10,
+		"edu": 10,
+		"soc": 7,
+		"psi": 10
+	},
+	"skills": {
+		"admin": 2,
+		"advocate": 1,
+		"computer": 1,
+		"deception": 2,
+		"diplomat": 1,
+		"investigate": 2,
+		"persuade": 2,
+		"stealth": 1,
+		"psionic: telepathy": 5,
+		"psionic: clairvoyance": 2,
+		"psionic: awareness": 1
+	},
+	"background": "Homeworld: Capital/Core (Imperial). Frank Chapman is a senior Imperial Intelligence agent with exceptional psionic abilities. Recruited at age 20 after testing revealed PSI-10 rating. Trained at Psionic Institute on Capital for five years. Specialized in diplomatic intelligence and remote sensing operations. Current assignment: Extract Dr. Arnold Rushorin from Solomani space and secure his research on bio-silicon interfaces. Chapman's telepathy makes him extremely difficult to ambush or deceive - he can sense hostile intent from 500 meters away.",
+	"education": "Imperial Intelligence Academy graduate. Psionic Institute certification. Advanced training in Telepathy and remote viewing.",
+	"terms": [
+		"Agent (Intelligence): Admin-1, Advocate-1, Deception-1. Basic Imperial Intelligence training. Discovered to have exceptional psionic potential. Advanced to rank 1.",
+		"Agent (Intelligence): Telepathy-2, Investigate-1, Persuade-1. Psionic Institute training on Capital. Five years of intensive psionic development. Advanced to rank 2.",
+		"Agent (Intelligence): Telepathy-3, Clairvoyance-1, Awareness-1, Admin-2. Field operations using psionic abilities for diplomatic intelligence gathering. Advanced to rank 3.",
+		"Agent (Intelligence): Telepathy-5, Clairvoyance-2, Deception-2, Investigate-2, Persuade-2. Current assignment: Rushorin extraction. Team leader for Beacher and Yllarra. Can sense SolSec pursuit and hostile intent."
+	},
+	"interactions": [
+		"Expertise: Telepathy (reading thoughts, detecting emotions, sensing life), Clairvoyance (remote viewing), diplomatic intelligence, interrogation resistance, psionic combat",
+		"Weaknesses: PSI-10 is rare and valuable - Imperial Intelligence won't risk him unnecessarily, physically average combatant, psi-shield headband is only defense against hostile psionics",
+		"Psionic Abilities: Can read surface thoughts within 500m, detect hostile intent automatically, sense 20+ conscious beings in 500m radius, remote view up to 500m with effort (10km maximum)"
+	},
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits": "Stun, Zero-G",
+			"equipped": true
+		},
+		{
+			"name": "Neural Disruptor (emergency only)",
+			"tl": 14,
+			"cost": 10000,
+			"mass": 0.5,
+			"range": 5,
+			"damage": "Special",
+			"magazine": 20,
+			"power pack cost": 500,
+			"traits": "Causes INT and DEX damage, illegal most places",
+			"equipped": false
+		}
+	],
+	"equipment": [
+		{
+			"name": "Psi-Shield Headband",
+			"tl": 14,
+			"cost": 20000,
+			"mass": 0,
+			"range": 0,
+			"traits": "DM+2 vs hostile psionic attacks",
+			"equipped": true
+		},
+		{
+			"name": "Encrypted Imperial Comms",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Imperial Intelligence network access",
+			"equipped": true
+		},
+		{
+			"name": "False Documentation (Very Difficult to detect)",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "DM-4 to detection attempts",
+			"equipped": true
+		},
+		{
+			"name": "Portable Computer/2",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Computer/2",
+			"equipped": true
+		},
+		{
+			"name": "Psionic Drug (Psi-Boost)",
+			"tl": 14,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "+2 to PSI for 1d6 hours, -4 after it wears off",
+			"equipped": true
+		}
+	],
+	"psionic_abilities": [
+		{
+			"name": "Telepathy-5",
+			"range": "500m (10km with effort)",
+			"cost": "1-3 PSI points",
+			"effect": "Read surface thoughts, detect emotions, sense hostile intent, communicate mind-to-mind"
+		},
+		{
+			"name": "Clairvoyance-2",
+			"range": "500m",
+			"cost": "2-4 PSI points",
+			"effect": "Remote viewing, see through walls, scout ahead"
+		},
+		{
+			"name": "Awareness-1",
+			"range": "Self",
+			"cost": "1 PSI point",
+			"effect": "Sense danger, enhance perception, detect surveillance"
+		},
+		{
+			"name": "Life Detection (Telepathy subset)",
+			"range": "500m radius",
+			"cost": "1 PSI point per 10 minutes",
+			"effect": "Sense all conscious beings in range, count them, general locations"
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Imperial Intelligence handler (Capital)"
+		},
+		{
+			"type": "ally",
+			"kind": "Beacher (partner)"
+		},
+		{
+			"type": "ally",
+			"kind": "Yllarra (partner)"
+		},
+		{
+			"type": "contact",
+			"kind": "Psionic Institute instructor"
+		},
+		{
+			"type": "enemy",
+			"kind": "SolSec (mission opponents)"
+		}
+	]
+}

@@ -1,0 +1,172 @@
+{
+	"overview": {
+		"ranks": ["Marine/4", "Agent (Intelligence)/2"],
+		"name": "Alexei 'Lex' Konstantin",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "31",
+		"traits": "Quiet Professional, Loyal, Pragmatic",
+		"img": "lex-konstantin.png",
+		"initial": 50000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 11,
+		"dex": 11,
+		"end": 10,
+		"int": 9,
+		"edu": 7,
+		"soc": 8
+	},
+	"skills": {
+		"gun combat": 0,
+		"gun combat (slug)": 3,
+		"gun combat (energy)": 2,
+		"melee": 0,
+		"melee (blade)": 2,
+		"athletics": 0,
+		"athletics (strength)": 2,
+		"athletics (dexterity)": 2,
+		"tactics": 0,
+		"tactics (military)": 2,
+		"recon": 2,
+		"stealth": 2,
+		"explosives": 2,
+		"heavy weapons": 1,
+		"mechanic": 1,
+		"survival": 1,
+		"carouse": 1
+	},
+	"background": "Homeworld: Kukulkan (Solomani Rim 1925) - Grew up in working-class orbital stations, son of dock workers. Marines were his way out and up. Became one of elite 'Rim Raiders' special operations units. SolSec recruited him after particularly successful covert operation during post-Rim War instability. Combat veteran with 4 terms active service, decorated multiple times.",
+	"education": "Solomani Marine Corps training",
+	"terms": [
+		"Marine: Gun Combat (slug)-1, Melee (blade)-1, Athletics (strength)-1. Basic training and first deployment. Advanced to rank 1.",
+		"Marine: Gun Combat (slug)-2, Athletics (dexterity)-1, Recon-1. Combat operations, beginning to excel. Advanced to rank 2.",
+		"Marine: Gun Combat (slug)-3, Gun Combat (energy)-1, Tactics (military)-1, Stealth-1. Joined 'Rim Raiders' special operations. Advanced to rank 3.",
+		"Marine: Melee (blade)-2, Athletics (strength)-2, Athletics (dexterity)-2, Explosives-1. Elite special operations, multiple decorations. Advanced to rank 4. Mustering out: Combat Armor.",
+		"Agent (Intelligence): Tactics (military)-2, Recon-2, Heavy Weapons-1, Mechanic-1. Recruited by SolSec for tactical expertise. Advanced to rank 1.",
+		"Agent (Intelligence): Gun Combat (energy)-2, Stealth-2, Explosives-2, Survival-1, Carouse-1. Team's tactical specialist and security lead. Advanced to rank 2. Mustering out: Gauss Rifle (customized), Accelerator Rifle (sniper), Combat Knife (mono-edge), Demolition Charges, 50000cr."
+	],
+	"interactions": [
+		"Expertise: Combat operations, weapons (all types), explosives, tactical planning, reconnaissance, unconventional warfare, security assessments, threat elimination, zero-G combat, survival",
+		"Weaknesses: Chip on shoulder about being 'the muscle' when he's smarter than assumed, working-class background can create social friction in high society, slight distrust of non-humans initially",
+		"Role: Security/Tactical - Handles protection, combat operations, security assessments, elimination of threats. Poses as bodyguard, security consultant, or corporate troubleshooter",
+		"Special: Athletic physique from lifelong training. Street smart from rough upbringing. Surprisingly well-read from long deployments"
+	],
+	"armour": [
+		{
+			"name": "Cloth Armor",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 6,
+			"rad": 0,
+			"traits": "Concealed under jacket",
+			"equipped": true
+		},
+		{
+			"name": "Combat Armor",
+			"tl": 13,
+			"cost": 95000,
+			"mass": 18,
+			"protection": 13,
+			"rad": 100,
+			"traits": "Stashed in secure location",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Rifle",
+			"tl": 13,
+			"cost": 1500,
+			"mass": 4,
+			"range": 500,
+			"damage": "4D",
+			"magazine": 80,
+			"power pack cost": 40,
+			"traits": "AP 3, Auto 3, customized, collapsible",
+			"equipped": true
+		},
+		{
+			"name": "Accelerator Rifle",
+			"tl": 13,
+			"cost": 2000,
+			"mass": 3,
+			"range": 1000,
+			"damage": "3D+3",
+			"magazine": 15,
+			"power pack cost": 50,
+			"traits": "AP 2, sniper variant, Scope",
+			"equipped": true
+		},
+		{
+			"name": "Combat Knife",
+			"tl": 13,
+			"cost": 500,
+			"mass": 0.5,
+			"range": 0,
+			"damage": "2D+2",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "Mono-edge, AP 4",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Demolition Charges",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 5,
+			"range": 0,
+			"traits": "Various types, remotely detonated",
+			"equipped": true
+		},
+		{
+			"name": "Tactical Gear",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 3,
+			"range": 0,
+			"traits": "Professional equipment kit",
+			"equipped": true
+		},
+		{
+			"name": "Encrypted Commlink",
+			"tl": 13,
+			"cost": 3000,
+			"mass": 0.5,
+			"range": "100 km",
+			"traits": "Secure team communications",
+			"equipped": true
+		},
+		{
+			"name": "Surveillance Detection Gear",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Bug sweeper, camera detector",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Sergeant Major Yuki Tanaka (Solomani Marines)"
+		},
+		{
+			"type": "contact",
+			"kind": "Hammer (Black market arms dealer, Kukulkan)"
+		},
+		{
+			"type": "contact",
+			"kind": "Captain Muemana"
+		},
+		{
+			"type": "contact",
+			"kind": "Dr. Dusty Farlow (protected during evacuation)"
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"overview": {
+		"ranks": ["Scholar (Scientist)/3"],
+		"name": "Dr. Arnold Rushorin",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "42",
+		"traits": "Eccentric, Self-Centered, Brilliant, Naive",
+		"img": "dr-arnold-rushorin.jpg",
+		"initial": 54000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 7,
+		"end": 7,
+		"int": 13,
+		"edu": 13,
+		"soc": 10
+	},
+	"skills": {
+		"admin": 0,
+		"advocate": 0,
+		"computer": 5,
+		"electronics": 0,
+		"electronics (computers)": 4,
+		"gravitics": 0,
+		"gravitics (flyer)": 1,
+		"investigate": 1,
+		"medic": 2,
+		"persuade": 0,
+		"science": 0,
+		"science (cybernetics)": 3,
+		"science (electronics)": 2
+	},
+	"background": "Homeworld: Unknown (University of Aquitaine). Dr. Rushorin is a research-oriented professor of electronics specializing in computer hardware and electronic circuits, with emphasis on bio-silicon interfaces. In 1105, he was a respected professor at the Free University of Aquitaine. In 1106 Week 28, he fled Aquitaine when he discovered his research was being classified and weaponized. CHEFs from Caprice hunted him across New Greenpernt and Siva for over a year. In 1107, Minister Feng Banerjee personally ordered him brought to Langren Center on Ochre instead of back to Aquitaine. He's been essentially a prisoner-researcher for three years.",
+	"education": "Ph.D. in Electronics and Cybernetics from University of Aquitaine. Specialization in bio-silicon interface technology.",
+	"terms": [
+		"Scholar (Scientist): Computer-1, Electronics (computers)-1, Science (cybernetics)-1. Early academic career at University of Aquitaine. Advanced to rank 1.",
+		"Scholar (Scientist): Computer-2, Electronics (computers)-2, Science (cybernetics)-2. Groundbreaking research on bio-silicon interfaces. Advanced to rank 2.",
+		"Scholar (Scientist): Computer-3, Science (electronics)-1, Medic-1. Discovered research being weaponized. Fled Aquitaine in 1106. Ran for over a year.",
+		"Scholar (Scientist): Computer-4, Electronics (computers)-3, Gravitics (flyer)-1. Captured by CHEFs, brought to Langren Center against will.",
+		"Scholar (Scientist): Computer-5, Electronics (computers)-4, Science (cybernetics)-3, Science (electronics)-2, Medic-2, Investigate-1. Working at Langren for 3 years on semiconductor chip design. Discovered intelligent silicon chip 10987 on Cymbeline. Planning defection to Imperial space. Advanced to rank 3."
+	],
+	"interactions": [
+		"Expertise: Computer hardware design, bio-silicon interfaces, cybernetics, electronic circuits, semiconductor chips, intelligent silicon analysis",
+		"Weaknesses: Eccentric and self-centered, naive about politics, easily distracted by intellectual puzzles, doesn't understand he's a prisoner, trusts wrong people",
+		"Discovery: Found naturally-occurring intelligent silicon chip (10987) on Cymbeline. Realizes connection to his 1106 research. Wants freedom to pursue this discovery."
+	],
+	"armour": [
+		{
+			"name": "Vacc Suit",
+			"tl": 10,
+			"cost": 10000,
+			"mass": 12,
+			"protection": 8,
+			"rad": 60,
+			"traits": "Vacc Suit 0",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "None (non-combatant)",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"damage": "N/A",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "-",
+			"equipped": false
+		}
+	],
+	"equipment": [
+		{
+			"name": "TL-14 Portable Computer/4",
+			"tl": 14,
+			"cost": 0,
+			"mass": 0.25,
+			"range": 0,
+			"traits": "Computer/4, QuartzBender +1, Tablet-sized",
+			"equipped": true
+		},
+		{
+			"name": "Automated Chip Tester",
+			"tl": 13,
+			"cost": 17000,
+			"mass": 2,
+			"range": 0,
+			"traits": "Requires Computer/1+ to function, used to analyze 10987",
+			"equipped": true
+		},
+		{
+			"name": "Cybernetics Toolkit",
+			"tl": 10,
+			"cost": 2000,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Life Sciences Toolkit",
+			"tl": 10,
+			"cost": 2000,
+			"mass": 12,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Research Microfiche (current papers)",
+			"tl": 8,
+			"cost": 0,
+			"mass": 0.1,
+			"range": 0,
+			"traits": "Contains 3 years of research data",
+			"equipped": true
+		},
+		{
+			"name": "10987 'Tensa' (intelligent chip)",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0.01,
+			"range": 0,
+			"traits": "Naturally-occurring intelligent silicon, priceless",
+			"equipped": true
+		},
+		{
+			"name": "Scientific Equipment (cases)",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 50,
+			"range": 0,
+			"traits": "Multiple cases of research equipment",
+			"equipped": false
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "Professor at University of Aquitaine"
+		},
+		{
+			"type": "contact",
+			"kind": "Researcher at Langren Center"
+		},
+		{
+			"type": "enemy",
+			"kind": "Baldwin Wei (captor)"
+		},
+		{
+			"type": "ally",
+			"kind": "10987 'Tensa' (intelligent chip)"
+		}
+	]
+}

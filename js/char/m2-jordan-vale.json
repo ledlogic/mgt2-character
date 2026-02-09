@@ -1,0 +1,158 @@
+{
+	"overview": {
+		"ranks": ["Merchant/4", "Agent (Intelligence)/2"],
+		"name": "Jordan Vale",
+		"species": "Solomani",
+		"gender": "male (trans)",
+		"age": "35",
+		"traits": "Charming, Sardonic, Self-Made",
+		"img": "jordan-vale.png",
+		"initial": 150000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 9,
+		"end": 9,
+		"int": 12,
+		"edu": 10,
+		"soc": 11
+	},
+	"skills": {
+		"broker": 4,
+		"persuade": 3,
+		"deception": 3,
+		"streetwise": 3,
+		"admin": 2,
+		"carouse": 2,
+		"diplomat": 2,
+		"investigate": 2,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"stealth": 1,
+		"language": 0,
+		"language (vilani)": 2
+	},
+	"background": "Homeworld: Caprice (Solomani Rim 2122) - Commercial district. Born Julia Vale, transitioned at age 22. Self-made merchant prince who built information network across the Rim while working through university. Started trading information between merchants. SolSec noticed his network and offered partnership instead of prosecution. Now one of the Rim's most connected individuals, with contacts from dock workers to admirals. Speaks 6 languages fluently.",
+	"education": "University degree (worked through school), Caprice",
+	"terms": [
+		"Merchant (Broker): Broker-1, Persuade-1, Admin-1. Started information trading business while in university. Advanced to rank 1.",
+		"Merchant (Broker): Broker-2, Streetwise-1, Carouse-1. Built network across commercial districts. Transitioned at age 22, became Jordan Vale. Advanced to rank 2.",
+		"Merchant (Broker): Broker-3, Persuade-2, Deception-1, Investigate-1. Expanded network to multiple worlds. Advanced to rank 3.",
+		"Merchant (Broker): Broker-4, Persuade-3, Deception-2, Streetwise-2, Diplomat-1. Became major information broker. SolSec took notice. Advanced to rank 4. Mustering out: Trading Company (Vale Interstellar Solutions), 100000cr.",
+		"Agent (Intelligence): Deception-3, Streetwise-3, Admin-2, Carouse-2, Investigate-2. Recruited by SolSec, offered partnership and resources. Advanced to rank 1.",
+		"Agent (Intelligence): Diplomat-2, Electronics (comms)-1, Gun Combat (slug)-1, Stealth-1, Language (vilani)-2. Built empire while serving Confederation interests. Advanced to rank 2. Mustering out: Body Pistol, Encrypted Data Crystals, Contacts Database, 50000cr."
+	],
+	"interactions": [
+		"Expertise: Information brokering, trading, negotiation, reading people, logistics, bribery, social engineering at all levels, languages (6 fluent), business operations, network building",
+		"Weaknesses: Self-made pride can be defensive, occasionally uses mystery about past as shield, can be ruthless when betrayed",
+		"Role: Fixer/Intelligence - Handles logistics, bribery, information gathering, social engineering at all levels. Can pose as merchant, corporate executive, or information broker (all legitimate covers)",
+		"Gender Identity: Fully transitioned at 22, living as male for 13 years. Medical transition complete, all documents legally changed. Socially accepted in cosmopolitan Solomani areas. Most people unaware unless he chooses to tell them"
+	],
+	"armour": [
+		{
+			"name": "Designer Suits",
+			"tl": 12,
+			"cost": 10000,
+			"mass": 2,
+			"protection": 0,
+			"rad": 0,
+			"traits": "Masculine cut, impeccably tailored, various styles",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Body Pistol",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 0.5,
+			"range": 5,
+			"damage": "3D-3",
+			"magazine": 6,
+			"power pack cost": 20,
+			"traits": "Easily concealed, undetectable by most scanners",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Encrypted Data Crystals",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Intelligence archives, highly secured",
+			"equipped": true
+		},
+		{
+			"name": "Contacts Database",
+			"tl": 13,
+			"cost": 10000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Comprehensive intelligence network across Rim",
+			"equipped": true
+		},
+		{
+			"name": "Vale Interstellar Solutions",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Legitimate trading company, SolSec front, worth millions",
+			"equipped": true
+		},
+		{
+			"name": "Luxury Personal Items",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Watches, cufflinks, accessories (all functional tech)",
+			"equipped": true
+		},
+		{
+			"name": "Encrypted Commlink",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Secure communications, multiple channels",
+			"equipped": true
+		},
+		{
+			"name": "Broker's Toolkit",
+			"tl": 12,
+			"cost": 3000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Trade analysis software, market data",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Katya Almaty (Macrogenesis executive, business partner)"
+		},
+		{
+			"type": "contact",
+			"kind": "The Spider (Information broker network leader)"
+		},
+		{
+			"type": "contact",
+			"kind": "Captain Muemana (Trading partner)"
+		},
+		{
+			"type": "contact",
+			"kind": "Marcus DeLeon (Imperial noble, secret Solomani sympathizer)"
+		},
+		{
+			"type": "contact",
+			"kind": "Wei Tanaka (business contact)"
+		}
+	]
+}

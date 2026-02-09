@@ -1,0 +1,164 @@
+{
+	"overview": {
+		"ranks": ["Agent (Intelligence)/3"],
+		"name": "Baldwin Wei",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "30",
+		"traits": "Ruthless, Politically Reliable, Desperate",
+		"img": "baldwin-wei.jpg",
+		"initial": 100000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 11,
+		"end": 9,
+		"int": 10,
+		"edu": 9,
+		"soc": 8
+	},
+	"skills": {
+		"admin": 1,
+		"computer": 2,
+		"deception": 2,
+		"electronics": 0,
+		"electronics (comms)": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 2,
+		"grav vehicle": 2,
+		"investigate": 2,
+		"jack-of-all-trades": 2,
+		"leadership": 2,
+		"persuade": 1,
+		"pilot": 0,
+		"pilot (small craft)": 2,
+		"tactics": 0,
+		"tactics (military)": 1
+	},
+	"background": "Homeworld: Unknown (Solomani Core). Wei was recruited by SolSec at age 18, received extensive training, and was assigned to protect Confederation interests. He's politically reliable and ruthless when required. In 1107, Wei was involved in the operation to capture Dr. Rushorin using CHEFs (Caprica Highport Escort Fighters). Minister Feng Banerjee personally ordered Wei to bring Rushorin to Langren Center instead of back to Aquitaine.",
+	"education": "SolSec Academy graduate with honors. Advanced training in Intelligence operations, Computer warfare, and Field tactics.",
+	"terms": [
+		"Agent (Intelligence): Leadership-1, Computer-1, Deception-1. Recruited at 18, basic SolSec training. Advanced to rank 1.",
+		"Agent (Intelligence): Electronics (comms)-1, Investigate-1, Gun Combat (slug)-1. Field operations in Solomani Rim. Advanced to rank 2.",
+		"Agent (Intelligence): Leadership-2, Computer-2, Tactics (military)-1. Assigned to Rushorin extraction (1107). Worked with CHEFs to capture fleeing scientist. Advanced to rank 3.",
+		"Agent (Intelligence): Deception-2, Electronics (comms)-2, Gun Combat (slug)-2. Current assignment: Reversed Engineering operation. Reports directly to Minister Banerjee. Authorized to use any means necessary including destroying Ad Astra if required."
+	],
+	"interactions": [
+		"Expertise: Intelligence operations, computer warfare, tactical command, extraction operations, political maneuvering",
+		"Weaknesses: Increasingly desperate, will sacrifice team if necessary, fears failure more than casualties, ruthless to point of war crimes",
+		"Connections: Direct line to Minister Feng Banerjee, involved in 1107 CHEF operation, knows about Langren's secret factory"
+	],
+	"armour": [
+		{
+			"name": "Cloth",
+			"tl": 12,
+			"cost": 500,
+			"mass": 2,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "SMG (Submachine Gun)",
+			"tl": 10,
+			"cost": 500,
+			"mass": 2,
+			"range": 50,
+			"damage": "3D-1",
+			"magazine": 30,
+			"power pack cost": 20,
+			"traits": "Auto 3",
+			"equipped": true
+		},
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits": "AP 3, Auto 2",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Fast Courier Ship (personal)",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Jump-3 capable",
+			"equipped": false
+		},
+		{
+			"name": "SolSec Authorization Codes",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Can commandeer Confederation military assets",
+			"equipped": true
+		},
+		{
+			"name": "Encrypted Comms Unit",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Military-grade encryption",
+			"equipped": true
+		},
+		{
+			"name": "TL-14 Shaped Charges (3)",
+			"tl": 14,
+			"cost": 15000,
+			"mass": 6,
+			"range": 0,
+			"traits": "Hidden aboard Ad Astra, timed detonation",
+			"equipped": false
+		},
+		{
+			"name": "Portable Computer/3",
+			"tl": 13,
+			"cost": 2000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Computer/3",
+			"equipped": true
+		},
+		{
+			"name": "Grav Belt",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 6,
+			"range": 0,
+			"traits": "Personal flight",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Minister Feng Banerjee (SolSec)"
+		},
+		{
+			"type": "contact",
+			"kind": "CHEF pilot (Caprice)"
+		},
+		{
+			"type": "contact",
+			"kind": "Langren Center security chief"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec operative (bomb placement)"
+		}
+	]
+}

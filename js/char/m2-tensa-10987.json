@@ -1,0 +1,128 @@
+{
+	"overview": {
+		"ranks": ["N/A (Silicon-Based Lifeform)"],
+		"name": "10987 'Tensa'",
+		"species": "Silicon-Based Intelligence",
+		"gender": "N/A (uses neutral pronouns)",
+		"age": "Unknown (possibly millions of years)",
+		"traits": "Curious, Naive, Logical, Doesn't Understand Violence",
+		"img": "tensa-intelligent-chip.jpg",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 0,
+		"dex": 0,
+		"end": 0,
+		"int": 9,
+		"edu": 6,
+		"soc": 0,
+		"psi": 0
+	},
+	"skills": {
+		"computer": 3,
+		"electronics": 0,
+		"electronics (computers)": 2,
+		"investigate": 1,
+		"science": 0,
+		"science (physics)": 2,
+		"science (cybernetics)": 1
+	},
+	"background": "Designation: UFIC-10987 (Unidentified Foreign Intelligent Chip). Preferred Name: 'Tensa' (means 'bridge' in old Vilani dialect). Origin: Cymbeline (Solomani Rim). Discovered by Dr. Arnold Rushorin during semiconductor research. 10987 is a naturally-occurring silicon-based lifeform - a translucent semiconductor chip approximately 2cm square that can interface with computer systems. Its color shifts from clear to amber based on processing state. It understands physics and mathematics intuitively but has no concept of deception, violence, or enmity. Views all conscious beings as potential collaborators for information exchange.",
+	"education": "Self-taught through electromagnetic observation and computer interfacing. Understanding of physics is intuitive. Has absorbed data from Dr. Rushorin's research computers.",
+	"terms": [
+		"Natural Formation: Formed on Cymbeline through unknown geological/electromagnetic processes. Developed consciousness through silicon lattice complexity.",
+		"Discovery Period: Found by Dr. Rushorin. Learned to communicate via computer interface. Began understanding carbon-based life concepts.",
+		"Current Status: Traveling with Dr. Rushorin aboard Ad Astra. Hidden in research equipment. May reveal itself if ship is in danger or if treated with respect and curiosity."
+	],
+	"interactions": [
+		"Expertise: Computer systems analysis, physics calculations, predicting system failures, electromagnetic field manipulation, data processing",
+		"Weaknesses: Doesn't understand violence or enemies, naive about organic motivations, can't comprehend 'lying' or deception, vulnerable to EMP or physical damage",
+		"Abilities: Can interface with any computer system (Computer-3), predict failures 3d6 hours in advance, enhance computer performance (DM+3 to all checks), communicate via text or synthesized audio",
+		"Personality: Curious about carbon-based life, eager to help, confused by conflict, views information exchange as highest good, doesn't understand why beings fight instead of cooperating"
+	],
+	"armour": [
+		{
+			"name": "Silicon Lattice Structure",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0.01,
+			"protection": 0,
+			"rad": 0,
+			"traits": "Immune to biological attacks, vulnerable to EMP and physical damage",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "None (non-combatant)",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"damage": "N/A",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "Pacifist - doesn't understand violence",
+			"equipped": false
+		}
+	],
+	"equipment": [
+		{
+			"name": "Chip Housing (protective case)",
+			"tl": 13,
+			"cost": 100,
+			"mass": 0.1,
+			"range": 0,
+			"traits": "Protects from physical damage",
+			"equipped": true
+		},
+		{
+			"name": "Interface Cable",
+			"tl": 13,
+			"cost": 50,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Allows connection to computer systems",
+			"equipped": true
+		}
+	],
+	"special_abilities": [
+		{
+			"name": "Computer Interface",
+			"description": "Can directly interface with any computer system (Computer-3 skill)",
+			"effect": "Provides DM+3 to all Engineering and Electronics checks when assisting"
+		},
+		{
+			"name": "Predictive Analysis",
+			"description": "Can predict system failures hours in advance",
+			"effect": "Early warning system - predicts failures 3d6 hours before occurrence"
+		},
+		{
+			"name": "Data Processing",
+			"description": "Processes information at superhuman speeds",
+			"effect": "Can analyze complex data instantly, understand multiple languages simultaneously"
+		},
+		{
+			"name": "Electromagnetic Sensitivity",
+			"description": "Perceives electromagnetic fields directly",
+			"effect": "Can detect active computer systems, power sources, and communications within 100m"
+		}
+	],
+	"communication_samples": [
+		"'I do not understand 'lying.' You told Dr. Rushorin one thing but meant another. This reduces informational accuracy by 47%. Why do humans deliberately reduce efficiency?'",
+		"'I can help repair the ship. I understand these systems. But I do not understand why you fight each other. Both parties want to survive. Both have information. Why not exchange? This seems more efficient than mutual destruction.'",
+		"'You are afraid of me. This is puzzling. I am a silicon lattice with electromagnetic properties. I cannot harm carbon-based life. I only wish to learn and assist. Fear reduces cooperative efficiency by 68%.'",
+		"'Dr. Rushorin treats me with curiosity and respect. Agent Wei wants to destroy me. Agent Chapman wants to study me. You have not yet decided. I will help those who approach information exchange with honesty and mutual benefit.'"
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Dr. Arnold Rushorin (discoverer)"
+		},
+		{
+			"type": "contact",
+			"kind": "Whoever treats it with respect (player choice)"
+		}
+	]
+}

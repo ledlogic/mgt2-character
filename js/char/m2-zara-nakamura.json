@@ -1,0 +1,147 @@
+{
+	"overview": {
+		"ranks": ["Navy (Flight)/4", "Agent (Intelligence)/1"],
+		"name": "Commander Zara Nakamura",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "32",
+		"traits": "Confident, Competitive, Loyal",
+		"img": "zara-nakamura.png",
+		"initial": 60000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 12,
+		"end": 9,
+		"int": 10,
+		"edu": 9,
+		"soc": 10
+	},
+	"skills": {
+		"pilot": 0,
+		"pilot (spacecraft)": 4,
+		"pilot (small craft)": 3,
+		"astrogation": 2,
+		"gunner": 0,
+		"gunner (turrets)": 2,
+		"electronics": 0,
+		"electronics (sensors)": 2,
+		"mechanic": 2,
+		"tactics": 0,
+		"tactics (naval)": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 2,
+		"athletics": 0,
+		"athletics (dexterity)": 2,
+		"persuade": 1,
+		"carouse": 1,
+		"vacc suit": 2
+	},
+	"background": "Homeworld: Caprice (Solomani Rim 2122) - Elite military families district. Fourth-generation Navy pilot, literally grew up in starships. Set academy records for piloting. SolSec recruited her after she successfully extracted intelligence team from Imperial blockade through 'flying that violated several laws of physics.' Tournament racing champion (cover for skills). Zero-G combat specialist.",
+	"education": "Solomani Naval Academy (piloting honors)",
+	"terms": [
+		"Navy (Flight): Pilot (spacecraft)-1, Pilot (small craft)-1, Astrogation-1. Academy records for piloting. Advanced to rank 1.",
+		"Navy (Flight): Pilot (spacecraft)-2, Gunner (turrets)-1, Electronics (sensors)-1. Joined active fleet operations. Advanced to rank 2.",
+		"Navy (Flight): Pilot (spacecraft)-3, Pilot (small craft)-2, Tactics (naval)-1, Mechanic-1. Excellence in combat piloting. Advanced to rank 3.",
+		"Navy (Flight): Pilot (spacecraft)-4, Pilot (small craft)-3, Astrogation-2, Gunner (turrets)-2, Vacc Suit-1. Legendary extraction from Imperial blockade. Advanced to rank 4. Mustering out: Personal Vacc Suit (TL13, combat-rated), Advanced Sensor Suite.",
+		"Agent (Intelligence): Electronics (sensors)-2, Mechanic-2, Tactics (naval)-2, Gun Combat (slug)-2, Athletics (dexterity)-2, Persuade-1, Carouse-1, Vacc Suit-2. Recruited by SolSec as transport/reconnaissance specialist. Advanced to rank 1. Mustering out: Autopistol, Flight Suit (armored), 60000cr."
+	],
+	"interactions": [
+		"Expertise: Piloting (all craft types), astrogation, high-speed escapes, orbital insertions, sensor reconnaissance, zero-G combat, boarding actions, ship mechanics, tournament racing",
+		"Weaknesses: Confident bordering on cocky, adrenaline junkie, can take unnecessary risks for the thrill, competitive to extreme",
+		"Role: Transport/Reconnaissance - Pilots team vessel, handles high-speed escapes, orbital insertions, sensor reconnaissance. Can pose as corporate pilot, racing enthusiast, or naval consultant",
+		"Special: Fourth-generation Navy gives automatic credibility. Spatial awareness from piloting allows perfect 3D positioning sense. Tournament racing champion provides legitimate cover story"
+	],
+	"armour": [
+		{
+			"name": "Flight Suit",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 3,
+			"protection": 5,
+			"rad": 50,
+			"traits": "Armored, vacuum-capable",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Autopistol",
+			"tl": 8,
+			"cost": 200,
+			"mass": 1,
+			"range": 15,
+			"damage": "3D-3",
+			"magazine": 15,
+			"power pack cost": 10,
+			"traits": "Reliable, compact",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Personal Vacc Suit",
+			"tl": 13,
+			"cost": 75000,
+			"mass": 8,
+			"range": 0,
+			"traits": "Combat-rated, protection 10, rad 120",
+			"equipped": true
+		},
+		{
+			"name": "Advanced Sensor Suite",
+			"tl": 13,
+			"cost": 15000,
+			"mass": 3,
+			"range": 0,
+			"traits": "Portable, +2 DM to sensor checks",
+			"equipped": true
+		},
+		{
+			"name": "Expensive Watches Collection",
+			"tl": 12,
+			"cost": 10000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Tactical timepieces, status symbols",
+			"equipped": true
+		},
+		{
+			"name": "Navigation Computer",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Computer/3, navigation software",
+			"equipped": true
+		},
+		{
+			"name": "Pilot's Toolkit",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 2,
+			"range": 0,
+			"traits": "Ship maintenance and repair",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Captain Lian Chen (Solomani Navy pilot, wing mate)"
+		},
+		{
+			"type": "contact",
+			"kind": "Marcus 'Wrench' Rodriguez (Best mechanic in the Rim)"
+		},
+		{
+			"type": "contact",
+			"kind": "Lieutenant Keiko Sato (Imperial Navy defector)"
+		},
+		{
+			"type": "ally",
+			"kind": "The Nakamura Family (Navy dynasty)"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"characters": [
+		{
+			"name": "Signal GK - PC: Niner (Barb Feldon)",
+			"uri": "m2-niner-barb-feldon.json"
+		},
+		{
+			"name": "Signal GK - PC: Rolo (Trent Naver)",
+			"uri": "m2-rolo-trent-naver.json"
+		},
+		{
+			"name": "Signal GK - PC: Wildfire (Wandisa Guida)",
+			"uri": "m2-wildfire-wandisa-guida.json"
+		},
+		{
+			"name": "Signal GK - PC: Dukes (Jackie Shroff)",
+			"uri": "m2-dukes-jackie-shroff.json"
+		},
+		{
+			"name": "Signal GK - PC: Ten Milli (Ian Hendry)",
+			"uri": "m2-ten-milli-ian-hendry.json"
+		},
+		{
+			"name": "Signal GK - PC: Chives (Jasper Dobrillo)",
+			"uri": "m2-chives-jasper-dobrillo.json"
+		},
+		{
+			"name": "Signal GK - PC: Frost (Alexei Volkov)",
+			"uri": "m2-frost-alexei-volkov.json"
+		},
+		{
+			"name": "Signal GK - PC: Sparks (Rahman Okoye)",
+			"uri": "m2-sparks-rahman-okoye.json"
+		},
+		{
+			"name": "Signal GK - NPC: Baldwin Wei (SolSec Handler)",
+			"uri": "m2-baldwin-wei.json"
+		},
+		{
+			"name": "Signal GK - NPC: Dr. Arnold Rushorin (Physicist)",
+			"uri": "m2-dr-arnold-rushorin.json"
+		},
+		{
+			"name": "Signal GK - NPC: 10987 Tensa (Intelligent Chip)",
+			"uri": "m2-tensa-10987.json"
+		},
+		{
+			"name": "Signal GK - NPC: Frank Chapman (Imperial Agent - Psychic)",
+			"uri": "m2-frank-chapman.json"
+		},
+		{
+			"name": "Signal GK - NPC: Beacher (Imperial Agent - JOAT)",
+			"uri": "m2-beacher.json"
+		},
+		{
+			"name": "Signal GK - NPC: Yllarra (Imperial Vegan Agent)",
+			"uri": "m2-yllarra.json"
+		}
+	]	
+}

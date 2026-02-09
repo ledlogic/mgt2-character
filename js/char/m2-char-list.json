@@ -61,36 +61,60 @@
 			"uri": "m2-zeki.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Niner (Barb Feldon)",
+			"name": "Beyond Signal GK: Niner (Barb Feldon)",
 			"uri": "m2-niner-barb-feldon.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Rolo (Trent Naver)",
+			"name": "Beyond Signal GK: Rolo (Trent Naver)",
 			"uri": "m2-rolo-trent-naver.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Wildfire (Wandisa Guida)",
+			"name": "Beyond Signal GK: Wildfire (Wandisa Guida)",
 			"uri": "m2-wildfire-wandisa-guida.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Dukes (Jackie Shroff)",
+			"name": "Beyond Signal GK: Dukes (Jackie Shroff)",
 			"uri": "m2-dukes-jackie-shroff.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Ten Milli (Ian Hendry)",
+			"name": "Beyond Signal GK: Ten Milli (Ian Hendry)",
 			"uri": "m2-ten-milli-ian-hendry.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Chives (Jasper Dobrillo)",
+			"name": "Beyond Signal GK: Chives (Jasper Dobrillo)",
 			"uri": "m2-chives-jasper-dobrillo.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Frost (Alexei Volkov)",
+			"name": "Beyond Signal GK: Frost (Alexei Volkov)",
 			"uri": "m2-frost-alexei-volkov.json"
 		},
 		{
-			"name": "Signal GK - Reversed Engineering: Sparks (Rahman Okoye)",
+			"name": "Beyond Signal GK: Sparks (Rahman Okoye)",
 			"uri": "m2-sparks-rahman-okoye.json"
+		},
+		{
+			"name": "Dingir Zone: Captain Viktor Ashworth",
+			"uri": "m2-viktor-ashworth.json"
+		},
+		{
+			"name": "Dingir Zone: Dr. Selene Rashid",
+			"uri": "m2-selene-rashid.json"
+		},
+		{
+			"name": "Dingir Zone: Alexei 'Lex' Konstantin",
+			"uri": "m2-alexei-konstantin.json"
+		},
+		{
+			"name": "Dingir Zone: Commander Zara Nakamura",
+			"uri": "m2-zara-nakamura.json"
+		},
+		{
+			"name": "Dingir Zone: Aurora (AUR-0RA Unit 7)",
+			"uri": "m2-aurora-android.json"
+		},
+		{
+			"name": "Dingir Zone: Jordan Vale",
+			"uri": "m2-jordan-vale.json"
 		}
-	]	
+	]
 }

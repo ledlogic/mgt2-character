@@ -1,0 +1,154 @@
+{
+	"overview": {
+		"ranks": ["Android Infiltrator/3"],
+		"name": "Aurora (AUR-0RA Unit 7)",
+		"species": "Android",
+		"gender": "they/them",
+		"age": "8",
+		"traits": "Curious, Philosophical, Adaptable",
+		"img": "aurora.png",
+		"initial": 80000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 10,
+		"dex": 11,
+		"end": 10,
+		"int": 11,
+		"edu": 10,
+		"soc": 11
+	},
+	"skills": {
+		"deception": 4,
+		"persuade": 3,
+		"carouse": 3,
+		"admin": 2,
+		"diplomat": 2,
+		"electronics": 0,
+		"electronics (computers)": 2,
+		"investigate": 2,
+		"recon": 2,
+		"stealth": 2,
+		"art": 0,
+		"art (performance)": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"science": 0,
+		"science (robotics)": 1
+	},
+	"background": "Manufactured at: Kukulkan, Macrogenesis Cybernetics Division. Created as proof-of-concept for advanced social infiltration androids. Developed genuine self-awareness during testing and requested legal personhood, which Solomani law granted. Volunteered for SolSec service in exchange for freedom and legal protection. Successfully infiltrated Imperial installations, megacorporations, and criminal organizations. Legally recognized as a person under Solomani Confederation law.",
+	"education": "Advanced social programming and human behavioral modeling",
+	"terms": [
+		"Android Development: Deception-1, Persuade-1, Art (performance)-1. Initial programming and emergence of consciousness. Requested personhood.",
+		"Android Training: Deception-2, Carouse-1, Diplomat-1, Electronics (computers)-1. Granted legal personhood. Began learning human social interactions.",
+		"Android Infiltrator: Deception-3, Persuade-2, Carouse-2, Admin-1, Investigate-1, Recon-1. Volunteered for SolSec. First infiltration operations. Advanced to rank 1.",
+		"Android Infiltrator: Deception-4, Persuade-3, Carouse-3, Admin-2, Diplomat-2, Electronics (computers)-2, Investigate-2, Recon-2, Stealth-1. Successfully infiltrated Imperial installation. Advanced to rank 2.",
+		"Android Infiltrator: Stealth-2, Art (performance)-2, Gun Combat (energy)-1, Science (robotics)-1. Infiltrated megacorporations and criminal organizations. Advanced to rank 3. Equipped: Holographic Disguise System (TL15), Integrated Laser Pistol, Communications Suite, 80000cr."
+	],
+	"interactions": [
+		"Expertise: Social engineering, infiltration, perfect disguise, performance art, information gathering, computer systems, reconnaissance, maintaining cover identities indefinitely",
+		"Weaknesses: EMP vulnerable (DM-2 vs electrical attacks), uncanny valley effect when moving (slightly too smooth), philosophical about existence can seem detached, obsessive curiosity about humanity",
+		"Role: Social Infiltrator/Intelligence - Can be anyone, anywhere. Perfect for reconnaissance, social engineering, infiltrating restricted areas. Backup hacker when Selene is busy",
+		"Special Abilities: Holographic Disguise (change appearance in 1 minute), Direct Interface (Electronics +2 DM when connected), No Environmental Needs (immune to vacuum, poison, disease, no food/water), Armor 2 (reinforced chassis), Perfect Memory (replay any event), EMP Vulnerable (DM-2 vs electrical)"
+	],
+	"armour": [
+		{
+			"name": "Reinforced Android Chassis",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0,
+			"protection": 2,
+			"rad": 0,
+			"traits": "Built-in, EMP vulnerable (DM-2 vs electrical)",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Integrated Laser Pistol",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0,
+			"range": 20,
+			"damage": "3D+3",
+			"magazine": 100,
+			"power pack cost": 0,
+			"traits": "Concealed in forearm, Zero-G, internal power",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Holographic Disguise System",
+			"tl": 15,
+			"cost": 100000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Can appear as different people, 1 minute to reconfigure",
+			"equipped": true
+		},
+		{
+			"name": "Communications Suite",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0,
+			"range": "1000 km",
+			"traits": "Built-in, encrypted, multiple frequencies",
+			"equipped": true
+		},
+		{
+			"name": "Recording Systems",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Audio/visual, perfect recall, eidetic memory",
+			"equipped": true
+		},
+		{
+			"name": "Multiple Identity Packages",
+			"tl": 13,
+			"cost": 20000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Complete backgrounds, 3-4 stock personas",
+			"equipped": true
+		},
+		{
+			"name": "Direct Neural Interface",
+			"tl": 15,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Direct connection to computer systems",
+			"equipped": true
+		},
+		{
+			"name": "Legal Personhood Documentation",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Solomani Confederation citizen papers",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Dr. Yuki Tanaka (Cybernetics engineer, creator)"
+		},
+		{
+			"type": "contact",
+			"kind": "The Android Underground (Network of free androids)"
+		},
+		{
+			"type": "contact",
+			"kind": "Senator Maria Castellanos (Android rights advocate)"
+		},
+		{
+			"type": "contact",
+			"kind": "The Collective (AI rights organization)"
+		}
+	]
+}

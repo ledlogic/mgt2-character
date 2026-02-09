@@ -1,0 +1,145 @@
+{
+	"overview": {
+		"ranks": ["Scholar/4", "Agent (Intelligence)/2"],
+		"name": "Dr. Selene Rashid",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "29",
+		"traits": "Brilliant, Competitive, Passionate",
+		"img": "selene-rashid.png",
+		"initial": 75000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 10,
+		"end": 8,
+		"int": 13,
+		"edu": 12,
+		"soc": 9
+	},
+	"skills": {
+		"science": 0,
+		"science (computers)": 4,
+		"electronics": 0,
+		"electronics (computers)": 4,
+		"investigate": 3,
+		"admin": 2,
+		"diplomat": 2,
+		"deception": 2,
+		"persuade": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"stealth": 1,
+		"medic": 1,
+		"language": 0,
+		"language (vilani)": 2
+	},
+	"background": "Homeworld: Caprice (Solomani Rim 2122) - Prestigious university world. Prodigy scientist who earned doctorate at age 24, youngest in Caprice University history. Recruited by SolSec during security conference where she demonstrated vulnerabilities in Imperial encryption. Has photographic memory (natural talent).",
+	"education": "Ph.D. in Computational Systems, Caprice University (age 24)",
+	"terms": [
+		"Scholar (Scientist): Science (computers)-1, Electronics (computers)-1, Investigate-1. Prodigy doctoral student. Advanced to rank 1.",
+		"Scholar (Scientist): Science (computers)-2, Electronics (computers)-2, Admin-1. Completed doctorate at age 24. Advanced to rank 2.",
+		"Scholar (Scientist): Science (computers)-3, Electronics (computers)-3, Investigate-2, Language (vilani)-1. Published groundbreaking papers. Advanced to rank 3.",
+		"Scholar (Scientist): Science (computers)-4, Electronics (computers)-4, Investigate-3, Admin-2, Medic-1. Demonstrated Imperial encryption vulnerabilities. Advanced to rank 4. Mustering out: Neural Interface Augmentation (+1 DM to Electronics checks).",
+		"Agent (Intelligence): Diplomat-1, Deception-1, Persuade-1. Recruited by SolSec. Began working on cutting-edge projects. Advanced to rank 1.",
+		"Agent (Intelligence): Diplomat-2, Deception-2, Gun Combat (energy)-1, Stealth-1, Language (vilani)-2. Cracked Imperial networks, designed intrusion software. Advanced to rank 2. Mustering out: Laser Pistol, Computer Toolkit (TL15), 75000cr research grant."
+	],
+	"interactions": [
+		"Expertise: Computer systems, hacking, electronics, encryption/decryption, system analysis, academic research, corporate consulting, scientific investigation",
+		"Weaknesses: Competitive to a fault, occasional moral qualms about SolSec work, can be overconfident in her abilities, hates being outsmarted",
+		"Role: Technical Expert/Secondary Face - Handles all computer work, hacking operations, system analysis. Can pose as academic consultant, corporate tech specialist, or research scientist",
+		"Special: Neural interface augmentation (hidden) provides +1 DM to Electronics checks. Photographic memory allows perfect recall of details"
+	],
+	"armour": [
+		{
+			"name": "Smart Casual Attire",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 1,
+			"protection": 0,
+			"rad": 0,
+			"traits": "Designer wardrobe, adaptable to lab or cocktail settings",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 2,
+			"range": 20,
+			"damage": "3D+3",
+			"magazine": 50,
+			"power pack cost": 100,
+			"traits": "Zero-G, compact, easily concealed",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Computer Toolkit",
+			"tl": 15,
+			"cost": 5000,
+			"mass": 2,
+			"range": 0,
+			"traits": "Cutting-edge, +2 DM to Computer checks",
+			"equipped": true
+		},
+		{
+			"name": "Neural Interface Augmentation",
+			"tl": 14,
+			"cost": 50000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Hidden, +1 DM to Electronics checks",
+			"equipped": true
+		},
+		{
+			"name": "Multiple False Identities",
+			"tl": 12,
+			"cost": 10000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Academic credentials, corporate consultant papers",
+			"equipped": true
+		},
+		{
+			"name": "Designer Glasses",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Unnecessary but worn for effect, fashionable",
+			"equipped": true
+		},
+		{
+			"name": "Macrogenesis Consultant Credentials",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Official position, explains presence",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Dr. Jernau Hollis (mutual respect from conference)"
+		},
+		{
+			"type": "contact",
+			"kind": "Professor Chen Wei (Caprice University mentor)"
+		},
+		{
+			"type": "contact",
+			"kind": "Cipher (Anonymous hacker collective)"
+		},
+		{
+			"type": "contact",
+			"kind": "Dr. Arnold Rushorin (Langren Research Center)"
+		}
+	]
+}

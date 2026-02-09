@@ -1,0 +1,136 @@
+{
+	"overview": {
+		"ranks": ["Noble/3", "Agent (Intelligence)/3"],
+		"name": "Captain Viktor Ashworth",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "34",
+		"traits": "Charming, Pragmatic, Ruthless",
+		"img": "viktor-ashworth.png",
+		"initial": 100000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 9,
+		"end": 8,
+		"int": 11,
+		"edu": 10,
+		"soc": 12
+	},
+	"skills": {
+		"leadership": 3,
+		"tactics": 0,
+		"tactics (naval)": 2,
+		"diplomat": 2,
+		"persuade": 2,
+		"deception": 2,
+		"admin": 2,
+		"gun combat": 0,
+		"gun combat (slug)": 2,
+		"carouse": 2,
+		"broker": 1,
+		"investigate": 1,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"language": 0,
+		"language (vilani)": 1
+	},
+	"background": "Homeworld: Kukulkan (Solomani Rim 1925) - Kukulkan Economic Zone capital. Third son of the Ashworth shipping magnate family, chose military service over business empire to make his own name. Natural charisma and strategic mind caught SolSec's attention during post-Rim War intelligence reorganization.",
+	"education": "Elite military academy, Kukulkan",
+	"terms": [
+		"Noble: Grew up in Kukulkan's glittering orbital palaces. Carouse-1, Diplomat-1, Admin-1. Advanced to rank 1.",
+		"Noble: Leadership-1, Persuade-1, Broker-1. Joined Solomani Navy to distinguish himself from siblings. Advanced to rank 2.",
+		"Noble: Leadership-2, Tactics (naval)-1, Gun Combat (slug)-1. Excellence in naval service caught SolSec attention. Advanced to rank 3. Title: Captain-Lord of House Ashworth. Trust Fund: 50,000 Cr annual income.",
+		"Agent (Intelligence): Deception-1, Electronics (comms)-1, Investigate-1. Recruited by SolSec External Directorate. Specialized in covert operations. Advanced to rank 1.",
+		"Agent (Intelligence): Leadership-3, Tactics (naval)-2, Admin-2. Commanded covert operations across Rim. Maintained cover as dilettante noble. Advanced to rank 2.",
+		"Agent (Intelligence): Diplomat-2, Persuade-2, Deception-2, Gun Combat (slug)-2, Carouse-2, Language (vilani)-1. Current assignment: Dingir subsector operation team leader. Advanced to rank 3. Mustering out: Gauss Pistol, Encrypted Commlink, 100000cr, Letter of Credit (500000cr available)."
+	],
+	"interactions": [
+		"Expertise: High-level negotiations, naval tactics, strategic planning, social manipulation, intelligence operations, reading and exploiting social situations, commanding covert operations",
+		"Weaknesses: Sometimes too focused on appearances and social standing, pragmatism can come across as cold, third son complex (constantly proving himself)",
+		"Role: Face/Leader - Handles high-level negotiations, poses as legitimate businessman or minor noble, coordinates team operations, makes strategic decisions"
+	],
+	"armour": [
+		{
+			"name": "Tailored Dress Uniform",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 2,
+			"protection": 0,
+			"rad": 0,
+			"traits": "High fashion, SOC appropriate",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits": "AP 3, Auto 2",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Encrypted Commlink",
+			"tl": 13,
+			"cost": 5000,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Encrypted, secure channels",
+			"equipped": true
+		},
+		{
+			"name": "Letter of Credit",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "500,000 Cr available from family",
+			"equipped": true
+		},
+		{
+			"name": "High-Quality Formal Wear",
+			"tl": 12,
+			"cost": 10000,
+			"mass": 5,
+			"range": 0,
+			"traits": "Multiple styles, SOC 12 appropriate",
+			"equipped": true
+		},
+		{
+			"name": "Noble Credentials",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Captain-Lord of House Ashworth",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Admiral Konstantin Volkov (Solomani Navy, Diaspora Sector)"
+		},
+		{
+			"type": "contact",
+			"kind": "Isabella Cortez (Macrogenesis VP of Operations)"
+		},
+		{
+			"type": "contact",
+			"kind": "The Broker (Information dealer, Kukulkan)"
+		},
+		{
+			"type": "ally",
+			"kind": "Lord Hiroshi Tanaka (Solomani noble, Terra)"
+		}
+	]
+}
