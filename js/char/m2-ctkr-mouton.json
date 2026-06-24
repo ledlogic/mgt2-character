@@ -1,0 +1,171 @@
+{
+	"overview": {
+		"ranks": ["Marines (Recon)/1", "Army (Infantry, Recon)/3"],
+		"name": "Sergeant First Class Rael Mouton",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "36",
+		"traits": "Quiet, Watchful, Protective",
+		"img": "ctkr-mouton.webp",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 11,
+		"dex": 11,
+		"end": 12,
+		"int": 8,
+		"edu": 8,
+		"soc": 7
+	},
+	"skills": {
+		"gun combat": 0,
+		"gun combat (energy)": 3,
+		"recon": 3,
+		"stealth": 2,
+		"athletics": 0,
+		"athletics (endurance)": 2,
+		"melee": 0,
+		"melee (blade)": 2,
+		"survival": 2,
+		"heavy weapons": 0,
+		"heavy weapons (portable)": 1,
+		"drive": 0,
+		"drive (wheeled)": 1,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"medic": 0,
+		"explosives": 0
+	},
+	"background": "Homeworld: Faslane (Alpha Crucis 1619 — Low Population, frontier mining world). A cold world at the edge of Confederation space where the nearest government response is three days away and self-sufficiency is survival. Joined the Marines at 18, rotated through Recon, recruited to Army Intelligence for protective operations, eventually arrived at SolSec as a field security specialist. Has been in more firefights than he has names for. Does not discuss any of them. Currently 23 days into BLIND SERPENT operation at Lakamsal (SR 3218) — responsible for perimeter security and external threat response.",
+	"education": "Faslane frontier schooling. Confederation Marines Recon qualification. Army Infantry advanced combat certification.",
+	"terms": [
+		"Marines (Recon): Gun Combat (energy)-1, Recon-1, Stealth-1, Athletics (endurance)-1. Marine Recon qualification. Advanced to rank 1. Mustered out after single term to join Army.",
+		"Army (Infantry): Gun Combat (energy)-2, Melee (blade)-1, Survival-1, Drive (wheeled)-1. Infantry combat, multiple engagements. Advanced to rank 1.",
+		"Army (Infantry, Recon): Recon-2, Stealth-2, Athletics (endurance)-2, Electronics (sensors)-1. Recon specialisation, protective operations. Advanced to rank 2.",
+		"Army (Recon): Gun Combat (energy)-3, Recon-3, Melee (blade)-2, Survival-2, Heavy Weapons (portable)-1, Explosives-0, Medic-0. SolSec Field Security — protective detail and perimeter operations. Advanced to rank 3 (SFC). Mustering out: Advanced Combat Rifle, Laser Pistol, Combat Armour, Thermal Camouflage Suit, Explosive Charges x4, 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Security / Perimeter Specialist — physical security of BLIND SERPENT station, external threat management, counter-megafauna if required. Checks perimeter sensors every 20 minutes regardless of whether they need checking.",
+		"Personality: Quiet. Watchful. Uncomfortable when not moving or not useful. Not afraid of megafauna — grew up around things that could kill him. Somewhat unsettled by the signals and intelligence work others do, which he finds abstract.",
+		"Relationship to team: Protective in a way he would not describe as protective. Would follow Vasiliou into a burning starport without question.",
+		"Scenario role: Acts as the team's response when threats go physical. The only team member who can reliably engage either megafauna or Marines at close range."
+	],
+	"armour": [
+		{
+			"name": "Combat Armour",
+			"tl": 10,
+			"cost": 10000,
+			"mass": 10,
+			"protection": 8,
+			"rad": 0,
+			"traits": "TL10, sealed — protects against atmospheric trace volatiles",
+			"equipped": true
+		},
+		{
+			"name": "Thermal Camouflage Suit",
+			"tl": 11,
+			"cost": 8000,
+			"mass": 2,
+			"protection": 0,
+			"rad": 0,
+			"traits": "DM+3 Stealth vs thermal sensors while stationary",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Advanced Combat Rifle",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 3,
+			"range": 450,
+			"damage": "3D",
+			"magazine": 40,
+			"power pack cost": 25,
+			"traits": "Auto 3, Scope, Suppressor",
+			"equipped": true
+		},
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Silent, Zero-G (backup weapon)",
+			"equipped": true
+		},
+		{
+			"name": "Blade",
+			"tl": 1,
+			"cost": 50,
+			"mass": 0.5,
+			"range": 0,
+			"damage": "1D+2",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "Close combat",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Explosive Charges x4",
+			"tl": 10,
+			"cost": 200,
+			"mass": 4,
+			"range": 0,
+			"traits": "Explosives 2 to set correctly, 4D damage, 10m blast radius",
+			"equipped": true
+		},
+		{
+			"name": "Personal Motion Sensor",
+			"tl": 10,
+			"cost": 500,
+			"mass": 0.5,
+			"range": "100 m",
+			"traits": "Wrist-mounted, 100m range",
+			"equipped": true
+		},
+		{
+			"name": "SolSec Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled",
+			"equipped": true
+		},
+		{
+			"name": "Personal Medkit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "1D healing, one use",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander — absolute trust)"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec Field Security (prior protective operations, unnamed handlers)"
+		}
+	]
+}

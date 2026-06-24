@@ -1,0 +1,133 @@
+{
+	"overview": {
+		"ranks": ["Navy (Line)/1", "Navy (Intelligence)/3"],
+		"name": "Yevgenia Marchetti-Solis",
+		"species": "Solomani (Imperial)",
+		"gender": "female",
+		"age": "41",
+		"traits": "Precise, Analytical, Poor at Improvisation",
+		"img": "ctkr-marchetti-solis.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 10,
+		"end": 9,
+		"int": 13,
+		"edu": 12,
+		"soc": 9
+	},
+	"skills": {
+		"electronics": 0,
+		"electronics (comms)": 3,
+		"electronics (sensors)": 1,
+		"investigate": 3,
+		"deception": 2,
+		"tactics": 0,
+		"tactics (naval)": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 2,
+		"persuade": 1,
+		"recon": 1,
+		"stealth": 1,
+		"pilot": 0,
+		"pilot (spacecraft)": 1,
+		"melee": 0,
+		"melee (unarmed)": 0
+	},
+	"background": "Homeworld: Banasdan (SR 2920 — High Tech, subsector capital, Imperial). Established the Lakamsal signals relay 14 months ago and has been managing it since. Brilliant at analysis, poor at improvisation. Has a procedure for every situation and follows it precisely. Currently arriving at Lakamsal in 72 hours — the same extraction window as BLIND SERPENT. This is not a coincidence that helps the players. HIDDEN: She is making personal encrypted backups of the relay's traffic metadata. HIDDEN: She was the junior analyst who processed Breckenridge's burned asset file twelve years ago — she would recognise his signals signature if she analysed the Kethara ECM anomalies in detail. She does not know this yet.",
+	"education": "Imperial Naval Academy (line officer track). Naval Intelligence advanced certification.",
+	"terms": [
+		"Navy (Line): Electronics (comms)-1, Pilot (spacecraft)-1, Recon-1, Tactics (naval)-1. Standard line officer rotation. Advanced to rank 1.",
+		"Navy (Intelligence): Electronics (comms)-2, Electronics (sensors)-1, Investigate-1, Deception-1. Initial intelligence posting. Processed Breckenridge burned asset file — filed as low-value, closed. Advanced to rank 2.",
+		"Navy (Intelligence): Investigate-2, Deception-2, Tactics (naval)-2, Gun Combat (energy)-1. Senior intelligence analyst. Advanced to rank 3.",
+		"Navy (Intelligence): Electronics (comms)-3, Investigate-3, Gun Combat (energy)-2, Persuade-1, Stealth-1. Relay controller designation, Lakamsal installation. Advanced to rank 4. Equipment: Laser Pistol, personal signal analysis tablet (TL12), two NI security agents as escort."
+	],
+	"interactions": [
+		"Role: IMPERIAL ANTAGONIST 2 — The Intelligence Threat. Arrives in 72 hours. Has authorisation to activate Ibáñez-Ochoa's sealed orders.",
+		"Critical misassessment: She believes this is Imperial corporate espionage, not a SolSec incursion. If BLIND SERPENT behaves like corporate thieves, she will pursue corporate investigation procedures rather than military lockdown — buying 6-12 hours before she recalibrates.",
+		"Key flaw: Brilliant at analysis, poor at improvisation. Has a procedure for every situation. When situation develops outside her modelling, she hesitates 1D6x10 minutes gathering more data before acting. This is the team's window.",
+		"Breckenridge connection: She wrote the assessment that burned him as a low-value asset twelve years ago. Never met him. Would not recognise his face. Would recognise his signals signature. If she analysed the Kethara ECM anomalies closely — she would find it.",
+		"Pelczar connection: Her relay's transmission fingerprint appears in Pelczar's Long Case documentation. She is not corrupt — she was never told what happened to her intelligence reports after filing them.",
+		"Her private record-keeping: She has been making personal encrypted backups of relay traffic metadata for two weeks. Her instincts say something is wrong. She has not examined this instinct too closely."
+	],
+	"armour": [
+		{
+			"name": "Light Ballistic Cloth",
+			"tl": 10,
+			"cost": 500,
+			"mass": 1,
+			"protection": 3,
+			"rad": 0,
+			"traits": "Concealed under civilian clothing",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Standard NI sidearm",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Naval Intelligence Encrypted Comms Suite",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 2,
+			"range": "Orbital",
+			"traits": "Connects to Resolute Purpose; activates Ibáñez-Ochoa's sealed orders when used",
+			"equipped": true
+		},
+		{
+			"name": "Personal Signal Analysis Tablet",
+			"tl": 12,
+			"cost": 15000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "DM+2 Electronics (comms) when reviewing transmission data",
+			"equipped": true
+		},
+		{
+			"name": "Personal Encrypted Metadata Backup",
+			"tl": 12,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Two weeks of relay traffic routing data and cipher identifiers — her personal insurance policy",
+			"equipped": true
+		},
+		{
+			"name": "Naval Intelligence Security Agents (x2)",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Personal escort: Army stats, TL12 equipment, Gun Combat 2 each",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Commander Ibáñez-Ochoa (IMS Resolute Purpose — military backstop, in-system awaiting activation signal)"
+		},
+		{
+			"type": "contact",
+			"kind": "291st Fleet Command (reporting chain — she has been told the increased traffic is temporary)"
+		},
+		{
+			"type": "rival",
+			"kind": "Unknown — she suspects someone in the chain is routing non-standard traffic through her relay and not telling her why"
+		}
+	]
+}

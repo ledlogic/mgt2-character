@@ -1,0 +1,125 @@
+{
+	"overview": {
+		"ranks": ["Navy (Line Officer)/4"],
+		"name": "Cmdr Raúl Ibáñez-Ochoa",
+		"species": "Solomani (Imperial)",
+		"gender": "male",
+		"age": "44",
+		"traits": "By-the-Book, Professionally Uncomfortable, Will Follow Orders",
+		"img": "ctkr-ibanez-ochoa.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 10,
+		"dex": 9,
+		"end": 11,
+		"int": 9,
+		"edu": 10,
+		"soc": 10
+	},
+	"skills": {
+		"tactics": 0,
+		"tactics (naval)": 3,
+		"pilot": 0,
+		"pilot (spacecraft)": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 2,
+		"leadership": 2,
+		"melee": 0,
+		"melee (blade)": 1,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"persuade": 1,
+		"admin": 0,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Dipuska (SR 2513 — Industrial, High Population, Imperial). The kind of world that produces reliable, by-the-book Imperial Navy officers. Joined the Navy at 18, served four terms as line officer, commanded two patrol vessels before IMS Resolute Purpose. Has never disobeyed a direct order. Has filed complaints through proper channels on three occasions — all acknowledged and dismissed. He filed the complaints and executed the orders regardless. In-system at Lakamsal for six days under sealed orders. Does not enjoy waiting. Has concluded the situation is not routine. Has not said this to anyone.",
+	"education": "Imperial Naval Academy. Line officer career track, command certification.",
+	"terms": [
+		"Navy (Line Officer): Tactics (naval)-1, Pilot (spacecraft)-1, Leadership-1, Gun Combat (energy)-1. Initial posting, destroyer escort. Advanced to rank 1.",
+		"Navy (Line Officer): Tactics (naval)-2, Pilot (spacecraft)-2, Leadership-2, Electronics (sensors)-1. Command of small craft operations. Advanced to rank 2.",
+		"Navy (Line Officer): Gun Combat (energy)-2, Melee (blade)-1, Persuade-1, Admin-0. First independent command. Filed one complaint through proper channels. Advanced to rank 3.",
+		"Navy (Line Officer): Tactics (naval)-3, Vacc Suit-0. Command of IMS Resolute Purpose (Type T Patrol Cruiser, 400 tons, TL13). Filed two more complaints. Advanced to rank 4. Equipment: Laser Pistol, ceremonial cutlass (functional), TL13 Combat Armour."
+	],
+	"interactions": [
+		"Role: IMPERIAL ANTAGONIST 3 — The Military Deadline. Controls IMS Resolute Purpose with 30 Marines. Activated by Marchetti-Solis's signal; his sealed orders then direct him to Kethara basin KR-DELTA.",
+		"Hard deadline: Resolute Purpose reaches Kethara basin in 90 minutes (infantry approach) or 55 minutes (G-carrier direct strike) from activation signal. 30 TL13 Marines vs 5 SolSec agents is not a fight.",
+		"Sealed orders summary: Secure KR-DELTA, take prisoners, minimum force, await NI debriefing team (72 hours ETA). No comms with 291st Fleet until then. He will follow these precisely.",
+		"Exploitable constraint: His orders say minimum force and take prisoners. He will honour a surrender signal on open channels — Imperial military law requires him to. He will not be fooled by a fake one. A genuine surrender buys negotiation time.",
+		"Personality: Competent, by-the-book, professionally uncomfortable with need-to-know operations. Will treat prisoners correctly under Imperial military law. Will file his after-action report the moment NI debriefing team arrives — regardless of the diplomatic fallout.",
+		"His suspicion: He knows this is not routine. He will say nothing about this until after the operation. He will document everything accurately in the after-action report."
+	],
+	"armour": [
+		{
+			"name": "TL13 Combat Armour (planetside deployment)",
+			"tl": 13,
+			"cost": 250000,
+			"mass": 12,
+			"protection": 13,
+			"rad": 50,
+			"traits": "Sealed, tactical HUD, squad comms overlay — worn when deploying to surface",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Personal sidearm",
+			"equipped": true
+		},
+		{
+			"name": "Imperial Naval Officer's Ceremonial Cutlass",
+			"tl": 6,
+			"cost": 200,
+			"mass": 1,
+			"range": 0,
+			"damage": "2D+2",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "Functional despite ceremonial designation",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Sealed Orders (KR-DELTA)",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Opens on receipt of Marchetti-Solis authorisation signal. Directs him to KR-DELTA — Kethara basin coordinates he has been looking at for six days.",
+			"equipped": true
+		},
+		{
+			"name": "IMS Resolute Purpose (Type T Patrol Cruiser)",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": "Jump-3",
+			"traits": "400 tons, TL13 upgrade. 16 naval crew + 30 Marines. Ship's Boat + G-Carrier. Currently in standby orbit, Lakamsal system.",
+			"equipped": false
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Lt. Anya Voss (Marine Commander, IMS Resolute Purpose)"
+		},
+		{
+			"type": "contact",
+			"kind": "Lt. Commander Marchetti-Solis (NI Detachment Officer — her signal activates his orders)"
+		},
+		{
+			"type": "contact",
+			"kind": "291st Fleet Command (reporting chain — communications blackout until NI debriefing team arrives)"
+		}
+	]
+}

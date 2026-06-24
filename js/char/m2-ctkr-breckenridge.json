@@ -1,0 +1,147 @@
+{
+	"overview": {
+		"ranks": ["Agent (Intelligence, Counter-Intelligence)/4"],
+		"name": "Agent Tomas Breckenridge",
+		"species": "Solomani*",
+		"gender": "male",
+		"age": "40",
+		"traits": "Precise, Methodical, Carries a Secret",
+		"img": "ctkr-breckenridge.webp",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 8,
+		"end": 7,
+		"int": 13,
+		"edu": 13,
+		"soc": 8
+	},
+	"skills": {
+		"electronics": 0,
+		"electronics (comms)": 3,
+		"electronics (computers)": 3,
+		"electronics (sensors)": 1,
+		"investigate": 2,
+		"deception": 2,
+		"stealth": 1,
+		"persuade": 1,
+		"streetwise": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"language": 0,
+		"language (imperial standard)": 2,
+		"admin": 0
+	},
+	"background": "Homeworld: Patrent (Alpha Crucis 0101 — High Tech, Imperial-controlled border world). Born an Imperial citizen. Family maintained Solomani cultural identity through two generations of Imperial administration — not as political resistance, but as quiet cultural practice. Made contact with SolSec in his late twenties through a family connection — a cousin who crossed the border years before and never returned. After extensive vetting (given his Imperial birth), accepted into SolSec. Fifteen years operational. SECRET: In early career, Imperial Naval Intelligence identified him as a Solomani sympathiser and approached with an ultimatum — work as double agent or face prosecution. He fed them three months of carefully managed intelligence, then quietly cut contact. Imperial intelligence filed him as burned and moved on. He has carried this for twelve years. Currently 23 days into BLIND SERPENT operation at Lakamsal (SR 3218).",
+	"education": "Imperial citizen education, Patrent. Advanced self-study in signals and cryptography. SolSec Counter-Intelligence training.",
+	"terms": [
+		"Agent (Intelligence): Electronics (comms)-1, Electronics (computers)-1, Investigate-1, Deception-1. Initial SolSec placement — signals intercept operations. Advanced to rank 1.",
+		"Agent (Intelligence): Electronics (comms)-2, Electronics (computers)-2, Electronics (sensors)-1, Stealth-1. Counter-intelligence field work from Imperial side. Double-agent incident: fed managed intel to NI for three months, then cut contact. Filed as burned asset. Advanced to rank 2.",
+		"Agent (Counter-Intelligence): Investigate-2, Deception-2, Persuade-1, Gun Combat (energy)-1. Formal counter-intelligence certification. Advanced to rank 3.",
+		"Agent (Counter-Intelligence): Electronics (comms)-3, Electronics (computers)-3, Streetwise-1, Language (Imperial Standard)-2, Admin-0. Senior signals intelligence role. Assigned to BLIND SERPENT as SIGINT co-specialist. Advanced to rank 4. Mustering out: SIGINT Suite (TL11 portable intercept rig), 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Signals & Intrusion Specialist — signals interception, electronic warfare, systems intrusion. Manages the ECM suite protecting BLIND SERPENT.",
+		"Personality: Precise, methodical, quietly intense. Hums classical Solomani folk music while working — entirely unaware he does this. Most likely to notice something is wrong before anyone else. Also most likely to be wrong about what that specific thing is.",
+		"The secret: Twelve years ago, Imperial Naval Intelligence burned him as a low-value double asset. Pelczar has a file on that burned asset. She has not yet connected it to the man sitting three metres away. When she does, it will be the most dangerous day of his life — not because she will betray him, but because she will have to decide whether she trusts him anyway.",
+		"Scenario knowledge: He knows the relay's timing shift (Hour 0 phenomenon) is a calibration burst from stressed hardware — not a sweep. He has not told Pelczar, who has been building a mole theory around it for six hours. He does not know how to raise it without explaining how he knows what Imperial relay calibration patterns look like."
+	],
+	"armour": [
+		{
+			"name": "Signal Masking Cloak",
+			"tl": 11,
+			"cost": 10000,
+			"mass": 1,
+			"protection": 0,
+			"rad": 0,
+			"traits": "DM+2 Stealth vs electronic sensors",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Zero-G",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "SolSec SIGINT Suite",
+			"tl": 11,
+			"cost": 50000,
+			"mass": 5,
+			"range": 0,
+			"traits": "Portable intercept rig, DM+2 all contested Electronics rolls when deployed",
+			"equipped": true
+		},
+		{
+			"name": "Intrusion Toolkit",
+			"tl": 11,
+			"cost": 12000,
+			"mass": 1,
+			"range": 0,
+			"traits": "Auto-hacking device, DM+2 vs TL10 or lower systems",
+			"equipped": true
+		},
+		{
+			"name": "Personal Encrypted Data Core",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Triple-redundant — mission data survives even if Breckenridge does not",
+			"equipped": true
+		},
+		{
+			"name": "SolSec Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled",
+			"equipped": true
+		},
+		{
+			"name": "Personal Medkit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "1D healing, one use",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander)"
+		},
+		{
+			"type": "rival",
+			"kind": "Imperial Naval Intelligence (burned asset file — they do not know it is him)"
+		},
+		{
+			"type": "contact",
+			"kind": "Family cousin (Solomani, crossed border — initial SolSec contact)"
+		}
+	]
+}

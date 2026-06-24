@@ -1,0 +1,153 @@
+{
+	"overview": {
+		"ranks": ["Army (Support)/2", "Agent (Intelligence, Technical)/2"],
+		"name": "Tech Yuki Haramoto",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "36",
+		"traits": "Practically Optimistic, Improviser, Equipment-Empathic",
+		"img": "ctkr-haramoto.webp",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 10,
+		"dex": 10,
+		"end": 10,
+		"int": 10,
+		"edu": 11,
+		"soc": 7
+	},
+	"skills": {
+		"mechanic": 3,
+		"engineer": 0,
+		"engineer (electronics)": 2,
+		"engineer (power)": 1,
+		"electronics": 0,
+		"electronics (sensors)": 2,
+		"explosives": 1,
+		"drive": 0,
+		"drive (wheeled)": 1,
+		"athletics": 0,
+		"athletics (strength)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"medic": 1,
+		"survival": 0
+	},
+	"background": "Homeworld: Cthonia (Alpha Crucis 0515 — High Population, Industrial). A world where everything breaks and the nearest repair shop is an hour away — Haramoto learned engineering by necessity. Joined the Army as a support tech, kept armoured vehicles functional in field conditions for two terms, then headhunted by SolSec Technical Branch for her ability to improvise solutions under pressure. She is the reason BLIND SERPENT's equipment has lasted 23 days instead of eight. Currently managing the failing TSU-9 thermal spoofing unit at Field Station Kethara, Lakamsal (SR 3218). Has an affectionate relationship with all station equipment, including the equipment that is actively failing.",
+	"education": "Cthonia vocational engineering apprenticeship. Confederation Army support tech certification. SolSec Technical Branch field engineering.",
+	"terms": [
+		"Army (Support): Mechanic-1, Engineer (power)-1, Drive (wheeled)-1, Athletics (strength)-1. Armoured vehicle maintenance under field conditions. Advanced to rank 1.",
+		"Army (Support): Mechanic-2, Engineer (electronics)-1, Electronics (sensors)-1, Gun Combat (slug)-1. Extended field deployments, improvised repair under combat conditions. Advanced to rank 2. Mustered out with field engineering certification.",
+		"Agent (Intelligence, Technical): Mechanic-3, Engineer (electronics)-2, Explosives-1, Medic-1. SolSec Technical Branch — covert installation construction and maintenance. Advanced to rank 1.",
+		"Agent (Intelligence, Technical): Electronics (sensors)-2, Survival-0. BLIND SERPENT assignment. Advanced to rank 2. Mustering out: Advanced Toolkit (TL11), Emergency Medkit, Grav Belt, 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Engineer / Technician — all mechanical and electronic maintenance. Primary responsibility: TSU-9 thermal spoofing unit (currently running at 140% load, estimated 18 hours to failure without parts from the crash site).",
+		"Personality: Sees every broken thing as a puzzle rather than a problem. Dark humour about equipment failures. Does not understand why anyone is scared of megafauna when the thermal spoofing unit is clearly the more pressing existential threat.",
+		"Relationship with Okonkwo: Friendly arguments about the best way to fix the same problem are frequent — they are both usually partly right.",
+		"Scenario key decision: Recovery of cooling parts from the Imperial relay crash site (Acts 2–3) is her primary mission-critical task. Without those parts, TSU-9 fails and the station becomes thermally visible."
+	],
+	"armour": [
+		{
+			"name": "Light Combat Armour",
+			"tl": 10,
+			"cost": 5000,
+			"mass": 7,
+			"protection": 5,
+			"rad": 0,
+			"traits": "TL10, sealed",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Gauss Rifle",
+			"tl": 13,
+			"cost": 1500,
+			"mass": 3.5,
+			"range": 600,
+			"damage": "3D",
+			"magazine": 80,
+			"power pack cost": 30,
+			"traits": "AP 5, 4 magazines",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Advanced Toolkit",
+			"tl": 11,
+			"cost": 10000,
+			"mass": 5,
+			"range": 0,
+			"traits": "DM+2 all Mechanic and Engineer checks",
+			"equipped": true
+		},
+		{
+			"name": "Spare Parts Cache",
+			"tl": 10,
+			"cost": 2000,
+			"mass": 10,
+			"range": 0,
+			"traits": "Sufficient for full TSU-9 repair IF crash site cooling parts also retrieved",
+			"equipped": true
+		},
+		{
+			"name": "Emergency Medkit",
+			"tl": 11,
+			"cost": 1500,
+			"mass": 2,
+			"range": 0,
+			"traits": "Medic 2 equivalent — one major treatment + two minor treatments",
+			"equipped": true
+		},
+		{
+			"name": "Grav Belt",
+			"tl": 11,
+			"cost": 100000,
+			"mass": 6,
+			"range": 0,
+			"traits": "TL11, 4-hour operation — for cliff face access",
+			"equipped": true
+		},
+		{
+			"name": "SolSec Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled",
+			"equipped": true
+		},
+		{
+			"name": "Personal Medkit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "1D healing, one use",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander)"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec Technical Branch (equipment supply, fabrication support)"
+		}
+	]
+}

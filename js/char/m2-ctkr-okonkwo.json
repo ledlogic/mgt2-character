@@ -1,0 +1,145 @@
+{
+	"overview": {
+		"ranks": ["Navy (Flight)/2", "Agent (Intelligence, Technical)/2"],
+		"name": "Sr Technician Davi Okonkwo",
+		"species": "Solomani",
+		"gender": "male",
+		"age": "34",
+		"traits": "Cheerful in Crisis, Drone-Bonded, Zoophobic",
+		"img": "ctkr-okonkwo.webp",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 12,
+		"end": 8,
+		"int": 11,
+		"edu": 10,
+		"soc": 7
+	},
+	"skills": {
+		"electronics": 0,
+		"electronics (remote ops)": 3,
+		"electronics (sensors)": 2,
+		"flyer": 0,
+		"flyer (rotor)": 2,
+		"gunner": 0,
+		"gunner (turrets)": 2,
+		"recon": 1,
+		"pilot": 0,
+		"pilot (small craft)": 1,
+		"mechanic": 1,
+		"athletics": 0,
+		"athletics (dexterity)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"vacc suit": 0
+	},
+	"background": "Homeworld: Weeven (Alpha Crucis — High Population, Industrial). Learned to fly drones at age twelve navigating cargo transfers between arcology towers. Joined the Confederation Navy as a flight tech, spent eight years on atmospheric and drone operations, recruited to SolSec Technical Operations for his ability to fly multiple concurrent drones without losing situational awareness. Views drones as extensions of his own senses. Names them — his two armed recon drones are 'Priya' and 'Garner', after xenobiologists from the first Kethara survey team, both killed by megafauna in 1098. Currently 23 days into BLIND SERPENT operation at Lakamsal (SR 3218).",
+	"education": "Confederation Navy flight technical training. SolSec Technical Operations drone operations certification.",
+	"terms": [
+		"Navy (Flight): Electronics (remote ops)-1, Flyer (rotor)-1, Pilot (small craft)-1. Atmospheric drone operations, cargo logistics, flight crew. Advanced to rank 1.",
+		"Navy (Flight): Electronics (remote ops)-2, Gunner (turrets)-1, Flyer (rotor)-2, Athletics (dexterity)-1. Advanced multi-drone operations, armed surveillance platforms. Advanced to rank 2. Mustered out: Drone Control Gauntlet (TL11, personal kit).",
+		"Agent (Intelligence, Technical): Electronics (remote ops)-3, Electronics (sensors)-1, Mechanic-1, Recon-1. SolSec Technical Operations, remote surveillance missions. Advanced to rank 1.",
+		"Agent (Intelligence, Technical): Electronics (sensors)-2, Gunner (turrets)-2, Gun Combat (slug)-1, Vacc Suit-0. Extended field operations, multi-domain drone command. Advanced to rank 2. Mustering out: 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Drone Operator — primary control of all BLIND SERPENT UAVs. Manages Priya, Garner (armed recon), long-range surveillance drone, and ground scout.",
+		"Personality: Cheerful in crisis, quiet when things are calm. Talks to his drones under his breath (unaware he does this). Will discuss drone maintenance at length if not redirected.",
+		"Key fear: Genuinely afraid of large animals. The Kethara Reach megafauna are his personal nightmare. He is very aware of this and tries not to show it.",
+		"Drone names: Armed recon drones Priya and Garner — named for the xenobiologists from the 1098 Kethara survey team, both killed by megafauna. He has never explained this to the rest of the cell."
+	],
+	"armour": [
+		{
+			"name": "Flight Suit (Repurposed)",
+			"tl": 10,
+			"cost": 500,
+			"mass": 2,
+			"protection": 1,
+			"rad": 0,
+			"traits": "SolSec field modification, integrated haptic sensors",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Autopistol",
+			"tl": 9,
+			"cost": 200,
+			"mass": 0.5,
+			"range": 10,
+			"damage": "3D-3",
+			"magazine": 15,
+			"power pack cost": 10,
+			"traits": "Standard sidearm",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Drone Control Gauntlet",
+			"tl": 11,
+			"cost": 8000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Wrist-mounted haptic rig, DM+1 all drone ops, simultaneous multi-drone awareness",
+			"equipped": true
+		},
+		{
+			"name": "Spare Drone Parts Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 3,
+			"range": 0,
+			"traits": "Repairs 1D drone damage, 30 minutes work",
+			"equipped": true
+		},
+		{
+			"name": "Binoculars (TL10)",
+			"tl": 10,
+			"cost": 750,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "x50 magnification, thermal overlay",
+			"equipped": true
+		},
+		{
+			"name": "SolSec Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled",
+			"equipped": true
+		},
+		{
+			"name": "Personal Medkit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "1D healing, one use",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander)"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec Technical Operations (drone procurement, equipment liaison)"
+		}
+	]
+}

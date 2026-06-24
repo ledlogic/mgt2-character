@@ -1,0 +1,114 @@
+{
+	"overview": {
+		"ranks": ["Scout (Courier)/3"],
+		"name": "Senior Scout Eliška Mrazová",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "42",
+		"traits": "Calm About It in a Way That Suggests She Has Seen Worse",
+		"img": "ctkr-mrazova.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 11,
+		"end": 9,
+		"int": 10,
+		"edu": 11,
+		"soc": 7
+	},
+	"skills": {
+		"pilot": 0,
+		"pilot (spacecraft)": 3,
+		"astrogation": 3,
+		"electronics": 0,
+		"electronics (comms)": 2,
+		"mechanic": 2,
+		"stealth": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"vacc suit": 1,
+		"deception": 1,
+		"recon": 0
+	},
+	"background": "Homeworld: Varch (Alpha Crucis 0618 — Low Population, Confederation border). A world at the edge of things, where the difference between Solomani space and Imperial space is an administrative line rather than a cultural one. Mrazová has been flying courier runs since she was 24 — first for the Scout Service, then contracted to SolSec eight years ago. Eleven missions. She has never asked what she was carrying or who she was carrying it for. She was told this pickup was 30 days. It is now Day 29. She is calm about this. Her co-pilot is a ship's computer running an Intellect/4 program she calls 'the Navigator' and does not talk to.",
+	"education": "Scout Service courier track. Astrogation certification. Three terms courier specialisation.",
+	"terms": [
+		"Scout (Courier): Pilot (spacecraft)-1, Astrogation-1, Electronics (comms)-1, Recon-0. Initial Scout posting, courier runs along the Confederation border. Advanced to rank 1.",
+		"Scout (Courier): Pilot (spacecraft)-2, Astrogation-2, Mechanic-1, Vacc Suit-1, Deception-1. Extended courier operations, learned when not to ask questions. Advanced to rank 2.",
+		"Scout (Courier): Pilot (spacecraft)-3, Astrogation-3, Electronics (comms)-2, Mechanic-2, Stealth-1, Gun Combat (energy)-1. SolSec contracted courier work. Eleven missions over 8 years. Advanced to rank 3. Equipment: Laser Pistol, Vacc Suit TL12, personal encrypted comms unit."
+	],
+	"interactions": [
+		"Role: SHEPHERD pilot — SolSec contracted courier specialist. Currently in outer system beyond Lakamsal's gas giant, Day 29 of a 30-day standby. Not an agent. Not involved in the operation. Waiting.",
+		"Personality: Calm, contained, professionally incurious. Has been waiting 29 days without complaint. The one thing that would genuinely unsettle her is being asked to wait longer than 30 days — not because she would refuse, but because it would mean something went wrong that she cannot fix from orbit.",
+		"The Navigator: Her Intellect/4 co-pilot program. She does not talk to it. It handles astrogation confirmation, sensor monitoring, and jump calculations. She trusts it completely and has never given it a name she uses out loud.",
+		"Extraction role: Descends from outer system to KR-7 (basalt plateau, 40km north of station) on data uplink confirmation. Sits on the plateau with ramp down and transponder broadcasting Persistent Venture identity. Waits for the team. Executes jump once all six are aboard.",
+		"If extraction is delayed: She will wait up to 6 additional hours beyond the window before breaking orbit. She will not transmit to ask why. She has a contingency jump plot already calculated."
+	],
+	"armour": [
+		{
+			"name": "Vacc Suit TL12",
+			"tl": 12,
+			"cost": 20000,
+			"mass": 8,
+			"protection": 6,
+			"rad": 75,
+			"traits": "Sealed, 6-hour air supply — worn during atmospheric descent",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Standard courier sidearm — she hopes not to use it",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "SHEPHERD (Modified Type S Scout/Courier)",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": "Jump-2",
+			"traits": "100 tons, streamlined. Registered as Persistent Venture. Transponder spoofing suite (TL11), enhanced signal receiver, 6 low berths, 2 active staterooms, double turret (2x pulse laser). Currently in outer system standby.",
+			"equipped": false
+		},
+		{
+			"name": "Personal Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled — for burst receipt from BLIND SERPENT only",
+			"equipped": true
+		},
+		{
+			"name": "Contingency Jump Plot",
+			"tl": 12,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Pre-calculated. Neutral rendezvous system, one jump from Solomani border. Loaded and ready.",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "SolSec courier operations (contracted — 11 missions, 8 years, no questions asked)"
+		},
+		{
+			"type": "contact",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander — voice only, encrypted burst)"
+		}
+	]
+}

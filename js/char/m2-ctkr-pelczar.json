@@ -1,0 +1,137 @@
+{
+	"overview": {
+		"ranks": ["Agent (Intelligence, Counter-Intelligence)/5"],
+		"name": "Senior Analyst Marta Pelczar",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "46",
+		"traits": "Brilliant, Paranoid, Correct About Most of It",
+		"img": "ctkr-pelczar.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 6,
+		"dex": 7,
+		"end": 6,
+		"int": 13,
+		"edu": 14,
+		"soc": 8
+	},
+	"skills": {
+		"electronics": 0,
+		"electronics (comms)": 4,
+		"electronics (computers)": 3,
+		"investigate": 3,
+		"deception": 2,
+		"recon": 1,
+		"admin": 1,
+		"persuade": 1,
+		"gun combat": 0,
+		"gun combat (energy)": 1
+	},
+	"background": "Homeworld: Kazan (Alpha Crucis 0101 — High Tech, sector capital). Twenty-two years in SolSec. Two burned identities. Brilliant signals analyst assigned to BLIND SERPENT as specialist, not field operative. Has not left the operations centre in twelve days. Eats at the console. Sleeps in a camp chair. Keeps three separate encrypted logs — one official, two personal. Currently running a six-day covert decryption effort on the Imperial relay's changed traffic that she has not reported to anyone.",
+	"education": "Kazan University (signals and information theory). SolSec Intelligence Academy. Counter-intelligence advanced certification.",
+	"terms": [
+		"Agent (Intelligence): Electronics (comms)-1, Electronics (computers)-1, Investigate-1, Deception-1. Entry-level signals analysis. Advanced to rank 1.",
+		"Agent (Intelligence): Electronics (comms)-2, Electronics (computers)-2, Investigate-2, Admin-1. Major SIGINT operations. First burned identity. Advanced to rank 2.",
+		"Agent (Counter-Intelligence): Electronics (comms)-3, Deception-2, Persuade-1, Recon-1. Counter-intelligence specialisation. Second burned identity. Advanced to rank 3.",
+		"Agent (Counter-Intelligence): Electronics (computers)-3, Investigate-3, Gun Combat (energy)-1. Senior analyst designation. Began building the Long Case documentation. Advanced to rank 4.",
+		"Agent (Intelligence, Counter-Intelligence): Electronics (comms)-4. Senior Analyst designation. Volunteered for BLIND SERPENT specifically for access to relay product. Advanced to rank 5. Equipment: SolSec SIGINT Master Suite (TL12), three redundant data cores."
+	],
+	"interactions": [
+		"Role: KEY NPC — SIGINT Specialist. Not a player character. Controls the data package that is the mission's primary objective. Her decisions in the final acts determine what intelligence BLIND SERPENT extracts.",
+		"Personality: Brilliant, paranoid, and correct about most of what she is paranoid about. Will argue tactical decisions but follow orders in a crisis. Dry black humour, deployed rarely and precisely.",
+		"Hidden discovery 1 (Hour 2): Presents anomalous relay timing shift to Vasiliou as evidence of a mole. She is WRONG — it is storm-cycle calibration drift. This creates a false mole-hunt that may dominate early session.",
+		"Hidden discovery 2 (ongoing): Six days of covert decryption work on the relay's changed traffic. Three passes from understanding something significant about Imperial court instability. Storm interference delays this by 4 hours at peak (Hours 4-10). She is working through it regardless of orders.",
+		"Third data core (secret): Contains (1) eight years of documented SolSec internal suppression patterns — the Long Case; (2) the twelve-year-old burned asset file that is three data comparisons from matching Breckenridge; (3) her partial decryption of the relay's current traffic. None of this appears on the station manifest.",
+		"Stimulant use: She has been using stimulants. She has not slept properly in four days. This is relevant to her judgment in the final acts."
+	],
+	"armour": [
+		{
+			"name": "None",
+			"tl": 0,
+			"cost": 0,
+			"mass": 0,
+			"protection": 0,
+			"rad": 0,
+			"traits": "Field fatigues only — she has not left the operations centre",
+			"equipped": false
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Pistol",
+			"tl": 9,
+			"cost": 2000,
+			"mass": 1,
+			"range": 20,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Rarely leaves the holster",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "SolSec SIGINT Master Suite",
+			"tl": 12,
+			"cost": 200000,
+			"mass": 8,
+			"range": 0,
+			"traits": "TL12 — best portable signals analysis equipment in Confederation field inventory. Deployed at operations console.",
+			"equipped": true
+		},
+		{
+			"name": "Official Data Core",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Standard SolSec encrypted mission data — mission-sanctioned intelligence",
+			"equipped": true
+		},
+		{
+			"name": "Personal Data Core Alpha",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Personal encrypted log — the Long Case (eight years of SolSec internal suppression documentation)",
+			"equipped": true
+		},
+		{
+			"name": "Personal Data Core Beta (SECRET)",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "Twelve-year-old burned asset file (three comparisons from matching Breckenridge); partial relay decryption work. Not on station manifest.",
+			"equipped": true
+		},
+		{
+			"name": "Stimulants (depleted supply)",
+			"tl": 10,
+			"cost": 30,
+			"mass": 0,
+			"range": 0,
+			"traits": "Four days of use. She is running low.",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander — professional trust)"
+		},
+		{
+			"type": "rival",
+			"kind": "SolSec hard-liner internal faction (suppressing intelligence that contradicts their policy — documented in the Long Case)"
+		},
+		{
+			"type": "contact",
+			"kind": "Lt. Commander Marchetti-Solis (unknowing — relay transmission fingerprint is in Pelczar's files)"
+		}
+	]
+}

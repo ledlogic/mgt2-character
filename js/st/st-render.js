@@ -12,6 +12,26 @@ st.render = {
 
 		$(".st-page").removeClass("st-initial-state");
 		$("h1,.st-nav").hide();
+		r.autoResizeOverview();
+	},
+	autoResizeOverview: function() {
+		var $overview = $(".st-overview");
+		var $traits = $(".st-overview-traits");
+		if (!$traits.length) return;
+
+		// Measure how far the bottom of the traits value extends
+		var traitsBottom = $traits.position().top + $traits.outerHeight(true);
+		var overviewHeight = $overview.height();
+
+		if (traitsBottom > overviewHeight) {
+			var extra = traitsBottom - overviewHeight + 8; // 8px breathing room
+			$overview.height(overviewHeight + extra);
+
+			// Shift .st-attributes down to match
+			var $attr = $(".st-attributes");
+			var attrTop = parseInt($attr.css("top"), 10);
+			$attr.css("top", (attrTop + extra) + "px");
+		}
 	},
 	renderReset: function() {
 		st.character.$pageft.html("");
@@ -207,7 +227,7 @@ st.render = {
 		var $overview = $(".st-overview");
 		overview.credits = credits;
 		
-		var arr = ["age", "traits", "initial", "credits", "debt"];
+		var arr = ["initial", "credits", "debt"];
 		for (var i=0; i<arr.length; i++) {
 			var key = arr[i];
 			var value = overview[key];

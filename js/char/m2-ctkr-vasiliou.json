@@ -1,0 +1,149 @@
+{
+	"overview": {
+		"ranks": ["Army (Infantry Officer)/1", "Agent (Intelligence)/3"],
+		"name": "Major Sera Vasiliou",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "38",
+		"traits": "Controlled, Risk-Aware, Command Presence",
+		"img": "ctkr-vasiliou.webp",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 9,
+		"end": 9,
+		"int": 11,
+		"edu": 12,
+		"soc": 9
+	},
+	"skills": {
+		"tactics": 0,
+		"tactics (military)": 2,
+		"leadership": 2,
+		"recon": 2,
+		"deception": 2,
+		"gun combat": 0,
+		"gun combat (energy)": 1,
+		"investigate": 1,
+		"stealth": 1,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"melee": 0,
+		"melee (unarmed)": 1,
+		"admin": 0,
+		"persuade": 0
+	},
+	"background": "Homeworld: Kukulcan (Solomani Rim 2835 — High Population, Solomani Confederation founding world). Grew up where SolSec was as visible as local police and children learned early that some conversations happened only indoors. Joined the Confederation Army at 18, served two terms on the Alpha Crucis frontier, recruited into SolSec Intelligence after noticing a covert operation her unit was being used to cover. Twelve years in the service. Six deep-cover operations. Cell Commander of BLIND SERPENT, currently 23 days into an unauthorised operation on Imperial soil at Lakamsal (SR 3218). Personally selected each member of this cell.",
+	"education": "Solomani Confederation Army officer training. SolSec Intelligence Branch advanced certification.",
+	"terms": [
+		"Army (Infantry Officer): Tactics (military)-1, Leadership-1, Recon-1. Frontier service, Alpha Crucis sector. Noticed covert operation her unit was being used as cover for. Advanced to rank 1.",
+		"Army (Infantry Officer): Tactics (military)-2, Leadership-2, Melee (unarmed)-1, Gun Combat (energy)-1. Second frontier term. Recruited by SolSec after submitting observation report. Mustering out with rank of Lieutenant.",
+		"Agent (Intelligence): Deception-1, Investigate-1, Stealth-1, Electronics (comms)-1. First SolSec term. Three deep-cover operations under civilian alias. Advanced to rank 1.",
+		"Agent (Intelligence): Deception-2, Recon-2, Persuade-0, Admin-0. Second SolSec term. Two more operations. Advanced to rank 2.",
+		"Agent (Intelligence): Tactics (military) (specialist focus), Recon (specialist focus). Third SolSec term, field command certification. Advanced to rank 3, Major designation. Assigned command of BLIND SERPENT. Mustering out: 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Cell Commander — tactical authority, personnel decisions, mission integrity. Final call on all operational choices.",
+		"Personality: Controlled, direct, risk-aware without being risk-averse. Keeps the mission moving by refusing to let the group argue longer than necessary. Has nightmares she does not discuss.",
+		"Relationship to team: Trusts Pelczar's instincts even when she doubts Pelczar's conclusions. Feels responsible for all five members — something she would not say aloud.",
+		"Scenario hook: Must decide at Hour 2 whether Pelczar's mole theory is worth acting on, and at Hour 8 whether to order the data uplink during storm interference or risk waiting."
+	],
+	"armour": [
+		{
+			"name": "Diplo Vest",
+			"tl": 10,
+			"cost": 2500,
+			"mass": 1,
+			"protection": 3,
+			"rad": 0,
+			"traits": "Concealable under field fatigues",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Carbine",
+			"tl": 10,
+			"cost": 2500,
+			"mass": 4,
+			"range": 150,
+			"damage": "4D",
+			"magazine": 50,
+			"power pack cost": 3000,
+			"traits": "Zero-G, Scope",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Tactical HUD",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 0,
+			"range": 0,
+			"traits": "DM+1 Tactics when linked to sensor net",
+			"equipped": true
+		},
+		{
+			"name": "SolSec Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled, cover identity documents loaded",
+			"equipped": true
+		},
+		{
+			"name": "Cover Identity Documents",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Geological survey team — registered neutral world, Alpha Crucis",
+			"equipped": true
+		},
+		{
+			"name": "Personal Medkit",
+			"tl": 10,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "1D healing, one use",
+			"equipped": true
+		},
+		{
+			"name": "Stimulants x3",
+			"tl": 10,
+			"cost": 90,
+			"mass": 0,
+			"range": 0,
+			"traits": "Removes fatigue DM for 6 hours, END check on crash",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Senior Analyst Marta Pelczar (BLIND SERPENT SIGINT specialist — KEY NPC)"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec Director (authorisation for this mission exists only in a single encrypted document held by the Director personally)"
+		},
+		{
+			"type": "contact",
+			"kind": "SHEPHERD courier vessel crew (extraction, 72 hours)"
+		}
+	]
+}

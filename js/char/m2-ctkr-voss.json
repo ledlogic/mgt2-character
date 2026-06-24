@@ -1,0 +1,133 @@
+{
+	"overview": {
+		"ranks": ["Marines (Infantry)/2", "Marines (Officer)/1"],
+		"name": "Lieutenant Anya Voss",
+		"species": "Solomani (Imperial)",
+		"gender": "female",
+		"age": "32",
+		"traits": "Direct, Tactically Sharp, Quietly Curious",
+		"img": "ctkr-voss.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 11,
+		"dex": 12,
+		"end": 11,
+		"int": 10,
+		"edu": 9,
+		"soc": 8
+	},
+	"skills": {
+		"gun combat": 0,
+		"gun combat (energy)": 3,
+		"tactics": 0,
+		"tactics (military)": 2,
+		"leadership": 2,
+		"athletics": 0,
+		"athletics (endurance)": 2,
+		"recon": 2,
+		"stealth": 1,
+		"melee": 0,
+		"melee (blade)": 1,
+		"medic": 1,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"vacc suit": 1,
+		"survival": 0
+	},
+	"background": "Homeworld: Tewfik (SR 1820 — Low Population, Imperial border world). Close enough to the Solomani border that the Front is a daily political reality, not an abstraction. Joined the Marines because the border makes you take sides early. Commands Ibáñez-Ochoa's 30-Marine detachment aboard IMS Resolute Purpose. Has briefed her Marines for a high-value site security operation against unknown personnel, possibly armed, likely trained — minimum force, take prisoners. Does not know why. Shares Ibáñez-Ochoa's conviction this is not routine, but finds this interesting rather than uncomfortable.",
+	"education": "Tewfik secondary schooling. Imperial Marines Academy. Officer candidate school.",
+	"terms": [
+		"Marines (Infantry): Gun Combat (energy)-1, Athletics (endurance)-1, Recon-1, Melee (blade)-1. Basic Marine infantry. Qualified marksman. Advanced to rank 1.",
+		"Marines (Infantry): Gun Combat (energy)-2, Athletics (endurance)-2, Stealth-1, Vacc Suit-1. Advanced infantry combat. Multiple deployments. Advanced to rank 2.",
+		"Marines (Officer): Gun Combat (energy)-3, Tactics (military)-2, Leadership-2, Recon-2, Electronics (sensors)-1, Medic-1, Survival-0. Officer qualification, command of Marine detachment. Advanced to rank 3 (Lieutenant). Equipment: TL13 Combat Armour, Laser Rifle, Gauss Pistol, Combat Blade, Tactical planning tablet."
+	],
+	"interactions": [
+		"Role: Marine Commander aboard IMS Resolute Purpose. Commands 30 Marines in the KR-DELTA operation. Arrives at Kethara station 55-90 minutes after activation signal.",
+		"Marine briefing: Her Marines know minimum force and take prisoners. She has also briefed them on megafauna — 'Do not engage local fauna unless directly threatened. We are not here to shoot dinosaurs.'",
+		"Personality: Loyal to Ibáñez-Ochoa professionally. Would like to know what is actually in the Kethara basin. She is patient. She will find out eventually.",
+		"Tactical approach: If Marchetti-Solis has exact station coordinates — direct G-carrier strike, 55 minutes. If only grid reference — infantry approach from KR-7, 90 minutes. She adapts based on what she knows.",
+		"On megafauna: She has read Osei-Bonsu's survey data. She suspects her 'don't shoot dinosaurs' instruction will not survive contact with the jungle."
+	],
+	"armour": [
+		{
+			"name": "TL13 Combat Armour",
+			"tl": 13,
+			"cost": 250000,
+			"mass": 12,
+			"protection": 13,
+			"rad": 50,
+			"traits": "Sealed, tactical HUD with squad overlay — full 30-Marine squad comms link",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Laser Rifle",
+			"tl": 11,
+			"cost": 3500,
+			"mass": 5,
+			"range": 400,
+			"damage": "5D",
+			"magazine": 100,
+			"power pack cost": 3000,
+			"traits": "Zero-G, Scope",
+			"equipped": true
+		},
+		{
+			"name": "Gauss Pistol",
+			"tl": 13,
+			"cost": 500,
+			"mass": 0.5,
+			"range": 20,
+			"damage": "3D-3",
+			"magazine": 40,
+			"power pack cost": 20,
+			"traits": "AP 3, Auto 2 (sidearm)",
+			"equipped": true
+		},
+		{
+			"name": "Combat Blade",
+			"tl": 5,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"damage": "1D+4",
+			"magazine": 0,
+			"power pack cost": 0,
+			"traits": "Military-grade combat blade",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Tactical Planning Tablet",
+			"tl": 13,
+			"cost": 10000,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Squad overlay, terrain mapping, orbital feed from Resolute Purpose",
+			"equipped": true
+		},
+		{
+			"name": "30 Marines (TL13 standard kit)",
+			"tl": 13,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Each: TL13 Combat Armour (+13), Gauss Rifle (3D, AP5, Auto 2), Gauss Pistol, Motion Sensor, Encrypted Squad Comms. 26 Marines + 3 Fire Team Leaders.",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Commander Ibáñez-Ochoa (Commanding Officer, IMS Resolute Purpose)"
+		},
+		{
+			"type": "contact",
+			"kind": "Lt. Commander Marchetti-Solis (operational authority for KR-DELTA — she will work with whoever gives her a clear threat assessment)"
+		}
+	]
+}

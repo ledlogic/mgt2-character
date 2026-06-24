@@ -1,0 +1,125 @@
+{
+	"overview": {
+		"ranks": ["Scout (Survey)/4"],
+		"name": "Scout Emeka Osei-Bonsu",
+		"species": "Solomani (Imperial citizen)",
+		"gender": "male",
+		"age": "52",
+		"traits": "Methodical, Unhurried, Very Good at Noticing",
+		"img": "ctkr-osei-bonsu.webp",
+		"initial": 0,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 7,
+		"dex": 8,
+		"end": 8,
+		"int": 11,
+		"edu": 12,
+		"soc": 7
+	},
+	"skills": {
+		"electronics": 0,
+		"electronics (sensors)": 3,
+		"recon": 2,
+		"astrogation": 2,
+		"pilot": 0,
+		"pilot (small craft)": 2,
+		"survival": 1,
+		"navigation": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"mechanic": 0,
+		"medic": 0
+	},
+	"background": "Homeworld: Ganesh (SR 2518 — High Population, Imperial, Industrial). Thirty years cataloguing worlds nobody cares about. Runs the IISS Survey Branch presence on Lakamsal — a one-man operation with a four-person support team at the downport and a single relay drone in orbit. Does not know the Imperial Navy relay exists in the Kethara basin. Was never told. Has names for the megafauna he has observed from orbit. Keeps immaculate records. His mother was Solomani-born — a refugee from the Rim War who settled on Ganesh under Imperial administration. Complex feelings about the border. Would not help BLIND SERPENT — but might delay a report for a few hours if convinced they were civilians in danger.",
+	"education": "Ganesh university (survey sciences). IISS Academy qualification. Four terms planetary survey specialisation.",
+	"terms": [
+		"Scout (Survey): Electronics (sensors)-1, Recon-1, Navigation-1, Survival-1. Initial survey postings, minor worlds. Advanced to rank 1.",
+		"Scout (Survey): Electronics (sensors)-2, Astrogation-1, Pilot (small craft)-1, Gun Combat (slug)-1. Extended survey postings. Advanced to rank 2.",
+		"Scout (Survey): Electronics (sensors)-3, Astrogation-2, Recon-2. Senior survey operations. Advanced to rank 3.",
+		"Scout (Survey): Pilot (small craft)-2, Mechanic-0, Medic-0. Lakamsal posting — responsible for atmospheric surveys, planetary database, and orbital relay drone. Advanced to rank 4."
+	],
+	"interactions": [
+		"Role: IMPERIAL ANTAGONIST 1 — The Local Observer. Threat vector: automated thermal anomaly detection via orbital relay drone. If TSU-9 enters Failing status, his drone logs the contact and alerts him within hours.",
+		"Threat timeline: His next scheduled atmospheric sweep is 4 days away — after extraction. But his orbital relay drone monitors thermal signatures automatically. TSU-9 failure triggers an alert he investigates in 2-4 hours.",
+		"Initial assessment: He will arrive thinking it is a volcanic seep. He is a survey scientist, not security. Will want to see survey equipment, geological logs, and permits. Knows the legitimate survey databases and will check them.",
+		"On confirmation: Immediately transmits contact report to 291st Fleet duty officer and Marchetti-Solis. He is not equipped to detain anyone. He will fall back and wait for military response. He is not brave. He is thorough.",
+		"Exploitable gap: His mother was Solomani. Complex border feelings. If convinced BLIND SERPENT are civilians caught in a military zone, he might delay his report 6-12 hours while 'verifying'. This is a roleplay opportunity, not a guaranteed outcome.",
+		"Secret: He genuinely loves Lakamsal and finds it underappreciated. He has names for the megafauna he has tracked from orbit."
+	],
+	"armour": [
+		{
+			"name": "IISS Survey Khakis",
+			"tl": 9,
+			"cost": 200,
+			"mass": 1,
+			"protection": 0,
+			"rad": 0,
+			"traits": "Functional field wear — no armour value",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Autopistol",
+			"tl": 9,
+			"cost": 200,
+			"mass": 0.5,
+			"range": 10,
+			"damage": "3D-3",
+			"magazine": 15,
+			"power pack cost": 10,
+			"traits": "Standard IISS sidearm — he is not a combat operative",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Survey Scanner",
+			"tl": 10,
+			"cost": 5000,
+			"mass": 2,
+			"range": 0,
+			"traits": "DM+2 Electronics (sensors) checks — geological and atmospheric survey tool",
+			"equipped": true
+		},
+		{
+			"name": "IISS Encrypted Comms Uplink",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 1,
+			"range": "Orbital",
+			"traits": "Connects to orbital relay drone; transmits to 291st Fleet on confirmation",
+			"equipped": true
+		},
+		{
+			"name": "Personal Air/Raft",
+			"tl": 9,
+			"cost": 0,
+			"mass": 0,
+			"range": "500 km",
+			"traits": "TL9, no weapons — his primary survey transport and the vehicle he uses to investigate anomalies",
+			"equipped": false
+		},
+		{
+			"name": "Planetary Survey Database (Lakamsal)",
+			"tl": 10,
+			"cost": 0,
+			"mass": 0,
+			"range": 0,
+			"traits": "Immaculate 30-year records. Cover stories must match this data to pass scrutiny.",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "contact",
+			"kind": "291st Fleet duty officer (reporting channel — would not recognise him personally)"
+		},
+		{
+			"type": "contact",
+			"kind": "Lakamsal colonist community (four-person downport support team)"
+		}
+	]
+}
