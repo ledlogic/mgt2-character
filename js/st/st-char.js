@@ -13,6 +13,10 @@ st.character = {
 		st.log("init character");
 		st.character.$pageft = $(".st-page .st-page-ft");
 	},
+	hideChar: function() {
+		st.character.$pageft.html("");
+		$(".st-page").addClass("st-initial-state");
+	},
 	loadChar: function(uri) {
 		st.log("loading char");
 		
