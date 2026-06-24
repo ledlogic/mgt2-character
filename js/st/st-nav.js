@@ -1,11 +1,12 @@
 /* st-nav.js */
 
 st.nav = {
-	characters: [],
+	allCharacters: [],
 	init: function() {
 		st.log("init nav");
 
 		$(".st-nav-link").click(st.nav.click);
+		$("#st-select-campaign").bind("change", st.nav.selectCampaign);
 		$("#st-select-char").bind("change", st.nav.selectChar);
 		st.nav.loadChars();
 	},
@@ -14,7 +15,7 @@ st.nav = {
 
 		var $that = $(this);
 		var href = $that.attr("href").substring(1);
-		$(".st-nav-link").removeClass("st-nav-link-active")
+		$(".st-nav-link").removeClass("st-nav-link-active");
 		$that.addClass("st-nav-link-active");
 		$(".st-page").hide();
 		$("." + href).show();
@@ -24,48 +25,91 @@ st.nav = {
 
 		var t = (new Date()).getTime();
 		$.ajax("js/char/m2-char-list.json?t=" + t)
-			.done(function(data, status, jqxhr) {
-				st.nav.characters = data.characters;
-				setTimeout(st.nav.renderChars, 10);
+			.done(function(data) {
+				st.nav.allCharacters = data.characters;
+
+				// Derive unique campaign names from prefix before the colon
+				var seen = {};
+				var campaigns = [];
+				for (var i = 0; i < data.characters.length; i++) {
+					var name = data.characters[i].name;
+					var colon = name.indexOf(":");
+					var campaign = colon > -1 ? name.substring(0, colon).trim() : "(Other)";
+					if (!seen[campaign]) {
+						seen[campaign] = true;
+						campaigns.push(campaign);
+					}
+				}
+
+				// Populate campaign dropdown
+				var $camp = $("#st-select-campaign");
+				$camp.empty();
+				$camp.append(new Option("Select one...", ""));
+				for (var j = 0; j < campaigns.length; j++) {
+					$camp.append(new Option(campaigns[j], campaigns[j]));
+				}
+
+				// Restore from hash: "campaignName|charUri"
+				var hash = window.location.hash.substring(1);
+				var parts = hash.split("|");
+				var restoreCampaign = parts[0] ? decodeURIComponent(parts[0]) : "";
+				var restoreChar = parts[1] || "";
+
+				if (restoreCampaign) {
+					var $matchCamp = $camp.find("option[value='" + restoreCampaign + "']");
+					if ($matchCamp.length) {
+						$camp.val(restoreCampaign);
+						st.nav.renderChars(restoreCampaign, restoreChar);
+					}
+				}
 			})
 			.fail(function() {
 				alert("Error: unable to load character list.");
-			})
-			.always(function() {
 			});
 	},
-	renderChars: function() {
-		st.log("rendering chars");
+	selectCampaign: function() {
+		var campaign = $(this).find("option:selected").attr("value");
+		window.location.hash = encodeURIComponent(campaign) + "|";
+		st.character.hideChar();
+		st.nav.renderChars(campaign, "");
+	},
+	renderChars: function(campaign, restoreCharUri) {
+		st.log("rendering chars for campaign: " + campaign);
 
 		var $sel = $("#st-select-char");
-		for (var i=0;i<st.nav.characters.length;i++) {
-			var character = st.nav.characters[i];
-			var option = new Option();
-			option.value = character.uri;
-			option.text = character.name;
-			$sel.append(option);
+		$sel.empty();
+		$sel.append(new Option("Select one...", ""));
+
+		for (var i = 0; i < st.nav.allCharacters.length; i++) {
+			var character = st.nav.allCharacters[i];
+			var name = character.name;
+			var colon = name.indexOf(":");
+			var charCampaign = colon > -1 ? name.substring(0, colon).trim() : "(Other)";
+			var shortName = colon > -1 ? name.substring(colon + 1).trim() : name;
+
+			if (charCampaign === campaign) {
+				$sel.append(new Option(shortName, character.uri));
+			}
 		}
 
-		// Restore selection from URL hash on load
-		var hash = window.location.hash.substring(1); // e.g. "m2-ctkr-vasiliou.json"
-		if (hash) {
-			var $match = $sel.find("option[value='" + hash + "']");
+		if (restoreCharUri) {
+			var $match = $sel.find("option[value='" + restoreCharUri + "']");
 			if ($match.length) {
-				$sel.val(hash);
-				st.character.loadChar(hash);
+				$sel.val(restoreCharUri);
+				st.character.loadChar(restoreCharUri);
 			}
 		}
 	},
 	selectChar: function() {
 		st.log("selected char");
 
-		var $sel = $(this);
-		var uri = $sel.find("option:selected").attr("value");
+		var uri = $(this).find("option:selected").attr("value");
+		var campaign = $("#st-select-campaign").find("option:selected").attr("value") || "";
 		if (uri) {
-			window.location.hash = uri; // persist selection in URL
+			window.location.hash = encodeURIComponent(campaign) + "|" + uri;
 			st.character.loadChar(uri);
 		} else {
-			window.location.hash = "";
+			window.location.hash = encodeURIComponent(campaign) + "|";
 			st.character.hideChar();
 		}
 	},
