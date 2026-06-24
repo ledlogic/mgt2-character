@@ -45,6 +45,16 @@ st.nav = {
 			option.text = character.name;
 			$sel.append(option);
 		}
+
+		// Restore selection from URL hash on load
+		var hash = window.location.hash.substring(1); // e.g. "m2-ctkr-vasiliou.json"
+		if (hash) {
+			var $match = $sel.find("option[value='" + hash + "']");
+			if ($match.length) {
+				$sel.val(hash);
+				st.character.loadChar(hash);
+			}
+		}
 	},
 	selectChar: function() {
 		st.log("selected char");
@@ -52,8 +62,10 @@ st.nav = {
 		var $sel = $(this);
 		var uri = $sel.find("option:selected").attr("value");
 		if (uri) {
+			window.location.hash = uri; // persist selection in URL
 			st.character.loadChar(uri);
 		} else {
+			window.location.hash = "";
 			st.character.hideChar();
 		}
 	},
