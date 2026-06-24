@@ -115,6 +115,62 @@
 		{
 			"name": "Dingir Zone: Jordan Vale",
 			"uri": "m2-jordan-vale.json"
-		}
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Lyra Santos",
+			"uri": "m2-lyra-santos.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Marcus Vidal",
+			"uri": "m2-marcus-vidal.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Dr. Keiko Tanaka",
+			"uri": "m2-dr-keiko-tanaka.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Jakub Novak",
+			"uri": "m2-jakub-novak.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Rahman 'Ram' Okoye",
+			"uri": "m2-rahman-ram-okoye.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Yuki Hashimoto",
+			"uri": "m2-yuki-hashimoto.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Commander Alexei Volkov",
+			"uri": "m2-commander-alexei-volkov.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering: Zara Chen",
+			"uri": "m2-zara-chen.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering NPC: Baldwin Wei (SolSec Handler)",
+			"uri": "m2-baldwin-wei.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering NPC: Dr. Arnold Rushorin (Physicist)",
+			"uri": "m2-dr-arnold-rushorin.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering NPC: 10987 Tensa (Intelligent Chip)",
+			"uri": "m2-tensa-10987.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering NPC: Frank Chapman (Imperial Agent - Psychic)",
+			"uri": "m2-frank-chapman.json"
+		},
+		{
+			"name": "Signal GK - Reversed Engineering NPC: Beacher (Imperial Agent - JOAT)",
+			"uri": "m2-beacher.json"
+		},
+		{
+			"name": "Signal GK - NPC: Yllarra (Imperial Vegan Agent)",
+			"uri": "m2-yllarra.json"
+		}		
 	]
 }

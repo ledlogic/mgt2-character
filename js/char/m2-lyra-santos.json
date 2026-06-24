@@ -1,0 +1,153 @@
+{
+	"overview": {
+		"ranks": ["Agent (Intelligence)/2"],
+		"name": "Lyra Santos",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "34",
+		"traits": "Professional, Empathetic, Morally Conflicted",
+		"img": "lyra-santos.jpg",
+		"initial": 8000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 9,
+		"end": 10,
+		"int": 7,
+		"edu": 10,
+		"soc": 9
+	},
+	"skills": {
+		"computer": 1,
+		"deception": 2,
+		"diplomat": 1,
+		"electronics": 0,
+		"electronics (comms)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"investigate": 2,
+		"language": 0,
+		"language (vegan)": 1,
+		"persuade": 2,
+		"recon": 2,
+		"stealth": 2
+	},
+	"background": "Homeworld: Caprice (Kukulkan 3137) A7978B-C. Born in the diplomatic quarter where her parents worked in Confederation Foreign Service. Learned Vegan language and customs from childhood, making her invaluable in operations along the Vegan Autonomous District border. Recruited by SolSec at 22, specialized in infiltration and intelligence gathering.",
+	"education": "Confederation Foreign Service family background. Diplomatic training and cultural immersion in Vegan customs.",
+	"terms": [
+		"Agent (Intelligence): Deception-1, Investigate-1, Stealth-1. Basic SolSec training. Specialized in infiltration operations. Advanced to rank 1.",
+		"Agent (Intelligence): Deception-2, Recon-1, Persuade-1, Language (vegan)-1. Operations along Vegan Autonomous District border. Cultural liaison expertise.",
+		"Agent (Intelligence): Investigate-2, Persuade-2, Recon-2, Electronics (comms)-1. Ludmilla Factory Incident - investigated Imperial industrial espionage. Operation went wrong, 40 civilians killed. Advanced to rank 2.",
+		"Agent (Intelligence): Stealth-2, Computer-1, Diplomat-1, Gun Combat (slug)-1. Current assignment: Reversed Engineering operation. Carries guilt about Ludmilla collateral damage."
+	],
+	"interactions": [
+		"Expertise: Infiltration, intelligence gathering, Vegan customs and language, social engineering, reconnaissance",
+		"Weaknesses: Guilt over Ludmilla casualties, questions SolSec methods, empathy can compromise operational security",
+		"Ludmilla Connection: Part of SolSec team that investigated industrial espionage. Uncovered Imperial agents stealing manufacturing processes. Operation ended with 40 civilian deaths - still carries guilt.",
+		"Vegan Connection: Fluent in Vegan language, raised around Vegan diplomats, sees Vegans as potential allies rather than threats"
+	],
+	"armour": [
+		{
+			"name": "Body Armor",
+			"tl": 10,
+			"cost": 500,
+			"mass": 3,
+			"protection": 8,
+			"rad": 0,
+			"traits": "None",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Stunner",
+			"tl": 12,
+			"cost": 1000,
+			"mass": 0,
+			"range": 10,
+			"damage": "3D",
+			"magazine": 100,
+			"power pack cost": 200,
+			"traits": "Stun, Zero-G",
+			"equipped": true
+		},
+		{
+			"name": "Snub Pistol (concealed)",
+			"tl": 10,
+			"cost": 150,
+			"mass": 0.5,
+			"range": 5,
+			"damage": "3D-3",
+			"magazine": 6,
+			"power pack cost": 0,
+			"traits": "Silent",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Secure Comms Unit",
+			"tl": 12,
+			"cost": 2000,
+			"mass": 0.5,
+			"range": "50 km",
+			"traits": "Encrypted",
+			"equipped": true
+		},
+		{
+			"name": "Forgery Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 2,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "Disguise Kit",
+			"tl": 10,
+			"cost": 500,
+			"mass": 1,
+			"range": 0,
+			"traits": "-",
+			"equipped": true
+		},
+		{
+			"name": "False IDs (3)",
+			"tl": 12,
+			"cost": 1500,
+			"mass": 0,
+			"range": 0,
+			"traits": "Multiple cover identities",
+			"equipped": true
+		},
+		{
+			"name": "Emergency Beacon (SolSec)",
+			"tl": 12,
+			"cost": 100,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "SolSec extraction frequency",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Vegan diplomat (Caprice)"
+		},
+		{
+			"type": "contact",
+			"kind": "Baldwin Wei (handler)"
+		},
+		{
+			"type": "contact",
+			"kind": "Confederation Foreign Service officer"
+		},
+		{
+			"type": "enemy",
+			"kind": "Ludmilla survivor families"
+		}
+	]
+}

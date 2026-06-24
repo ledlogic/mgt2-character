@@ -1,0 +1,187 @@
+{
+    "overview": {
+        "ranks": [
+            "Army (Intelligence)/2",
+            "Agent (Law Enforcement)/1"
+        ],
+        "name": "Marcus Vidal",
+        "species": "Solomani",
+        "gender": "male",
+        "age": "38",
+        "traits": "Gruff, Protective, Cynical but Loyal",
+        "img": "marcus-vidal.jpg",
+        "initial": 10000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 10,
+        "dex": 8,
+        "end": 9,
+        "int": 8,
+        "edu": 8,
+        "soc": 8
+    },
+    "skills": {
+        "athletics": 0,
+        "athletics (strength)": 1,
+        "electronics": 0,
+        "electronics (sensors)": 1,
+        "gun combat": 0,
+        "gun combat (slug)": 2,
+        "gun combat (energy)": 1,
+        "investigate": 2,
+        "leadership": 1,
+        "melee": 0,
+        "melee (blade)": 1,
+        "recon": 2,
+        "streetwise": 1,
+        "survival": 1,
+        "tactics": 0,
+        "tactics (military)": 2
+    },
+    "background": "Homeworld: Caprice (Kukulkan 3137). Served in Solomani Army's 412th Assault Infantry on Ochre before being recruited into Army Intelligence. Transferred to SolSec Internal Directorate five years ago, working counter-espionage. Seen too much combat and becoming cynical about Confederation methods, though remains loyal to his team.",
+    "education": "Military training. Army Intelligence advanced tactical school.",
+    "terms": [
+        "Army (Infantry): Gun Combat (slug)-1, Melee (blade)-1, Athletics (strength)-1. 412th Assault Infantry on Ochre. Basic combat training.",
+        "Army (Infantry): Gun Combat (slug)-2, Survival-1, Recon-1. Extended combat operations. Hardened veteran.",
+        "Army (Intelligence): Tactics (military)-1, Electronics (sensors)-1, Investigate-1. Recruited to Army Intelligence. Advanced to rank 1.",
+        "Army (Intelligence): Tactics (military)-2, Recon-2, Leadership-1. Counter-intelligence operations. Advanced to rank 2.",
+        "Agent (Law Enforcement): Investigate-2, Streetwise-1, Gun Combat (energy)-1. Transferred to SolSec Internal Directorate. Counter-espionage work. Advanced to rank 1.",
+        "Agent (Law Enforcement): Ludmilla Factory Incident - part of raid team. Factory exploded killing 40 workers. Suspects SolSec planted bomb. Doesn't trust Baldwin Wei. Current assignment: Reversed Engineering operation."
+    ],
+    "interactions": [
+        "Expertise: Combat tactics, weapons proficiency, military intelligence, counter-espionage, reconnaissance, leadership under fire",
+        "Weaknesses: Cynical about SolSec methods, conscience conflicts with orders, protective of civilians can compromise missions",
+        "Ludmilla Connection: Stationed during Factory Incident. Part of raid on suspected Imperial spy ring in grav vehicle plant. Factory exploded, 40 workers killed. Marcus suspects SolSec planted bomb but was told it was terrorist attack.",
+        "Team Loyalty: Loyal to squad above politics. Will protect team members even if it conflicts with orders"
+    ],
+    "armour": [
+        {
+            "name": "Combat Armor",
+            "tl": 12,
+            "cost": 85000,
+            "mass": 18,
+            "protection": 14,
+            "rad": 100,
+            "traits": "None",
+            "equipped": true
+        },
+        {
+            "name": "Tactical Goggles",
+            "tl": 12,
+            "cost": 500,
+            "mass": 0,
+            "range": 0,
+            "traits": "IR, Light intensifier",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Gauss Rifle",
+            "tl": 13,
+            "cost": 1500,
+            "mass": 4,
+            "range": 500,
+            "damage": "4D",
+            "magazine": 80,
+            "power pack cost": 60,
+            "traits": "AP 3, Auto 3, Scope",
+            "equipped": true
+        },
+        {
+            "name": "Snub Pistol",
+            "tl": 10,
+            "cost": 150,
+            "mass": 0.5,
+            "range": 5,
+            "damage": "3D-3",
+            "magazine": 6,
+            "power pack cost": 0,
+            "traits": "Silent",
+            "equipped": true
+        },
+        {
+            "name": "Combat Knife",
+            "tl": 5,
+            "cost": 50,
+            "mass": 0.5,
+            "range": 0,
+            "damage": "1D+2",
+            "magazine": 0,
+            "power pack cost": 0,
+            "traits": "-",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Military Comms",
+            "tl": 12,
+            "cost": 2000,
+            "mass": 1,
+            "range": "100 km",
+            "traits": "Encrypted, Multi-channel",
+            "equipped": true
+        },
+        {
+            "name": "Tactical Scanner",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 1,
+            "range": "1 km",
+            "traits": "Life detection, motion sensors",
+            "equipped": true
+        },
+        {
+            "name": "Military Pack",
+            "tl": 12,
+            "cost": 200,
+            "mass": 2,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Frag Grenade (x2)",
+            "tl": 8,
+            "cost": 60,
+            "mass": 1,
+            "range": 0,
+            "traits": "Blast 9, 5D",
+            "equipped": true
+        },
+        {
+            "name": "Smoke Grenade (x2)",
+            "tl": 7,
+            "cost": 30,
+            "mass": 1,
+            "range": 0,
+            "traits": "Smoke",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Army Intelligence sergeant"
+        },
+        {
+            "type": "contact",
+            "kind": "412th Assault Infantry veteran"
+        },
+        {
+            "type": "rival",
+            "kind": "Baldwin Wei (doesn't trust him)"
+        }
+    ]
+}

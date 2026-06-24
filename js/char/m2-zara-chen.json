@@ -1,0 +1,155 @@
+{
+    "overview": {
+        "ranks": [
+            "Agent (Corporate)/1",
+            "Agent (Intelligence)/2"
+        ],
+        "name": "Zara Chen",
+        "species": "Solomani",
+        "gender": "female",
+        "age": "30",
+        "traits": "Intelligent, Analytical, Seeking Redemption",
+        "img": "zara-chen.jpg",
+        "initial": 10000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 7,
+        "dex": 8,
+        "end": 10,
+        "int": 9,
+        "edu": 8,
+        "soc": 9
+    },
+    "skills": {
+        "admin": 2,
+        "broker": 1,
+        "carouse": 1,
+        "computer": 2,
+        "deception": 1,
+        "electronics": 0,
+        "electronics (comms)": 2,
+        "gun combat": 0,
+        "gun combat (slug)": 1,
+        "investigate": 2,
+        "language": 0,
+        "language (vegan)": 1,
+        "persuade": 2,
+        "streetwise": 1
+    },
+    "background": "Homeworld: Terra (Sol 1827) A867A69-F. Born on Terra itself (Solomani homeworld, now under Imperial control). Grew up in occupied Solomani Sphere. Worked in corporate intelligence for Solomani Shipping before being recruited by SolSec External Directorate. Experience with commercial espionage and Terra background make her valuable for operations requiring understanding of Imperial corporate culture. Deeply bitter about Imperial occupation of humanity's birthworld.",
+    "education": "Corporate intelligence training. Commercial analysis and financial investigation.",
+    "terms": [
+        "Agent (Corporate): Admin-1, Broker-1, Investigate-1, Computer-1. Corporate intelligence for Solomani Shipping. Commercial espionage and competitive analysis. Advanced to rank 1.",
+        "Agent (Intelligence): Investigate-2, Computer-2, Electronics (comms)-1, Admin-2. Recruited by SolSec External Directorate. Financial transaction analysis and intelligence gathering. Advanced to rank 1.",
+        "Agent (Intelligence): Persuade-1, Deception-1, Streetwise-1, Carouse-1. Ludmilla operation - SolSec analyst who first identified Imperial spy network through financial analysis. Provided intelligence that led to raid. When learned about Factory Incident casualties (40 dead), was horrified. Her analysis was supposed to lead to arrests, not mass casualties. Blames herself, has nightmares. Advanced to rank 2.",
+        "Agent (Intelligence): Electronics (comms)-2, Persuade-2, Language (vegan)-1, Gun Combat (slug)-1. Current assignment: Reversed Engineering operation. Looking for redemption - hoping to complete mission without collateral damage."
+    ],
+    "interactions": [
+        "Expertise: Financial analysis, corporate intelligence, computer systems, communications analysis, investigation, administrative operations",
+        "Weaknesses: Guilt over Ludmilla haunts her, sometimes too analytical (paralysis by analysis), nightmares affect performance",
+        "Ludmilla Connection: SolSec analyst who identified Imperial spy network on Ludmilla through financial transaction analysis. Provided intelligence that led to raid. When learned about 40 casualties, was horrified - her analysis was supposed to lead to arrests not deaths. Blames herself. Has nightmares about 40 dead workers.",
+        "Vegan Connection: Worked several cases involving Solomani-Vegan trade disputes. Learned Vegan commercial ethics often more honest than human ones. Quietly sympathetic to Vegan rights within Confederation.",
+        "Terra Background: Born on occupied Terra. Deeply bitter about Imperial control of humanity's birthworld. Strong believer in Solomani Cause but questions SolSec methods."
+    ],
+    "armour": [
+        {
+            "name": "Body Armor",
+            "tl": 10,
+            "cost": 500,
+            "mass": 3,
+            "protection": 8,
+            "rad": 0,
+            "traits": "None",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Stunner",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 0,
+            "range": 10,
+            "damage": "3D",
+            "magazine": 100,
+            "power pack cost": 200,
+            "traits": "Stun, Zero-G",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "TL-14 Computer/4",
+            "tl": 14,
+            "cost": 5000,
+            "mass": 0.25,
+            "range": 0,
+            "traits": "Computer/4",
+            "equipped": true
+        },
+        {
+            "name": "Forensic Scanner",
+            "tl": 12,
+            "cost": 2000,
+            "mass": 1,
+            "range": 0,
+            "traits": "Financial and data analysis",
+            "equipped": true
+        },
+        {
+            "name": "Data Analysis Software",
+            "tl": 13,
+            "cost": 3000,
+            "mass": 0,
+            "range": 0,
+            "traits": "Investigate +2 for financial crimes",
+            "equipped": true
+        },
+        {
+            "name": "Secure Data Storage",
+            "tl": 13,
+            "cost": 1000,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "Encrypted, 1TB capacity",
+            "equipped": true
+        },
+        {
+            "name": "Corporate Database Access",
+            "tl": 13,
+            "cost": 0,
+            "mass": 0,
+            "range": 0,
+            "traits": "SolSec credentials for commercial databases",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "contact",
+            "kind": "Solomani Shipping executive"
+        },
+        {
+            "type": "contact",
+            "kind": "Vegan trade liaison"
+        },
+        {
+            "type": "ally",
+            "kind": "SolSec financial analyst"
+        },
+        {
+            "type": "enemy",
+            "kind": "Ludmilla survivors (guilt, not active enemy)"
+        }
+    ]
+}

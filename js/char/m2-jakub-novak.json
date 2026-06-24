@@ -1,0 +1,152 @@
+{
+    "overview": {
+        "ranks": [
+            "Navy/1",
+            "Scout/1",
+            "Agent/1"
+        ],
+        "name": "Jakub Novak",
+        "species": "Solomani",
+        "gender": "male",
+        "age": "30",
+        "traits": "Conflicted Loyalty, Excellent Under Pressure",
+        "img": "jakub-novak.jpg",
+        "initial": 8000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 7,
+        "dex": 10,
+        "end": 11,
+        "int": 7,
+        "edu": 7,
+        "soc": 9
+    },
+    "skills": {
+        "astrogation": 2,
+        "athletics": 0,
+        "athletics (dexterity)": 1,
+        "electronics": 0,
+        "electronics (sensors)": 1,
+        "gun combat": 0,
+        "gun combat (energy)": 1,
+        "gunner": 0,
+        "gunner (turrets)": 2,
+        "mechanic": 1,
+        "pilot": 0,
+        "pilot (spacecraft)": 3,
+        "pilot (capital ships)": 1,
+        "vacc suit": 1
+    },
+    "background": "Homeworld: Ludmilla (Kukulkan 3236) C8879A-B. Born on Ludmilla, joined Solomani Navy at 18, serving on patrol cruisers along Imperial border. Transferred to Scout Service for two terms, surveying systems in Kukulkan subsector. Recruited by SolSec for piloting expertise and familiarity with both naval and civilian vessels.",
+    "education": "Solomani Naval Academy. Scout Service navigation and survey training.",
+    "terms": [
+        "Navy (Crewman): Pilot (spacecraft)-1, Gunner (turrets)-1, Vacc Suit-1. Patrol cruiser service along Imperial border. Advanced to rank 1.",
+        "Scout (Survey): Pilot (spacecraft)-2, Astrogation-1, Electronics (sensors)-1. Surveying systems in Kukulkan subsector.",
+        "Scout (Survey): Pilot (spacecraft)-3, Astrogation-2, Mechanic-1. Extended survey missions. Advanced to rank 1.",
+        "Agent (Intelligence): Gunner (turrets)-2, Pilot (capital ships)-1, Athletics (dexterity)-1, Gun Combat (energy)-1. Recruited by SolSec for piloting expertise. Advanced to rank 1. Current assignment: Reversed Engineering operation - pilot for team insertion and extraction."
+    ],
+    "interactions": [
+        "Expertise: Spacecraft piloting (expert level), capital ship operations, astrogation, turret weapons, sensors, mechanics, zero-gravity operations",
+        "Weaknesses: Conflicted loyalties (family on Ludmilla), questions if SolSec serves people or elites, protective of innocents can compromise mission",
+        "Ludmilla Connection - PRIMARY: Family still lives on Ludmilla. Father works in grav vehicle industry. Younger sister is university student. Father's best friend killed in Factory Incident explosion. Family suspects government involvement but can't prove it. Jakub joined SolSec partly to find truth, partly because refusing would make family targets.",
+        "Personal Stakes: Family vulnerable to SolSec pressure. Will this mission force him to choose between duty and family?"
+    ],
+    "armour": [
+        {
+            "name": "Vacc Suit (TL-12)",
+            "tl": 12,
+            "cost": 20000,
+            "mass": 8,
+            "protection": 10,
+            "rad": 90,
+            "traits": "Vacc Suit 0",
+            "equipped": false
+        },
+        {
+            "name": "Cloth",
+            "tl": 12,
+            "cost": 500,
+            "mass": 2,
+            "protection": 8,
+            "rad": 0,
+            "traits": "None",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Laser Carbine",
+            "tl": 10,
+            "cost": 2500,
+            "mass": 3,
+            "range": 100,
+            "damage": "4D+3",
+            "magazine": 50,
+            "power pack cost": 2000,
+            "traits": "Zero-G",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Pilot's Tool Kit",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 12,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Personal Comms",
+            "tl": 12,
+            "cost": 250,
+            "mass": 0,
+            "range": "50 km",
+            "traits": "Encrypted",
+            "equipped": true
+        },
+        {
+            "name": "Navigation Computer",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 0,
+            "range": 0,
+            "traits": "Astrogation +1",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        },
+        {
+            "name": "Repair Patches (vacc suit)",
+            "tl": 10,
+            "cost": 50,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Family on Ludmilla (vulnerable)"
+        },
+        {
+            "type": "contact",
+            "kind": "Navy patrol cruiser captain"
+        },
+        {
+            "type": "contact",
+            "kind": "Scout Service survey partner"
+        }
+    ]
+}

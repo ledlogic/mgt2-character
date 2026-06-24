@@ -1,0 +1,162 @@
+{
+    "overview": {
+        "ranks": [
+            "Navy (Command)/3",
+            "Agent (Intelligence)/2"
+        ],
+        "name": "Commander Alexei Volkov",
+        "species": "Solomani",
+        "gender": "male",
+        "age": "46",
+        "traits": "Calm, Professional, Ideologically Committed",
+        "img": "commander-alexei-volkov.jpg",
+        "initial": 20000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 8,
+        "dex": 9,
+        "end": 9,
+        "int": 8,
+        "edu": 9,
+        "soc": 10
+    },
+    "skills": {
+        "admin": 2,
+        "computer": 1,
+        "diplomat": 1,
+        "electronics": 0,
+        "electronics (sensors)": 1,
+        "gun combat": 0,
+        "gun combat (energy)": 1,
+        "gunner": 0,
+        "gunner (capital)": 1,
+        "investigate": 1,
+        "leadership": 3,
+        "persuade": 2,
+        "pilot": 0,
+        "pilot (capital ships)": 1,
+        "tactics": 0,
+        "tactics (naval)": 2
+    },
+    "background": "Homeworld: Scandia (Arcturus 2329) B5559D-F (under Imperial occupation since 1002). Family has strong Solomani loyalties despite living under Imperial rule. Served in Solomani Navy during final years of war. Afterward joined SolSec External Directorate. Working to undermine Imperial control of Scandia for decades. This mission is personal - Rushorin is defecting through Scandia, Alexei's occupied homeworld.",
+    "education": "Solomani Naval Academy. Advanced command and tactics training.",
+    "terms": [
+        "Navy (Line/Crew): Pilot (capital ships)-1, Gunner (capital)-1, Electronics (sensors)-1. Served during final years of Solomani Rim War.",
+        "Navy (Command): Leadership-1, Tactics (naval)-1, Admin-1. War ended. Scandia occupied by Imperial forces. Continued service with remnant Confederation Navy. Advanced to rank 1.",
+        "Navy (Command): Leadership-2, Tactics (naval)-2, Persuade-1. Joint operations with Vegan auxiliary forces against Imperial targets. Learned to respect Vegan tactical discipline. Advanced to rank 2.",
+        "Navy (Command): Leadership-3, Admin-2, Diplomat-1. Advocated for stronger Confederation-Vegan cooperation. One of few Solomani officers actively supporting Vegan alliance. Advanced to rank 3.",
+        "Agent (Intelligence): Investigate-1, Computer-1, Persuade-2. Recruited by SolSec External Directorate. Specialized in undermining Imperial occupation. Advanced to rank 1.",
+        "Agent (Intelligence): Gun Combat (energy)-1. Decades of covert operations against Imperial control of Scandia. Current assignment: Reversed Engineering operation - mission commander. Advanced to rank 2."
+    ],
+    "interactions": [
+        "Expertise: Leadership (expert level), naval tactics, command operations, diplomacy, strategic planning, sensor operations, capital ship operations, Vegan military cooperation",
+        "Weaknesses: Ideology can override humanitarian concerns, willing to authorize casualties if strategically required, this mission is personal (may cloud judgment)",
+        "Vegan Connection: Commanded joint operations with Vegan auxiliary forces. Learned to respect Vegan tactical discipline and strategic thinking. Actively advocates for stronger Confederation-Vegan cooperation.",
+        "Personal Mission: From occupied Scandia. Has worked for decades to undermine Imperial control. Rushorin defecting through his occupied homeworld makes this deeply personal."
+    ],
+    "armour": [
+        {
+            "name": "Command Armor",
+            "tl": 12,
+            "cost": 95000,
+            "mass": 20,
+            "protection": 12,
+            "rad": 100,
+            "traits": "Command systems integrated",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Gauss Pistol",
+            "tl": 13,
+            "cost": 500,
+            "mass": 1,
+            "range": 20,
+            "damage": "3D",
+            "magazine": 40,
+            "power pack cost": 20,
+            "traits": "AP 3, Auto 2",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Tactical Computer",
+            "tl": 13,
+            "cost": 10000,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "Computer/4, Advanced tactical software",
+            "equipped": true
+        },
+        {
+            "name": "Secure Command Comms",
+            "tl": 13,
+            "cost": 5000,
+            "mass": 1,
+            "range": "500 km",
+            "traits": "Encrypted, Multi-channel, Priority access",
+            "equipped": true
+        },
+        {
+            "name": "Neural Comm",
+            "tl": 13,
+            "cost": 5000,
+            "mass": 0,
+            "range": "5 km",
+            "traits": "Subvocal, encrypted",
+            "equipped": true
+        },
+        {
+            "name": "Strategic Planning Software",
+            "tl": 13,
+            "cost": 3000,
+            "mass": 0,
+            "range": 0,
+            "traits": "Tactics +1",
+            "equipped": true
+        },
+        {
+            "name": "Command Authorization Codes",
+            "tl": 13,
+            "cost": 0,
+            "mass": 0,
+            "range": 0,
+            "traits": "Can commandeer Confederation assets",
+            "equipped": true
+        },
+        {
+            "name": "Diplomatic Kit",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 1,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Vegan naval commander"
+        },
+        {
+            "type": "ally",
+            "kind": "SolSec External Directorate handler"
+        },
+        {
+            "type": "contact",
+            "kind": "Confederation Navy admiral"
+        },
+        {
+            "type": "contact",
+            "kind": "Scandia resistance cell leader"
+        },
+        {
+            "type": "enemy",
+            "kind": "Imperial occupation governor (Scandia)"
+        }
+    ]
+}

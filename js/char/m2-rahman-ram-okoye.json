@@ -1,0 +1,161 @@
+{
+    "overview": {
+        "ranks": [
+            "Drifter (Scavenger)/1",
+            "Merchant/1",
+            "Agent/1"
+        ],
+        "name": "Rahman 'Ram' Okoye",
+        "species": "Solomani",
+        "gender": "male",
+        "age": "34",
+        "traits": "Pragmatic, Adaptable, Curious",
+        "img": "rahman-ram-okoye.jpg",
+        "initial": 7000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 8,
+        "dex": 10,
+        "end": 8,
+        "int": 9,
+        "edu": 7,
+        "soc": 9
+    },
+    "skills": {
+        "electronics": 0,
+        "electronics (computers)": 2,
+        "electronics (comms)": 2,
+        "engineer": 0,
+        "engineer (power)": 1,
+        "gun combat": 0,
+        "gun combat (slug)": 1,
+        "mechanic": 3,
+        "pilot": 0,
+        "pilot (small craft)": 1,
+        "stealth": 1,
+        "streetwise": 2,
+        "vacc suit": 2,
+        "zero-g": 1
+    },
+    "background": "Homeworld: Caprice (Kukulkan 3137). Grew up on Caprice's orbital stations working as salvage tech and tinkerer. Has intuitive understanding of technology and can repair almost anything. SolSec recruited him after he accidentally stumbled onto Imperial spy's hidden transmitter in salvaged ship component and turned it over to authorities. Street smarts and technical skills make him invaluable for covert operations.",
+    "education": "Self-taught through practical experience on orbital stations. No formal schooling.",
+    "terms": [
+        "Drifter (Scavenger): Mechanic-1, Vacc Suit-1, Zero-G-1, Streetwise-1. Salvage tech on Caprice orbital stations. Learned to repair anything. Advanced to rank 1.",
+        "Merchant (Trader): Mechanic-2, Electronics (computers)-1, Pilot (small craft)-1. Worked on joint Solomani-Vegan cargo freighters maintaining ship systems. Two years learning Vegan engineering philosophy.",
+        "Merchant (Trader): Mechanic-3, Electronics (comms)-1, Engineer (power)-1, Streetwise-2. Respected Vegan engineering (elegant, efficient, minimal waste). Made Vegan friends in merchant community. Advanced to rank 1.",
+        "Agent (Intelligence): Electronics (computers)-2, Electronics (comms)-2, Vacc Suit-2, Stealth-1, Gun Combat (slug)-1. Recruited after finding Imperial spy transmitter. Technical specialist for SolSec operations. Advanced to rank 1. Current assignment: Reversed Engineering operation."
+    ],
+    "interactions": [
+        "Expertise: Mechanical repair (expert), electronics (computers and comms), power systems engineering, improvisation, salvage operations, zero-gravity work, Vegan engineering techniques",
+        "Weaknesses: Apolitical - doesn't care about Solomani Cause, just wants to solve problems and get paid. Vegan friendships could be security risk. Limited formal education.",
+        "Vegan Connection: Worked on Solomani-Vegan cargo freighters for 2 years. Learned Vegan engineering philosophy. Has Vegan friends in merchant community. Picks up enough language to communicate with Vegan technicians.",
+        "Personality: Pragmatic and adaptable. Curious about how things work. Team-loyal but not ideologically committed."
+    ],
+    "armour": [
+        {
+            "name": "Vacc Suit",
+            "tl": 12,
+            "cost": 20000,
+            "mass": 8,
+            "protection": 10,
+            "rad": 90,
+            "traits": "Vacc Suit 0",
+            "equipped": false
+        },
+        {
+            "name": "Cloth",
+            "tl": 12,
+            "cost": 500,
+            "mass": 2,
+            "protection": 8,
+            "rad": 0,
+            "traits": "None",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Laser Pistol",
+            "tl": 11,
+            "cost": 3000,
+            "mass": 1,
+            "range": 30,
+            "damage": "3D+3",
+            "magazine": 100,
+            "power pack cost": 3000,
+            "traits": "Zero-G",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Engineer's Toolkit",
+            "tl": 12,
+            "cost": 2000,
+            "mass": 24,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Electronics Toolkit",
+            "tl": 12,
+            "cost": 1500,
+            "mass": 12,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "TL-13 Portable Computer",
+            "tl": 13,
+            "cost": 2000,
+            "mass": 0,
+            "range": 0,
+            "traits": "Computer/3",
+            "equipped": true
+        },
+        {
+            "name": "Multitool (Vegan-made)",
+            "tl": 12,
+            "cost": 300,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "Superior quality",
+            "equipped": true
+        },
+        {
+            "name": "Improvised Parts Collection",
+            "tl": 10,
+            "cost": 200,
+            "mass": 10,
+            "range": 0,
+            "traits": "Mechanic +1 for improvisation",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Vegan merchant captain"
+        },
+        {
+            "type": "ally",
+            "kind": "Vegan engineer"
+        },
+        {
+            "type": "contact",
+            "kind": "Caprice orbital salvage boss"
+        }
+    ]
+}

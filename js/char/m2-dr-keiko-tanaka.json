@@ -1,0 +1,150 @@
+{
+    "overview": {
+        "ranks": [
+            "Scholar (Scientist)/3",
+            "Agent (Intelligence)/1"
+        ],
+        "name": "Dr. Keiko Tanaka",
+        "species": "Solomani",
+        "gender": "female",
+        "age": "42",
+        "traits": "Brilliant, Ethical, Naive about Espionage",
+        "img": "dr-keiko-tanaka.jpg",
+        "initial": 15000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 6,
+        "dex": 7,
+        "end": 9,
+        "int": 10,
+        "edu": 11,
+        "soc": 8
+    },
+    "skills": {
+        "admin": 1,
+        "computer": 2,
+        "deception": 1,
+        "electronics": 0,
+        "electronics (computers)": 2,
+        "investigate": 1,
+        "language": 0,
+        "language (vegan)": 1,
+        "medic": 2,
+        "science": 0,
+        "science (cybernetics)": 3,
+        "science (biology)": 2
+    },
+    "background": "Homeworld: New Greece (Kukulkan 2837) A54789-B. Cybernetics researcher recruited by SolSec to provide scientific analysis on technology acquisitions. Studied at University of Aquitaine alongside Dr. Rushorin's colleagues. Has read all his published papers. Assigned to this mission specifically to evaluate Rushorin's research and determine what he knows.",
+    "education": "Ph.D. in Cybernetics from University of Aquitaine. Post-doctoral research on Vegan biological systems.",
+    "terms": [
+        "Scholar (Scientist): Science (cybernetics)-1, Computer-1, Electronics-1. Early academic career in cybernetics research. Advanced to rank 1.",
+        "Scholar (Scientist): Science (cybernetics)-2, Science (biology)-1, Medic-1. Groundbreaking research on bio-silicon interfaces. Advanced to rank 2.",
+        "Scholar (Scientist): Science (cybernetics)-3, Science (biology)-2, Computer-2. Two years on Muan Gwi studying Vegan biological systems. Joint research program. Advanced to rank 3.",
+        "Scholar (Scientist): Electronics (computers)-2, Medic-2, Language (vegan)-1. Continued Vegan research collaboration. Made personal friends among Vegan scientists.",
+        "Agent (Intelligence): Investigate-1, Deception-1, Admin-1. Recruited by SolSec for scientific analysis. Uncomfortable with field work but wants to prevent weaponization of science. Advanced to rank 1.",
+        "Agent (Intelligence): Current assignment: Reversed Engineering operation. Evaluate Rushorin's research on bio-silicon interfaces and intelligent silicon chip (10987)."
+    ],
+    "interactions": [
+        "Expertise: Cybernetics (world-class), bio-silicon interfaces, Vegan biology, medical knowledge, scientific analysis, computer systems",
+        "Weaknesses: Naive about espionage realities, uncomfortable with field work, ethical concerns can compromise operations, too trusting",
+        "Vegan Connection: Spent 2 years on Muan Gwi studying Vegan biological systems. Personal friends among Vegan scientists. Horrified by anti-Vegan sentiment. Sees Vegans as equals and allies.",
+        "Rushorin Connection: Studied at University of Aquitaine with his colleagues. Read all his published papers. Uniquely qualified to evaluate his work and understand 10987."
+    ],
+    "armour": [
+        {
+            "name": "Body Armor (concealed)",
+            "tl": 10,
+            "cost": 500,
+            "mass": 3,
+            "protection": 8,
+            "rad": 0,
+            "traits": "Concealed",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Stunner",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 0,
+            "range": 10,
+            "damage": "3D",
+            "magazine": 100,
+            "power pack cost": 200,
+            "traits": "Stun, Zero-G",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Portable Lab Kit",
+            "tl": 12,
+            "cost": 5000,
+            "mass": 15,
+            "range": 0,
+            "traits": "Field analysis equipment",
+            "equipped": true
+        },
+        {
+            "name": "TL-14 Computer/4",
+            "tl": 14,
+            "cost": 5000,
+            "mass": 0.25,
+            "range": 0,
+            "traits": "Computer/4",
+            "equipped": true
+        },
+        {
+            "name": "Medkit (Advanced)",
+            "tl": 12,
+            "cost": 1500,
+            "mass": 6,
+            "range": 0,
+            "traits": "Medic +2",
+            "equipped": true
+        },
+        {
+            "name": "Secure Data Storage",
+            "tl": 13,
+            "cost": 1000,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "Encrypted, 1TB capacity",
+            "equipped": true
+        },
+        {
+            "name": "Scientific Scanner",
+            "tl": 12,
+            "cost": 2000,
+            "mass": 1,
+            "range": 0,
+            "traits": "Chemical, biological, electronic analysis",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Vegan scientist (Muan Gwi)"
+        },
+        {
+            "type": "contact",
+            "kind": "University of Aquitaine professor"
+        },
+        {
+            "type": "contact",
+            "kind": "Dr. Rushorin's former colleague"
+        }
+    ]
+}

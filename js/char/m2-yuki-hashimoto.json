@@ -1,0 +1,150 @@
+{
+    "overview": {
+        "ranks": [
+            "Entertainer/1",
+            "Rogue/1",
+            "Agent/1"
+        ],
+        "name": "Yuki Hashimoto",
+        "species": "Solomani",
+        "gender": "female",
+        "age": "26",
+        "traits": "Charming, Traumatized, Uses Humor to Mask Pain",
+        "img": "yuki-hashimoto.jpg",
+        "initial": 5000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 6,
+        "dex": 9,
+        "end": 12,
+        "int": 10,
+        "edu": 9,
+        "soc": 8
+    },
+    "skills": {
+        "art": 0,
+        "art (performer)": 2,
+        "athletics": 0,
+        "athletics (dexterity)": 2,
+        "carouse": 1,
+        "computer": 1,
+        "deception": 3,
+        "gun combat": 0,
+        "gun combat (slug)": 1,
+        "persuade": 2,
+        "recon": 1,
+        "stealth": 3,
+        "streetwise": 2
+    },
+    "background": "Homeworld: Jardin (Kukulkan 2934) B5549B-C. Stage performer and social chameleon before being recruited by SolSec. Ability to blend into any environment, adopt personas, and extract information through charm made her natural agent. Younger and less experienced than most of team, but skills crucial for infiltration operations.",
+    "education": "Performing arts training. Self-taught social engineering.",
+    "terms": [
+        "Entertainer (Performer): Art (performer)-1, Persuade-1, Carouse-1. Stage performer on Jardin. Master of personas and social adaptation. Advanced to rank 1.",
+        "Rogue (Thief): Deception-1, Stealth-1, Athletics (dexterity)-1, Streetwise-1. Used performance skills for less legal pursuits. Learned infiltration techniques.",
+        "Rogue (Thief): Deception-2, Stealth-2, Recon-1. Expert at blending in and extracting information. Advanced to rank 1.",
+        "Agent (Intelligence): Deception-3, Persuade-2, Art (performer)-2, Stealth-3, Athletics (dexterity)-2, Streetwise-2, Computer-1, Gun Combat (slug)-1. Recruited by SolSec. First major operation: Ludmilla. Posed as entertainer at club frequented by Imperial sympathizers. Witnessed SolSec agents planting explosives on night of Factory Incident. Ordered to stay silent. Experience shattered her idealism. Advanced to rank 1. Current assignment: Reversed Engineering operation."
+    ],
+    "interactions": [
+        "Expertise: Deception (expert level), stealth, social engineering, performance, persona adoption, information extraction through charm, athletics",
+        "Weaknesses: Traumatized by Ludmilla, uses humor and performance to mask emotional pain, youngest and least experienced on team, trust issues",
+        "Ludmilla Connection: First major operation. Posed as entertainer at club. Was there the night of Factory Incident - SAW SolSec agents planting explosives. Ordered to stay silent. Experience shattered idealism about Confederation methods. Too deep in now to walk away.",
+        "Trust: Only trusts Lyra Santos, who helped her through Ludmilla aftermath. Outwardly confident and charming, internally conflicted."
+    ],
+    "armour": [
+        {
+            "name": "Body Armor (concealed)",
+            "tl": 10,
+            "cost": 500,
+            "mass": 3,
+            "protection": 8,
+            "rad": 0,
+            "traits": "Concealed",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Snub Pistol (concealed)",
+            "tl": 10,
+            "cost": 150,
+            "mass": 0.5,
+            "range": 5,
+            "damage": "3D-3",
+            "magazine": 6,
+            "power pack cost": 0,
+            "traits": "Silent",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Disguise Kit (professional)",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 2,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "TL-12 Bug Detector",
+            "tl": 12,
+            "cost": 500,
+            "mass": 0.5,
+            "range": "50 m",
+            "traits": "Detects surveillance devices",
+            "equipped": true
+        },
+        {
+            "name": "Lockpick Set (electronic)",
+            "tl": 10,
+            "cost": 250,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Performer's Wardrobe",
+            "tl": 8,
+            "cost": 500,
+            "mass": 5,
+            "range": 0,
+            "traits": "Various outfits for different personas",
+            "equipped": true
+        },
+        {
+            "name": "Recording Devices (Bug x3)",
+            "tl": 11,
+            "cost": 150,
+            "mass": 0,
+            "range": "100 m",
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon (SolSec)",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "SolSec extraction",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Lyra Santos (only person she trusts)"
+        },
+        {
+            "type": "contact",
+            "kind": "Entertainer network (Jardin)"
+        },
+        {
+            "type": "enemy",
+            "kind": "Ludmilla trauma (psychological)"
+        }
+    ]
+}
