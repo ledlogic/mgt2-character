@@ -20,7 +20,40 @@ st.nav = {
 		$(".st-nav-link").click(st.nav.click);
 		$("#st-select-campaign").bind("change", st.nav.selectCampaign);
 		$("#st-select-char").bind("change", st.nav.selectChar);
+		$(window).on("hashchange", st.nav.onHashChange);
 		st.nav.loadChars();
+	},
+	onHashChange: function() {
+		var hash = window.location.hash.substring(1);
+		var parts = hash.split("|");
+		var campaign = parts[0] ? decodeURIComponent(parts[0]) : "";
+		var charUri = parts[1] || "";
+
+		var $camp = $("#st-select-campaign");
+		var $char = $("#st-select-char");
+
+		// If char cleared (back button from a character), reset to select state
+		if (campaign && !charUri) {
+			$camp.val(campaign);
+			$char.val("");
+			st.character.hideChar();
+			return;
+		}
+		// If both cleared, reset both dropdowns
+		if (!campaign && !charUri) {
+			$camp.val("");
+			$char.val("");
+			st.character.hideChar();
+			return;
+		}
+		// If char present, load it
+		if (charUri) {
+			var $match = $char.find("option[value='" + charUri + "']");
+			if ($match.length) {
+				$char.val(charUri);
+				st.character.loadChar(charUri);
+			}
+		}
 	},
 	click: function() {
 		st.log("clicked nav");

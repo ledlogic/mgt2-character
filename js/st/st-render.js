@@ -32,6 +32,19 @@ st.render = {
 		// getBoundingClientRect returns zeros on display:none elements.
 		r.autoResizeOverview();
 		r.autoResizeStory();
+		r.renderBackButton();
+	},
+	renderBackButton: function() {
+		$(".st-back-btn").remove();
+		var $btn = $("<button class=\"st-back-btn hidden-print\" title=\"Back to character select\">&#8592; Select</button>");
+		$btn.on("click", function() {
+			var hash = window.location.hash.substring(1);
+			var campaign = hash.split("|")[0] || "";
+			window.location.hash = campaign ? encodeURIComponent(decodeURIComponent(campaign)) + "|" : "";
+			$("#st-select-char").val("");
+			st.character.hideChar();
+		});
+		$("body").append($btn);
 	},
 	autoResizeOverview: function() {
 		var $traits = $(".st-overview-traits");

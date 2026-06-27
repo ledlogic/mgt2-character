@@ -650,3 +650,23 @@
 	padding: 2px;
 	font-size: 10px;
 }
+/* back button — screen only, hidden from print via Bootstrap hidden-print */
+
+.st-back-btn {
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	background: #414042;
+	color: #ffffff;
+	border: 1px solid #d36b52;
+	padding: 6px 14px;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 1000;
+	opacity: 0.85;
+}
+
+.st-back-btn:hover {
+	background: #d36b52;
+	opacity: 1;
+}
