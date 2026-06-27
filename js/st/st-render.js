@@ -28,14 +28,25 @@ st.render = {
 
 		$(".st-page").removeClass("st-initial-state");
 		$("h1,.st-nav").hide();
+		// Layout corrections must run AFTER the page becomes visible —
+		// getBoundingClientRect returns zeros on display:none elements.
 		r.autoResizeOverview();
+		r.autoResizeStory();
 	},
 	autoResizeOverview: function() {
 		var $traits = $(".st-overview-traits");
 		if (!$traits.length) return;
-		// Box is fixed height/overflow:hidden — shrink text to fit within it
-		var boxBottom = $traits.position().top + $traits.height();
-		st.font.shrinkToFit($traits, 12, 7, boxBottom);
+		// Box is fixed height/overflow:hidden — shrinkToFit uses scrollHeight
+		st.font.shrinkToFit($traits, 12, 7);
+	},
+	autoResizeStory: function() {
+		var $story = $(".st-story");
+		if (!$story.length) return;
+		// Shrink ALL story value text together so background/education/terms also
+		// give back space, not just interactions. Selector targets every *-value
+		// div inside the story column.
+		var $values = $story.find(".st-background-value, .st-education-value, .st-term-value, .st-contact-value, .st-interaction-value");
+		st.font.shrinkChildrenToFit($story, $values, 10, 6, $(".st-page"));
 	},
 	renderReset: function() {
 		st.character.$pageft.html("");
@@ -311,13 +322,6 @@ st.render = {
 			$story.append($int);
 		}
 		
-		st.character.$pageft.append($story);
-
-		// Shrink interactions font if the story column overflows the page height
-		var $int = $(".st-interactions");
-		if ($int.length) {
-			var pageHeight = $(".st-page").height();
-			st.font.shrinkBlockToFit($int, 10, 7, pageHeight);
-		}		
+		st.character.$pageft.append($story);		
 	}
 };
