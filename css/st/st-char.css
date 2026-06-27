@@ -130,7 +130,6 @@
 
 .st-overview-gender {
 	border-right: 1px solid #ffffff;
-	text-transform: capitalize;
 	top: 114px;
 	left: 150px;
 }
@@ -143,10 +142,11 @@
 
 .st-overview-traits {
 	border-right: 1px solid #ffffff;
-	font-size: 12px;
 	top: 136px;
 	left: 150px;
 	width: 240px;
+	height: 23px;
+	overflow: hidden;
 }
 
 .st-overview-label-initial {

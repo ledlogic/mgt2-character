@@ -1,216 +1,219 @@
 {
-	"overview": {
-		"ranks": ["Marine (Vegan Auxiliary)/2", "Agent (Intelligence)/1"],
-		"name": "Yllarra",
-		"species": "Vegan",
-		"gender": "female",
-		"age": "94 (equivalent to human ~35)",
-		"traits": "Professional, Protective, Disciplined",
-		"img": "yllarra.jpg",
-		"initial": 30000,
-		"debt": 0
-	},
-	"characteristics": {
-		"str": 11,
-		"dex": 6,
-		"end": 7,
-		"int": 11,
-		"edu": 12,
-		"soc": 7,
-		"psi": 2
-	},
-	"skills": {
-		"athletics": 0,
-		"athletics (endurance)": 2,
-		"gun combat": 0,
-		"gun combat (energy)": 2,
-		"heavy weapons": 0,
-		"heavy weapons (portable)": 1,
-		"melee": 0,
-		"melee (blade)": 2,
-		"recon": 2,
-		"stealth": 1,
-		"survival": 2,
-		"tactics": 0,
-		"tactics (military)": 1,
-		"vacc suit": 2
-	},
-	"background": "Homeworld: Muan Gwi/Vegan District. Yllarra served in the Vegan Auxiliary forces attached to Imperial Marines for 15 years before being recruited by Imperial Intelligence for special operations. She's one of the few Vegans trusted with high-level intelligence missions. Extremely loyal to the Imperium (more than some human agents). Current assignment: Provide security and combat support for Rushorin extraction. She views protecting Rushorin as her primary mission - he represents potential intelligence breakthrough. Will fight to the death to complete mission objectives.",
-	"education": "Vegan military academy. Imperial Marine advanced combat training. Imperial Intelligence tactical operations course.",
-	"terms": [
-		"Marine (Vegan Auxiliary): Gun Combat (energy)-1, Melee (blade)-1, Vacc Suit-1. Basic Vegan Auxiliary training. Advanced to rank 1.",
-		"Marine (Vegan Auxiliary): Gun Combat (energy)-2, Recon-1, Athletics (endurance)-1, Tactics (military)-1. Combat operations along Solomani border. Advanced to rank 2.",
-		"Marine (Vegan Auxiliary): Heavy Weapons (portable)-1, Survival-1, Vacc Suit-2. Extended operations in hostile environments. Recommended for Imperial Intelligence.",
-		"Agent (Intelligence): Melee (blade)-2, Recon-2, Athletics (endurance)-2, Survival-2, Stealth-1. Imperial Intelligence special operations training. Current assignment: Rushorin extraction. Combat specialist for Chapman's team. Advanced to rank 1."
-	],
-	"interactions": [
-		"Expertise: Energy weapons (especially laser rifle), close combat, survival in hostile environments, reconnaissance, vacc suit operations, military tactics",
-		"Weaknesses: High-G intolerance (DM-2 in 1.25G+), low dexterity makes her slower than human combatants, cultural communication barriers with non-Vegans",
-		"Vegan Traits: Eye membrane (immune to blinding), heat tolerance (+2 DM in hot environments), high-G intolerance (-2 DM in 1.25G+)",
-		"Cultural Note: If SolSec team members speak Vegan or show respect for Vegan culture (Frost, Sparks, Rolo), Yllarra may hesitate before using lethal force"
-	},
-	"armour": [
-		{
-			"name": "Combat Armor",
-			"tl": 12,
-			"cost": 85000,
-			"mass": 18,
-			"protection": 14,
-			"rad": 100,
-			"traits": "None",
-			"equipped": true
-		},
-		{
-			"name": "Combat Visor",
-			"tl": 12,
-			"cost": 500,
-			"mass": 0,
-			"range": 0,
-			"traits": "IR, Light intensification",
-			"equipped": true
-		}
-	],
-	"weapons": [
-		{
-			"name": "Laser Rifle",
-			"tl": 11,
-			"cost": 8000,
-			"mass": 5,
-			"range": 400,
-			"damage": "5D+3",
-			"magazine": 100,
-			"power pack cost": 3500,
-			"traits": "Zero-G",
-			"equipped": true
-		},
-		{
-			"name": "Laser Pistol",
-			"tl": 11,
-			"cost": 3000,
-			"mass": 1,
-			"range": 30,
-			"damage": "3D+3",
-			"magazine": 100,
-			"power pack cost": 3000,
-			"traits": "Zero-G",
-			"equipped": true
-		},
-		{
-			"name": "Monoblade",
-			"tl": 12,
-			"cost": 500,
-			"mass": 0.5,
-			"range": 0,
-			"damage": "3D+2",
-			"magazine": 0,
-			"power pack cost": 0,
-			"traits": "AP 10",
-			"equipped": true
-		}
-	],
-	"equipment": [
-		{
-			"name": "Neural Comm (links to Chapman and Beacher)",
-			"tl": 13,
-			"cost": 5000,
-			"mass": 0,
-			"range": "5 km",
-			"traits": "Encrypted, subvocal",
-			"equipped": true
-		},
-		{
-			"name": "Spare Power Packs (4 for laser rifle)",
-			"tl": 11,
-			"cost": 14000,
-			"mass": 6,
-			"range": 0,
-			"traits": "-",
-			"equipped": true
-		},
-		{
-			"name": "Spare Power Packs (2 for laser pistol)",
-			"tl": 11,
-			"cost": 6000,
-			"mass": 1,
-			"range": 0,
-			"traits": "-",
-			"equipped": true
-		},
-		{
-			"name": "Emergency Beacon",
-			"tl": 12,
-			"cost": 100,
-			"mass": 0.5,
-			"range": "500 km",
-			"traits": "Imperial frequency",
-			"equipped": true
-		},
-		{
-			"name": "Tactical Scanner",
-			"tl": 12,
-			"cost": 1000,
-			"mass": 1,
-			"range": "1 km",
-			"traits": "Life detection, motion sensors",
-			"equipped": true
-		},
-		{
-			"name": "Survival Kit (Vegan-adapted)",
-			"tl": 10,
-			"cost": 200,
-			"mass": 3,
-			"range": 0,
-			"traits": "Adapted for Vegan biology",
-			"equipped": true
-		},
-		{
-			"name": "Camouflage Gear",
-			"tl": 10,
-			"cost": 150,
-			"mass": 1,
-			"range": 0,
-			"traits": "Stealth +1",
-			"equipped": true
-		}
-	],
-	"vegan_traits": [
-		{
-			"name": "Eye Membrane",
-			"effect": "Immune to blinding attacks, can see underwater clearly"
-		},
-		{
-			"name": "Heat Tolerance",
-			"effect": "+2 DM to survive hot environments, comfortable up to 50°C"
-		},
-		{
-			"name": "High-G Intolerance",
-			"effect": "-2 DM on all checks in gravity 1.25G or higher"
-		},
-		{
-			"name": "Herbivore",
-			"effect": "Cannot digest meat, requires plant-based nutrition"
-		}
-	],
-	"contacts": [
-		{
-			"type": "ally",
-			"kind": "Frank Chapman (partner)"
-		},
-		{
-			"type": "ally",
-			"kind": "Beacher (partner)"
-		},
-		{
-			"type": "contact",
-			"kind": "Vegan Auxiliary commander"
-		},
-		{
-			"type": "contact",
-			"kind": "Imperial Marine sergeant"
-		},
-		{
-			"type": "contact",
-			"kind": "Imperial Intelligence handler"
-		}
-	]
+    "overview": {
+        "ranks": [
+            "Marine (Vegan Auxiliary)/2",
+            "Agent (Intelligence)/1"
+        ],
+        "name": "Yllarra",
+        "species": "Vegan",
+        "gender": "female",
+        "age": "94 (equivalent to human ~35)",
+        "traits": "Professional, Protective, Disciplined",
+        "img": "yllarra.jpg",
+        "initial": 30000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 11,
+        "dex": 6,
+        "end": 7,
+        "int": 11,
+        "edu": 12,
+        "soc": 7,
+        "psi": 2
+    },
+    "skills": {
+        "athletics": 0,
+        "athletics (endurance)": 2,
+        "gun combat": 0,
+        "gun combat (energy)": 2,
+        "heavy weapons": 0,
+        "heavy weapons (portable)": 1,
+        "melee": 0,
+        "melee (blade)": 2,
+        "recon": 2,
+        "stealth": 1,
+        "survival": 2,
+        "tactics": 0,
+        "tactics (military)": 1,
+        "vacc suit": 2
+    },
+    "background": "Homeworld: Muan Gwi/Vegan District. Yllarra served in the Vegan Auxiliary forces attached to Imperial Marines for 15 years before being recruited by Imperial Intelligence for special operations. She's one of the few Vegans trusted with high-level intelligence missions. Extremely loyal to the Imperium (more than some human agents). Current assignment: Provide security and combat support for Rushorin extraction. She views protecting Rushorin as her primary mission - he represents potential intelligence breakthrough. Will fight to the death to complete mission objectives.",
+    "education": "Vegan military academy. Imperial Marine advanced combat training. Imperial Intelligence tactical operations course.",
+    "terms": [
+        "Marine (Vegan Auxiliary): Gun Combat (energy)-1, Melee (blade)-1, Vacc Suit-1. Basic Vegan Auxiliary training. Advanced to rank 1.",
+        "Marine (Vegan Auxiliary): Gun Combat (energy)-2, Recon-1, Athletics (endurance)-1, Tactics (military)-1. Combat operations along Solomani border. Advanced to rank 2.",
+        "Marine (Vegan Auxiliary): Heavy Weapons (portable)-1, Survival-1, Vacc Suit-2. Extended operations in hostile environments. Recommended for Imperial Intelligence.",
+        "Agent (Intelligence): Melee (blade)-2, Recon-2, Athletics (endurance)-2, Survival-2, Stealth-1. Imperial Intelligence special operations training. Current assignment: Rushorin extraction. Combat specialist for Chapman's team. Advanced to rank 1."
+    ],
+    "interactions": [
+        "Expertise: Energy weapons (especially laser rifle), close combat, survival in hostile environments, reconnaissance, vacc suit operations, military tactics",
+        "Weaknesses: High-G intolerance (DM-2 in 1.25G+), low dexterity makes her slower than human combatants, cultural communication barriers with non-Vegans",
+        "Vegan Traits: Eye membrane (immune to blinding), heat tolerance (+2 DM in hot environments), high-G intolerance (-2 DM in 1.25G+)",
+        "Cultural Note: If SolSec team members speak Vegan or show respect for Vegan culture (Frost, Sparks, Rolo), Yllarra may hesitate before using lethal force"
+    ],
+    "armour": [
+        {
+            "name": "Combat Armor",
+            "tl": 12,
+            "cost": 85000,
+            "mass": 18,
+            "protection": 14,
+            "rad": 100,
+            "traits": "None",
+            "equipped": true
+        },
+        {
+            "name": "Combat Visor",
+            "tl": 12,
+            "cost": 500,
+            "mass": 0,
+            "range": 0,
+            "traits": "IR, Light intensification",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Laser Rifle",
+            "tl": 11,
+            "cost": 8000,
+            "mass": 5,
+            "range": 400,
+            "damage": "5D+3",
+            "magazine": 100,
+            "power pack cost": 3500,
+            "traits": "Zero-G",
+            "equipped": true
+        },
+        {
+            "name": "Laser Pistol",
+            "tl": 11,
+            "cost": 3000,
+            "mass": 1,
+            "range": 30,
+            "damage": "3D+3",
+            "magazine": 100,
+            "power pack cost": 3000,
+            "traits": "Zero-G",
+            "equipped": true
+        },
+        {
+            "name": "Monoblade",
+            "tl": 12,
+            "cost": 500,
+            "mass": 0.5,
+            "range": 0,
+            "damage": "3D+2",
+            "magazine": 0,
+            "power pack cost": 0,
+            "traits": "AP 10",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Neural Comm (links to Chapman and Beacher)",
+            "tl": 13,
+            "cost": 5000,
+            "mass": 0,
+            "range": "5 km",
+            "traits": "Encrypted, subvocal",
+            "equipped": true
+        },
+        {
+            "name": "Spare Power Packs (4 for laser rifle)",
+            "tl": 11,
+            "cost": 14000,
+            "mass": 6,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Spare Power Packs (2 for laser pistol)",
+            "tl": 11,
+            "cost": 6000,
+            "mass": 1,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Beacon",
+            "tl": 12,
+            "cost": 100,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "Imperial frequency",
+            "equipped": true
+        },
+        {
+            "name": "Tactical Scanner",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 1,
+            "range": "1 km",
+            "traits": "Life detection, motion sensors",
+            "equipped": true
+        },
+        {
+            "name": "Survival Kit (Vegan-adapted)",
+            "tl": 10,
+            "cost": 200,
+            "mass": 3,
+            "range": 0,
+            "traits": "Adapted for Vegan biology",
+            "equipped": true
+        },
+        {
+            "name": "Camouflage Gear",
+            "tl": 10,
+            "cost": 150,
+            "mass": 1,
+            "range": 0,
+            "traits": "Stealth +1",
+            "equipped": true
+        }
+    ],
+    "vegan_traits": [
+        {
+            "name": "Eye Membrane",
+            "effect": "Immune to blinding attacks, can see underwater clearly"
+        },
+        {
+            "name": "Heat Tolerance",
+            "effect": "+2 DM to survive hot environments, comfortable up to 50\u00b0C"
+        },
+        {
+            "name": "High-G Intolerance",
+            "effect": "-2 DM on all checks in gravity 1.25G or higher"
+        },
+        {
+            "name": "Herbivore",
+            "effect": "Cannot digest meat, requires plant-based nutrition"
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Frank Chapman (partner)"
+        },
+        {
+            "type": "ally",
+            "kind": "Beacher (partner)"
+        },
+        {
+            "type": "contact",
+            "kind": "Vegan Auxiliary commander"
+        },
+        {
+            "type": "contact",
+            "kind": "Imperial Marine sergeant"
+        },
+        {
+            "type": "contact",
+            "kind": "Imperial Intelligence handler"
+        }
+    ]
 }

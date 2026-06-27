@@ -1,7 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Scout (Courier)/3"],
-		"name": "Senior Scout Eliška Mrazová",
+		"ranks": [
+			"Scout (Courier)/3"
+		],
+		"name": "Scout Eliška Mrazová",
 		"species": "Solomani",
 		"gender": "female",
 		"age": "42",

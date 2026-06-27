@@ -1,7 +1,10 @@
 {
 	"overview": {
-		"ranks": ["Navy (Flight)/2", "Agent (Intelligence, Technical)/2"],
-		"name": "Sr Technician Davi Okonkwo",
+		"ranks": [
+			"Navy (Flight)/2",
+			"Agent (Intelligence, Technical)/2"
+		],
+		"name": "Tech Davi Okonkwo",
 		"species": "Solomani",
 		"gender": "male",
 		"age": "34",

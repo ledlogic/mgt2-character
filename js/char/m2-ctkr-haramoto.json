@@ -1,6 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Army (Support)/2", "Agent (Intelligence, Technical)/2"],
+		"ranks": [
+			"Army (Support)/2",
+			"Agent (Intelligence, Technical)/2"
+		],
 		"name": "Tech Yuki Haramoto",
 		"species": "Solomani",
 		"gender": "female",

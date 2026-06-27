@@ -1,6 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Army (Infantry Officer)/1", "Agent (Intelligence)/3"],
+		"ranks": [
+			"Army (Infantry Officer)/1",
+			"Agent (Intelligence)/3"
+		],
 		"name": "Major Sera Vasiliou",
 		"species": "Solomani",
 		"gender": "female",

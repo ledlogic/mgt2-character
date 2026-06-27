@@ -1,5 +1,17 @@
 /* st-nav.js */
 
+/*
+ * Navigation controller. Loads the master character list (m2-char-list.json),
+ * derives campaign groups from the prefix before the colon in each character
+ * name, and drives two dependent dropdowns: Campaign and Character.
+ *
+ * Selecting a campaign filters the character dropdown to that campaign's entries
+ * and strips the campaign prefix from each displayed name. Selecting a character
+ * calls st.character.loadChar() with the character's URI.
+ *
+ * Both selections are persisted in the URL hash as
+ * "encodedCampaignName|charUri" so the page restores its state on refresh.
+ */
 st.nav = {
 	allCharacters: [],
 	init: function() {

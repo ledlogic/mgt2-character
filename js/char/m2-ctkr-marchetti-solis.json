@@ -1,6 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Navy (Line)/1", "Navy (Intelligence)/3"],
+		"ranks": [
+			"Navy (Line)/1",
+			"Navy (Intelligence)/3"
+		],
 		"name": "Yevgenia Marchetti-Solis",
 		"species": "Solomani (Imperial)",
 		"gender": "female",

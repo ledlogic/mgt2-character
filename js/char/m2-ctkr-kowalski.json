@@ -1,0 +1,163 @@
+{
+	"overview": {
+		"ranks": [
+			"Army (Medical)/2",
+			"Agent (Intelligence, Technical)/2"
+		],
+		"name": "WO Nadia Kowalski",
+		"species": "Solomani",
+		"gender": "female",
+		"age": "36",
+		"traits": "Calm, Observant, Finds the Apex Predator Professionally Fascinating",
+		"img": "ctkr-kowalski.png",
+		"initial": 1000,
+		"debt": 0
+	},
+	"characteristics": {
+		"str": 8,
+		"dex": 9,
+		"end": 10,
+		"int": 12,
+		"edu": 12,
+		"soc": 7
+	},
+	"skills": {
+		"medic": 3,
+		"science": 0,
+		"science (biology)": 2,
+		"science (chemistry)": 1,
+		"investigate": 2,
+		"recon": 2,
+		"survival": 2,
+		"electronics": 0,
+		"electronics (sensors)": 1,
+		"gun combat": 0,
+		"gun combat (slug)": 1,
+		"stealth": 1,
+		"athletics": 0,
+		"athletics (endurance)": 1,
+		"admin": 0
+	},
+	"background": "Homeworld: Thetis (Alpha Crucis 0812 — Agricultural, Solomani Confederation). Grew up around large animals on a green, warm, deceptively peaceful world. Studied xenobiology at the Confederation University of Thetis until funding ran out; joined the Army medical corps in exchange for the Army paying for the rest of her education. Two terms as field medic attached to frontier survey teams on undeveloped worlds — dense biomes, hostile megafauna, minimal infrastructure. SolSec recruited her after her second term not for her medical skills but for her xenobiological assessment capability. Four previous SolSec operations. Never lost a team member to a biological threat. Lost one to a gunshot wound. Does not talk about that. Added to BLIND SERPENT 72 hours before insertion when updated IISS survey data flagged the Kethara basin megafauna as significantly larger and more aggressive than the original brief anticipated. Read the megafauna data on the freighter. Packed three extra doses of chemical deterrent. Said nothing.",
+	"education": "Confederation University of Thetis (xenobiology, incomplete). Army medical corps field certification. SolSec Technical Branch biological assessment training.",
+	"terms": [
+		"Army (Medical): Medic-1, Science (biology)-1, Athletics (endurance)-1, Admin-0. Field medic attached to frontier survey teams, Alpha Crucis undeveloped worlds. Advanced to rank 1.",
+		"Army (Medical): Medic-2, Science (biology)-2, Survival-1, Recon-1. Extended frontier survey postings, hostile biome operations. Advanced to rank 2. Recruited by SolSec on mustering out.",
+		"Agent (Intelligence, Technical): Medic-3, Science (chemistry)-1, Investigate-1, Electronics (sensors)-1, Stealth-1. SolSec Technical Branch — biological threat assessment, four field operations. Advanced to rank 1.",
+		"Agent (Intelligence, Technical): Investigate-2, Recon-2, Survival-2, Gun Combat (slug)-1. Extended field operations including xenobiological assessment under operational conditions. Advanced to rank 2. Mustering out: Advanced Medical Kit (TL11), Xenobiological Field Scanner (TL11), Light Combat Armour, 1,000 Credits (untraceable)."
+	],
+	"interactions": [
+		"Role: Field Medic / Biological Specialist — medical support, xenobiological threat assessment, megafauna behaviour prediction. Added to BLIND SERPENT as the sixth member 72 hours before insertion.",
+		"Personality: Calm under pressure in a way that reads as slightly detached. Observes before acting, assesses before speaking. Treats bullet wounds and biological threats with identical methodical professionalism. The only team member who actively studies the Kethara Reach apex predator rather than simply defending against it — 23 days of perimeter sensor data catalogued.",
+		"What she knows: The apex predator's feeding schedule, sleep cycles, and the specific chemical signatures that trigger its territorial response. She finds it professionally fascinating and personally terrifying. She does not discuss the second part.",
+		"Group relationships: Gets along well with Haramoto (both practical problem-solvers). Mouton trusts her judgment on when to shoot and when to wait — highest compliment he gives. Pelczar barely notices she exists, which suits Kowalski. Vasiliou values her as the team member most likely to offer a solution nobody else has thought of.",
+		"Chemical deterrent mechanic: Science (biology) or Science (chemistry) 8+ to deploy correctly. Success: predator avoids treated 10m area for 2 hours, no weapons fire, no thermal spike. Failure (Effect -2 or worse): wrong pheromone mix, triggers aggressive rather than avoidance response.",
+		"Behavioural prediction mechanic: Once per encounter, Science (biology) 8+ to predict apex predator's next action (charge, investigate, retreat, redirect). Success: DM+2 on team's next action vs predator. Exceptional success (Effect 5+): identifies predator's specific trigger, team can neutralise without engagement.",
+		"Crash site run: Ideal second for the crash site retrieval — Survival 2 and Recon 2 effective in open delta, Science (biology) reads megafauna behaviour on approach. Pairs well with Mouton (security) or Haramoto (parts identification)."
+	],
+	"armour": [
+		{
+			"name": "Light Combat Armour",
+			"tl": 10,
+			"cost": 5000,
+			"mass": 7,
+			"protection": 5,
+			"rad": 0,
+			"traits": "TL10, sealed",
+			"equipped": true
+		}
+	],
+	"weapons": [
+		{
+			"name": "Autopistol",
+			"tl": 9,
+			"cost": 200,
+			"mass": 0.5,
+			"range": 10,
+			"damage": "3D-3",
+			"magazine": 15,
+			"power pack cost": 10,
+			"traits": "Kowalski does not carry a rifle",
+			"equipped": true
+		}
+	],
+	"equipment": [
+		{
+			"name": "Advanced Medical Kit",
+			"tl": 11,
+			"cost": 5000,
+			"mass": 3,
+			"range": 0,
+			"traits": "Medic 3 equivalent — 3 major treatments, 6 minor treatments. Includes TL11 surgical tools and drug dispensary.",
+			"equipped": true
+		},
+		{
+			"name": "Xenobiological Field Scanner",
+			"tl": 11,
+			"cost": 12000,
+			"mass": 1,
+			"range": 0,
+			"traits": "DM+2 Science (biology) when analysing alien organisms — chemical composition, metabolism type, toxicology, behavioural prediction. Chest-mounted.",
+			"equipped": true
+		},
+		{
+			"name": "Chemical Deterrent Kit",
+			"tl": 11,
+			"cost": 500,
+			"mass": 1,
+			"range": 0,
+			"traits": "3 doses. Synthesised pheromone/chemical repellent. Science (biology) or Science (chemistry) 8+ to deploy. Success: 10m avoidance zone, 2 hours per dose. Failure (Effect -2+): triggers aggressive response instead.",
+			"equipped": true
+		},
+		{
+			"name": "Personal Encrypted Comms Unit",
+			"tl": 10,
+			"cost": 1500,
+			"mass": 0.5,
+			"range": "500 km",
+			"traits": "Scrambled",
+			"equipped": true
+		},
+		{
+			"name": "Filter Mask",
+			"tl": 7,
+			"cost": 100,
+			"mass": 0.5,
+			"range": 0,
+			"traits": "Filters atmosphere trace volatiles and biological particulates",
+			"equipped": true
+		},
+		{
+			"name": "Stimulants x2",
+			"tl": 10,
+			"cost": 60,
+			"mass": 0,
+			"range": 0,
+			"traits": "Removes fatigue DM for 6 hours, END check on crash",
+			"equipped": true
+		},
+		{
+			"name": "Untraceable Currency Chips",
+			"tl": 10,
+			"cost": 1000,
+			"mass": 0,
+			"range": 0,
+			"traits": "1,000 Credits, untraceable",
+			"equipped": true
+		}
+	],
+	"contacts": [
+		{
+			"type": "ally",
+			"kind": "Major Sera Vasiliou (BLIND SERPENT Cell Commander)"
+		},
+		{
+			"type": "contact",
+			"kind": "SolSec Technical Branch (biological assessment division — recruited her after Army service)"
+		},
+		{
+			"type": "contact",
+			"kind": "Confederation University of Thetis xenobiology faculty (academic network, pre-service)"
+		}
+	]
+}

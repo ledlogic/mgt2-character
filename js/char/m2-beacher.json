@@ -1,191 +1,194 @@
 {
-	"overview": {
-		"ranks": ["Agent (Intelligence)/2", "Drifter/1"],
-		"name": "Beacher",
-		"species": "Human/Imperial",
-		"gender": "male",
-		"age": "34",
-		"traits": "Adaptable, Resourceful, Survivor",
-		"img": "beacher.jpg",
-		"initial": 25000,
-		"debt": 0
-	},
-	"characteristics": {
-		"str": 7,
-		"dex": 10,
-		"end": 8,
-		"int": 9,
-		"edu": 12,
-		"soc": 12,
-		"psi": 3
-	},
-	"skills": {
-		"admin": 1,
-		"advocate": 1,
-		"carouse": 1,
-		"computer": 1,
-		"deception": 2,
-		"diplomat": 1,
-		"drive": 0,
-		"drive (wheeled)": 1,
-		"electronics": 0,
-		"electronics (comms)": 1,
-		"gun combat": 0,
-		"gun combat (slug)": 1,
-		"investigate": 1,
-		"jack-of-all-trades": 1,
-		"mechanic": 1,
-		"persuade": 2,
-		"pilot": 0,
-		"pilot (small craft)": 1,
-		"stealth": 1,
-		"streetwise": 1
-	},
-	"background": "Homeworld: Regina/Spinward Marches. Beacher (no first name given - prefers his nickname) is the quintessential jack-of-all-trades Imperial agent. Started as a drifter on the frontier, recruited by Imperial Intelligence for his adaptability and street smarts. Can handle logistics, documentation, improvisation, and social engineering. Prefers negotiation to violence. Handles all the practical details that Chapman (the psychic) and Yllarra (the warrior) don't think about. Current assignment: Support Rushorin extraction, handle documents and cover identities.",
-	"education": "No formal university. Self-taught through practical experience. Imperial Intelligence provided advanced training in forgery, social engineering, and field operations.",
-	"terms": [
-		"Drifter (Wanderer): Streetwise-1, Stealth-1, Survival-1. Frontier worlds of Spinward Marches. Learned to survive by adapting. Advanced to rank 1.",
-		"Agent (Intelligence): Deception-1, Investigate-1, Admin-1. Recruited by Imperial Intelligence. Basic training. Advanced to rank 1.",
-		"Agent (Intelligence): Deception-2, Persuade-1, JOAT-1, Carouse-1. Field operations across multiple sectors. Developed reputation as problem-solver. Advanced to rank 2.",
-		"Agent (Intelligence): Persuade-2, Mechanic-1, Computer-1, Electronics (comms)-1, Advocate-1, Diplomat-1, Drive (wheeled)-1, Gun Combat (slug)-1, Pilot (small craft)-1. Current assignment: Rushorin extraction. Handles logistics, documentation, and improvisation for Chapman's team."
-	],
-	"interactions": [
-		"Expertise: Forgery, social engineering, logistics, improvisation, cover identities, talking his way out of trouble, practical problem-solving",
-		"Weaknesses: Not a strong combatant, relies on others for muscle, will negotiate rather than fight, sometimes too clever for his own good",
-		"Role: The 'face' of the Imperial team. Handles negotiations, documentation, and practical problems. If SolSec team engages diplomatically, Beacher will be the spokesperson."
-	},
-	"armour": [
-		{
-			"name": "Flak Jacket (concealed under jacket)",
-			"tl": 7,
-			"cost": 100,
-			"mass": 3,
-			"protection": 6,
-			"rad": 0,
-			"traits": "Concealed",
-			"equipped": true
-		}
-	],
-	"weapons": [
-		{
-			"name": "Gauss Pistol",
-			"tl": 13,
-			"cost": 500,
-			"mass": 1,
-			"range": 20,
-			"damage": "3D",
-			"magazine": 40,
-			"power pack cost": 20,
-			"traits": "AP 3, Auto 2",
-			"equipped": true
-		},
-		{
-			"name": "Stunner",
-			"tl": 12,
-			"cost": 1000,
-			"mass": 0,
-			"range": 10,
-			"damage": "3D",
-			"magazine": 100,
-			"power pack cost": 200,
-			"traits": "Stun, Zero-G",
-			"equipped": true
-		}
-	],
-	"equipment": [
-		{
-			"name": "Forged SolSec Credentials (Difficult to detect)",
-			"tl": 13,
-			"cost": 3000,
-			"mass": 0,
-			"range": 0,
-			"traits": "DM-2 to detection attempts",
-			"equipped": true
-		},
-		{
-			"name": "Multitool",
-			"tl": 10,
-			"cost": 50,
-			"mass": 0.5,
-			"range": 0,
-			"traits": "-",
-			"equipped": true
-		},
-		{
-			"name": "Portable Computer/3",
-			"tl": 13,
-			"cost": 2000,
-			"mass": 0,
-			"range": 0,
-			"traits": "Computer/3",
-			"equipped": true
-		},
-		{
-			"name": "Encrypted Imperial Comms",
-			"tl": 13,
-			"cost": 5000,
-			"mass": 0.5,
-			"range": "500 km",
-			"traits": "Imperial Intelligence network",
-			"equipped": true
-		},
-		{
-			"name": "Emergency Medikit",
-			"tl": 10,
-			"cost": 1000,
-			"mass": 2,
-			"range": 0,
-			"traits": "Medic +1",
-			"equipped": true
-		},
-		{
-			"name": "Forgery Kit",
-			"tl": 10,
-			"cost": 500,
-			"mass": 2,
-			"range": 0,
-			"traits": "-",
-			"equipped": true
-		},
-		{
-			"name": "Disguise Kit",
-			"tl": 10,
-			"cost": 500,
-			"mass": 1,
-			"range": 0,
-			"traits": "-",
-			"equipped": true
-		},
-		{
-			"name": "Multiple False IDs (5)",
-			"tl": 13,
-			"cost": 2500,
-			"mass": 0,
-			"range": 0,
-			"traits": "Various cover identities",
-			"equipped": true
-		}
-	],
-	"contacts": [
-		{
-			"type": "ally",
-			"kind": "Frank Chapman (partner)"
-		},
-		{
-			"type": "ally",
-			"kind": "Yllarra (partner)"
-		},
-		{
-			"type": "contact",
-			"kind": "Imperial Intelligence handler"
-		},
-		{
-			"type": "contact",
-			"kind": "Forger on Regina"
-		},
-		{
-			"type": "contact",
-			"kind": "Frontier trader (Spinward Marches)"
-		}
-	]
+    "overview": {
+        "ranks": [
+            "Agent (Intelligence)/2",
+            "Drifter/1"
+        ],
+        "name": "Beacher",
+        "species": "Human/Imperial",
+        "gender": "male",
+        "age": "34",
+        "traits": "Adaptable, Resourceful, Survivor",
+        "img": "beacher.jpg",
+        "initial": 25000,
+        "debt": 0
+    },
+    "characteristics": {
+        "str": 7,
+        "dex": 10,
+        "end": 8,
+        "int": 9,
+        "edu": 12,
+        "soc": 12,
+        "psi": 3
+    },
+    "skills": {
+        "admin": 1,
+        "advocate": 1,
+        "carouse": 1,
+        "computer": 1,
+        "deception": 2,
+        "diplomat": 1,
+        "drive": 0,
+        "drive (wheeled)": 1,
+        "electronics": 0,
+        "electronics (comms)": 1,
+        "gun combat": 0,
+        "gun combat (slug)": 1,
+        "investigate": 1,
+        "jack-of-all-trades": 1,
+        "mechanic": 1,
+        "persuade": 2,
+        "pilot": 0,
+        "pilot (small craft)": 1,
+        "stealth": 1,
+        "streetwise": 1
+    },
+    "background": "Homeworld: Regina/Spinward Marches. Beacher (no first name given - prefers his nickname) is the quintessential jack-of-all-trades Imperial agent. Started as a drifter on the frontier, recruited by Imperial Intelligence for his adaptability and street smarts. Can handle logistics, documentation, improvisation, and social engineering. Prefers negotiation to violence. Handles all the practical details that Chapman (the psychic) and Yllarra (the warrior) don't think about. Current assignment: Support Rushorin extraction, handle documents and cover identities.",
+    "education": "No formal university. Self-taught through practical experience. Imperial Intelligence provided advanced training in forgery, social engineering, and field operations.",
+    "terms": [
+        "Drifter (Wanderer): Streetwise-1, Stealth-1, Survival-1. Frontier worlds of Spinward Marches. Learned to survive by adapting. Advanced to rank 1.",
+        "Agent (Intelligence): Deception-1, Investigate-1, Admin-1. Recruited by Imperial Intelligence. Basic training. Advanced to rank 1.",
+        "Agent (Intelligence): Deception-2, Persuade-1, JOAT-1, Carouse-1. Field operations across multiple sectors. Developed reputation as problem-solver. Advanced to rank 2.",
+        "Agent (Intelligence): Persuade-2, Mechanic-1, Computer-1, Electronics (comms)-1, Advocate-1, Diplomat-1, Drive (wheeled)-1, Gun Combat (slug)-1, Pilot (small craft)-1. Current assignment: Rushorin extraction. Handles logistics, documentation, and improvisation for Chapman's team."
+    ],
+    "interactions": [
+        "Expertise: Forgery, social engineering, logistics, improvisation, cover identities, talking his way out of trouble, practical problem-solving",
+        "Weaknesses: Not a strong combatant, relies on others for muscle, will negotiate rather than fight, sometimes too clever for his own good",
+        "Role: The 'face' of the Imperial team. Handles negotiations, documentation, and practical problems. If SolSec team engages diplomatically, Beacher will be the spokesperson."
+    ],
+    "armour": [
+        {
+            "name": "Flak Jacket (concealed under jacket)",
+            "tl": 7,
+            "cost": 100,
+            "mass": 3,
+            "protection": 6,
+            "rad": 0,
+            "traits": "Concealed",
+            "equipped": true
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Gauss Pistol",
+            "tl": 13,
+            "cost": 500,
+            "mass": 1,
+            "range": 20,
+            "damage": "3D",
+            "magazine": 40,
+            "power pack cost": 20,
+            "traits": "AP 3, Auto 2",
+            "equipped": true
+        },
+        {
+            "name": "Stunner",
+            "tl": 12,
+            "cost": 1000,
+            "mass": 0,
+            "range": 10,
+            "damage": "3D",
+            "magazine": 100,
+            "power pack cost": 200,
+            "traits": "Stun, Zero-G",
+            "equipped": true
+        }
+    ],
+    "equipment": [
+        {
+            "name": "Forged SolSec Credentials (Difficult to detect)",
+            "tl": 13,
+            "cost": 3000,
+            "mass": 0,
+            "range": 0,
+            "traits": "DM-2 to detection attempts",
+            "equipped": true
+        },
+        {
+            "name": "Multitool",
+            "tl": 10,
+            "cost": 50,
+            "mass": 0.5,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Portable Computer/3",
+            "tl": 13,
+            "cost": 2000,
+            "mass": 0,
+            "range": 0,
+            "traits": "Computer/3",
+            "equipped": true
+        },
+        {
+            "name": "Encrypted Imperial Comms",
+            "tl": 13,
+            "cost": 5000,
+            "mass": 0.5,
+            "range": "500 km",
+            "traits": "Imperial Intelligence network",
+            "equipped": true
+        },
+        {
+            "name": "Emergency Medikit",
+            "tl": 10,
+            "cost": 1000,
+            "mass": 2,
+            "range": 0,
+            "traits": "Medic +1",
+            "equipped": true
+        },
+        {
+            "name": "Forgery Kit",
+            "tl": 10,
+            "cost": 500,
+            "mass": 2,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Disguise Kit",
+            "tl": 10,
+            "cost": 500,
+            "mass": 1,
+            "range": 0,
+            "traits": "-",
+            "equipped": true
+        },
+        {
+            "name": "Multiple False IDs (5)",
+            "tl": 13,
+            "cost": 2500,
+            "mass": 0,
+            "range": 0,
+            "traits": "Various cover identities",
+            "equipped": true
+        }
+    ],
+    "contacts": [
+        {
+            "type": "ally",
+            "kind": "Frank Chapman (partner)"
+        },
+        {
+            "type": "ally",
+            "kind": "Yllarra (partner)"
+        },
+        {
+            "type": "contact",
+            "kind": "Imperial Intelligence handler"
+        },
+        {
+            "type": "contact",
+            "kind": "Forger on Regina"
+        },
+        {
+            "type": "contact",
+            "kind": "Frontier trader (Spinward Marches)"
+        }
+    ]
 }

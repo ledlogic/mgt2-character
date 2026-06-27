@@ -1,7 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Agent (Intelligence, Counter-Intelligence)/5"],
-		"name": "Senior Analyst Marta Pelczar",
+		"ranks": [
+			"Agent (Intelligence, Counter-Intelligence)/5"
+		],
+		"name": "Analyst Marta Pelczar",
 		"species": "Solomani",
 		"gender": "female",
 		"age": "46",

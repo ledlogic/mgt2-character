@@ -1,6 +1,9 @@
 {
 	"overview": {
-		"ranks": ["Marines (Infantry)/2", "Marines (Officer)/1"],
+		"ranks": [
+			"Marines (Infantry)/2",
+			"Marines (Officer)/1"
+		],
 		"name": "Lieutenant Anya Voss",
 		"species": "Solomani (Imperial)",
 		"gender": "female",

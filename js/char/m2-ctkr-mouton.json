@@ -1,7 +1,10 @@
 {
 	"overview": {
-		"ranks": ["Marines (Recon)/1", "Army (Infantry, Recon)/3"],
-		"name": "Sergeant First Class Rael Mouton",
+		"ranks": [
+			"Marines (Recon)/1",
+			"Army (Infantry, Recon)/3"
+		],
+		"name": "SFC Rael Mouton",
 		"species": "Solomani",
 		"gender": "male",
 		"age": "36",

@@ -215,6 +215,10 @@
 		{
 			"name": "Cold Trail Kethara Reach NPC: Senior Scout Eliška Mrazová (SHEPHERD Pilot)",
 			"uri": "m2-ctkr-mrazova.json"
+		},
+		{
+			"name": "Cold Trail Kethara Reach PC: Warrant Officer Nadia Kowalski (Field Medic)",
+			"uri": "m2-ctkr-kowalski.json"
 		}
 	]
 }

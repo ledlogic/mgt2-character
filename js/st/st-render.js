@@ -1,3 +1,19 @@
+/* st-render.js */
+
+/*
+ * Renders the full character sheet into the .st-page-ft element from a loaded
+ * character spec (st.character.spec). Coordinates all sub-renders: overview
+ * (name, rank, species, gender, age, traits), characteristic attributes with
+ * DM modifiers, portrait image, skills list, armour/weapons/equipment tables,
+ * and the story column (background, education, terms, contacts, interactions).
+ *
+ * Also handles post-render layout corrections via st.font.shrinkToFit():
+ *   autoResizeOverview — shrinks traits font-size to fit the fixed overview height.
+ *   renderStory        — shrinks interactions font-size to fit the page height.
+ *
+ * Expense totalling (renderBETE) walks all equipped armour, weapons, and
+ * equipment to compute credits remaining from the character's initial funds.
+ */
 st.render = {
 	render: function() {
 		st.log("rendering char");
@@ -15,23 +31,11 @@ st.render = {
 		r.autoResizeOverview();
 	},
 	autoResizeOverview: function() {
-		var $overview = $(".st-overview");
 		var $traits = $(".st-overview-traits");
 		if (!$traits.length) return;
-
-		// Measure how far the bottom of the traits value extends
-		var traitsBottom = $traits.position().top + $traits.outerHeight(true);
-		var overviewHeight = $overview.height();
-
-		if (traitsBottom > overviewHeight) {
-			var extra = traitsBottom - overviewHeight + 8; // 8px breathing room
-			$overview.height(overviewHeight + extra);
-
-			// Shift .st-attributes down to match
-			var $attr = $(".st-attributes");
-			var attrTop = parseInt($attr.css("top"), 10);
-			$attr.css("top", (attrTop + extra) + "px");
-		}
+		// Box is fixed height/overflow:hidden — shrink text to fit within it
+		var boxBottom = $traits.position().top + $traits.height();
+		st.font.shrinkToFit($traits, 12, 7, boxBottom);
 	},
 	renderReset: function() {
 		st.character.$pageft.html("");
@@ -307,6 +311,13 @@ st.render = {
 			$story.append($int);
 		}
 		
-		st.character.$pageft.append($story);		
+		st.character.$pageft.append($story);
+
+		// Shrink interactions font if the story column overflows the page height
+		var $int = $(".st-interactions");
+		if ($int.length) {
+			var pageHeight = $(".st-page").height();
+			st.font.shrinkBlockToFit($int, 10, 7, pageHeight);
+		}		
 	}
 };

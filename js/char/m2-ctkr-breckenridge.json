@@ -1,6 +1,8 @@
 {
 	"overview": {
-		"ranks": ["Agent (Intelligence, Counter-Intelligence)/4"],
+		"ranks": [
+			"Agent (Intelligence, Counter-Intelligence)/4"
+		],
 		"name": "Agent Tomas Breckenridge",
 		"species": "Solomani*",
 		"gender": "male",
