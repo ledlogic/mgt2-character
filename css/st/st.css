@@ -42,7 +42,7 @@ h4 {
 }
 
 .st-nav a, .st-nav label, .st-nav select {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .st-nav-links {
@@ -73,7 +73,24 @@ h4 {
 }
 
 .st-nav-char {
-	width: 50%;
+	display: block;
+	width: 100%;
+}
+
+.st-nav-char label {
+	display: inline;
+	margin-bottom: 0;
+	margin-right: 6px;
+}
+
+.st-nav-char select {
+	display: inline;
+	width: auto;
+}
+
+.st-nav-char br {
+	display: block;
+	margin-bottom: 6px;
 }
 
 .st-nav-char .progress {
